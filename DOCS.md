@@ -258,6 +258,33 @@
 - Competitor finding recorded:
   - `Nick Automates` had the clearest breakout-style moves in current indexed Shorts results, especially around new tool drops and leaked-prompt style hooks
 
+## External repo findings for publish-workflow folders (2026-06-02)
+
+- Task scope in this run:
+  - add the `to_publish/` rolling 7-day queue structure
+  - add the `feedback/` analytics drop-zone folder
+  - push both to `Cigaler/dailyz-videos` on `main`
+- Repo state before edits:
+  - `videos/v3/video-005.mp4` through `video-008.mp4` already existed and were left unchanged
+  - `to_publish/` did not exist
+  - `feedback/` did not exist
+- Folder structure added:
+  - `to_publish/README.md`
+  - `to_publish/06_02/README.md`
+  - `to_publish/06_03/README.md`
+  - `to_publish/06_04/README.md`
+  - `to_publish/06_05/README.md`
+  - `to_publish/06_06/README.md`
+  - `to_publish/06_07/README.md`
+  - `to_publish/06_08/README.md`
+  - `feedback/README.md`
+- Publish mapping used:
+  - `06_02` -> `video-005.mp4`
+  - `06_03` -> `video-006.mp4`
+  - `06_04` -> `video-007.mp4`
+  - `06_05` -> `video-008.mp4`
+  - `06_06` through `06_08` -> placeholder `Video coming soon` notices
+
 ## Analytics infrastructure findings for Cigaler/dailyz-videos (2026-06-02)
 
 - Task scope in this run:
