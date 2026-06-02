@@ -219,6 +219,44 @@
 - Deliverable added:
   - `/home/worker/repo/research/dailyz-channel-setup-guide.md`
 
+## Batch 05 publish queue update (2026-06-02)
+
+- Task scope in this run:
+  - render videos `009` through `015` from `scripts/batch_05_scripts.json`
+  - generate one thumbnail per video
+  - replace the dated publish placeholders in `0-to_publish/` with exact-title MP4/JPG pairs
+- Repo findings before publish:
+  - `scripts/batch_05_scripts.json` already contained the `7` phrase-by-phrase scripts with `topic` and `publish_date`
+  - publish queue state before replacement:
+    - `06_03` through `06_05` still used placeholder video files named `video_006.mp4`, `video_007.mp4`, and `video_008.mp4`
+    - `06_06` through `06_08` still used `README.md` placeholders
+    - `06_09` was missing
+- Final published files prepared in this run:
+  - `0-to_publish/06_03/FutureMe — Email Your Future Self.mp4`
+  - `0-to_publish/06_03/FutureMe — Email Your Future Self.jpg`
+  - `0-to_publish/06_04/The Jellyfish That Never Dies.mp4`
+  - `0-to_publish/06_04/The Jellyfish That Never Dies.jpg`
+  - `0-to_publish/06_05/The Excel Trick That Fills 400 Cells at Once.mp4`
+  - `0-to_publish/06_05/The Excel Trick That Fills 400 Cells at Once.jpg`
+  - `0-to_publish/06_06/The Town Where It's Illegal to Die.mp4`
+  - `0-to_publish/06_06/The Town Where It's Illegal to Die.jpg`
+  - `0-to_publish/06_07/How Noise-Canceling Headphones Actually Work.mp4`
+  - `0-to_publish/06_07/How Noise-Canceling Headphones Actually Work.jpg`
+  - `0-to_publish/06_08/The Website That Knows If You've Been Hacked.mp4`
+  - `0-to_publish/06_08/The Website That Knows If You've Been Hacked.jpg`
+  - `0-to_publish/06_09/This AI Translates You Into Any Language.mp4`
+  - `0-to_publish/06_09/This AI Translates You Into Any Language.jpg`
+- Local render pipeline used:
+  - source workspace: `/home/worker/repo`
+  - batch manifest generated from this repo's scripts into `scripts/dailyz_video_v3_batch05_manifest.json`
+  - rendered outputs copied from `output/generated/dailyz-v3-batch05/videos/v3/`
+  - exact titles from the JSON `topic` field were used as the publish filenames
+- Thumbnail generation note:
+  - the requested `dall-e-3` model string was rejected by the provided API key with:
+    - `The model 'dall-e-3' does not exist.`
+  - thumbnails were completed with the reachable OpenAI image model `gpt-image-1` at `1024x1536`
+  - the original requested `1024x1792` size was not supported by that fallback model
+
 ## Research findings for DailyZ week 2 trend scan
 
 - Task scope in this run:
