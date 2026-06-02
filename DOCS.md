@@ -542,3 +542,21 @@
   - uses the calendar's stronger dual-platform slot pattern: TikTok first at `3:00 PM`, YouTube Shorts second at `6:30 PM`
   - assigns the ready files in publish order across `2026-06-01` through `2026-06-04`
   - converts the caption pack into exact per-video copy blocks while keeping YouTube hashtag counts lighter than TikTok
+
+## Evergreen script batch 04 delivery (2026-06-02)
+
+- Task scope in this run:
+  - added six new evergreen DailyZ scripts for videos `005` through `010`
+  - kept every script in a slide-ready format with:
+    - Hook -> body slides -> CTA
+    - `3-6` spoken words per line
+    - inline `[CYAN: ...]` highlight markers
+- Deliverable added:
+  - `/tmp/dailyz-videos-batch04.XGp9AU/scripts/dailyz-scripts-batch04-evergreen.md`
+- Script titles and counts:
+  - `5 Best AI Tools for Content Creators` — `29` words
+  - `5 Best AI Tools for Productivity at Work` — `28` words
+  - `Cursor vs GitHub Copilot: Which AI Coding Tool Is Better?` — `22` words
+  - `Perplexity vs ChatGPT for Research: Which One Should You Use?` — `20` words
+  - `How to Automate Meeting Notes with Notion AI and Zapier` — `28` words
+  - `How to Automate Email Replies with Claude and Zapier` — `29` words
