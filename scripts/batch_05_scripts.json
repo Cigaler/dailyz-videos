@@ -1,0 +1,160 @@
+[
+  {
+    "video_id": "009",
+    "bucket": "A",
+    "format": "C",
+    "topic": "FutureMe — Email Your Future Self",
+    "publish_date": "06_03",
+    "phrases": [
+      {"text": "You can email your future self.", "keywords": ["future self"], "pause_after": 0.5},
+      {"text": "There's a free website for that.", "keywords": ["free website"], "pause_after": 0.4},
+      {"text": "It's called FutureMe.org.", "keywords": ["FutureMe.org"], "pause_after": 0.5},
+      {"text": "Write your email today.", "keywords": ["email"], "pause_after": 0.3},
+      {"text": "Choose when they receive it.", "keywords": ["receive"], "pause_after": 0.4},
+      {"text": "One year or ten years.", "keywords": ["ten years"], "pause_after": 0.4},
+      {"text": "Your words wait in a vault.", "keywords": ["vault"], "pause_after": 0.5},
+      {"text": "People write goals, fears, dreams.", "keywords": ["goals", "dreams"], "pause_after": 0.4},
+      {"text": "Some write to their future kids.", "keywords": ["future kids"], "pause_after": 0.4},
+      {"text": "Over 20 million letters sent.", "keywords": ["20 million"], "pause_after": 0.5},
+      {"text": "And growing every day.", "keywords": ["growing"], "pause_after": 0.4},
+      {"text": "What would you say?", "keywords": ["say"], "pause_after": 0.5},
+      {"text": "Go to FutureMe.org.", "keywords": ["FutureMe.org"], "pause_after": 0.3},
+      {"text": "Like if you didn't know this.", "keywords": ["Like"], "pause_after": 0.4}
+    ]
+  },
+  {
+    "video_id": "010",
+    "bucket": "C",
+    "format": "C",
+    "topic": "The Jellyfish That Never Dies",
+    "publish_date": "06_04",
+    "phrases": [
+      {"text": "One animal never dies of old age.", "keywords": ["never dies"], "pause_after": 0.5},
+      {"text": "Meet the immortal jellyfish.", "keywords": ["immortal jellyfish"], "pause_after": 0.5},
+      {"text": "It's called Turritopsis dohrnii.", "keywords": ["Turritopsis dohrnii"], "pause_after": 0.4},
+      {"text": "When it gets old or sick —", "keywords": ["old or sick"], "pause_after": 0.3},
+      {"text": "it reverts back to a baby.", "keywords": ["baby"], "pause_after": 0.5},
+      {"text": "Its cells literally reset.", "keywords": ["reset"], "pause_after": 0.5},
+      {"text": "Scientists call this transdifferentiation.", "keywords": ["transdifferentiation"], "pause_after": 0.4},
+      {"text": "It can repeat this forever.", "keywords": ["forever"], "pause_after": 0.5},
+      {"text": "It's biologically immortal.", "keywords": ["biologically immortal"], "pause_after": 0.5},
+      {"text": "The only known animal to be.", "keywords": ["only known"], "pause_after": 0.4},
+      {"text": "Found in every ocean on Earth.", "keywords": ["every ocean"], "pause_after": 0.4},
+      {"text": "Scientists are studying it now.", "keywords": ["Scientists", "studying"], "pause_after": 0.4},
+      {"text": "For aging and disease cures.", "keywords": ["aging", "cures"], "pause_after": 0.5},
+      {"text": "Like if you didn't know this.", "keywords": ["Like"], "pause_after": 0.4}
+    ]
+  },
+  {
+    "video_id": "011",
+    "bucket": "B",
+    "format": "C",
+    "topic": "The Excel Trick That Fills 400 Cells at Once",
+    "publish_date": "06_05",
+    "phrases": [
+      {"text": "Most Excel users waste hours here.", "keywords": ["Excel", "hours"], "pause_after": 0.5},
+      {"text": "You need to fill 400 cells.", "keywords": ["400 cells"], "pause_after": 0.3},
+      {"text": "Typing each one wastes time.", "keywords": ["wastes time"], "pause_after": 0.4},
+      {"text": "There's a much faster way.", "keywords": ["faster way"], "pause_after": 0.5},
+      {"text": "Select all 400 cells first.", "keywords": ["400 cells"], "pause_after": 0.4},
+      {"text": "Type your formula just once.", "keywords": ["formula"], "pause_after": 0.4},
+      {"text": "Then press Ctrl + Enter.", "keywords": ["Ctrl", "Enter"], "pause_after": 0.5},
+      {"text": "Every selected cell fills instantly.", "keywords": ["fills instantly"], "pause_after": 0.5},
+      {"text": "Not just the active cell.", "keywords": ["active cell"], "pause_after": 0.4},
+      {"text": "All of them — at once.", "keywords": ["at once"], "pause_after": 0.5},
+      {"text": "Works with formulas, text, and dates.", "keywords": ["formulas", "text"], "pause_after": 0.4},
+      {"text": "This is how pros work.", "keywords": ["pros"], "pause_after": 0.4},
+      {"text": "Try it on your next spreadsheet.", "keywords": ["Try"], "pause_after": 0.3},
+      {"text": "Follow for more Excel hacks.", "keywords": ["Follow", "Excel hacks"], "pause_after": 0.4}
+    ]
+  },
+  {
+    "video_id": "012",
+    "bucket": "D",
+    "format": "C",
+    "topic": "The Town Where It's Illegal to Die",
+    "publish_date": "06_06",
+    "phrases": [
+      {"text": "There's a town where dying is illegal.", "keywords": ["illegal"], "pause_after": 0.5},
+      {"text": "It's in Sarpourenx, France.", "keywords": ["Sarpourenx"], "pause_after": 0.5},
+      {"text": "The cemetery ran out of space.", "keywords": ["cemetery", "space"], "pause_after": 0.4},
+      {"text": "So the mayor passed a law.", "keywords": ["law"], "pause_after": 0.4},
+      {"text": "You must reserve a burial plot.", "keywords": ["burial plot"], "pause_after": 0.5},
+      {"text": "Before you are allowed to die.", "keywords": ["allowed to die"], "pause_after": 0.5},
+      {"text": "No reservation? No death permit.", "keywords": ["death permit"], "pause_after": 0.5},
+      {"text": "The law is literally still active.", "keywords": ["still active"], "pause_after": 0.4},
+      {"text": "Passed in 2008.", "keywords": ["2008"], "pause_after": 0.4},
+      {"text": "And yes, it's a real law.", "keywords": ["real law"], "pause_after": 0.5},
+      {"text": "France has more bizarre laws.", "keywords": ["bizarre laws"], "pause_after": 0.4},
+      {"text": "This one takes the cake.", "keywords": ["takes the cake"], "pause_after": 0.4},
+      {"text": "Like if you didn't know this.", "keywords": ["Like"], "pause_after": 0.4}
+    ]
+  },
+  {
+    "video_id": "013",
+    "bucket": "E",
+    "format": "C",
+    "topic": "How Noise-Canceling Headphones Actually Work",
+    "publish_date": "06_07",
+    "phrases": [
+      {"text": "Your headphones fight sound with sound.", "keywords": ["fight sound"], "pause_after": 0.5},
+      {"text": "Here's the weird science behind it.", "keywords": ["weird science"], "pause_after": 0.4},
+      {"text": "Every sound is a wave.", "keywords": ["wave"], "pause_after": 0.4},
+      {"text": "Noise-canceling mics hear the noise.", "keywords": ["mics", "noise"], "pause_after": 0.4},
+      {"text": "Then the headphones generate the opposite.", "keywords": ["opposite"], "pause_after": 0.5},
+      {"text": "Called an anti-wave.", "keywords": ["anti-wave"], "pause_after": 0.5},
+      {"text": "The two waves cancel each other.", "keywords": ["cancel"], "pause_after": 0.5},
+      {"text": "Silence — in real time.", "keywords": ["Silence"], "pause_after": 0.5},
+      {"text": "All of this happens in microseconds.", "keywords": ["microseconds"], "pause_after": 0.4},
+      {"text": "Faster than you can hear it.", "keywords": ["Faster"], "pause_after": 0.4},
+      {"text": "Physics working in your ears.", "keywords": ["Physics"], "pause_after": 0.4},
+      {"text": "It's called destructive interference.", "keywords": ["destructive interference"], "pause_after": 0.5},
+      {"text": "Known since the 1930s.", "keywords": ["1930s"], "pause_after": 0.4},
+      {"text": "Follow for more mind-blowing science.", "keywords": ["Follow", "mind-blowing"], "pause_after": 0.4}
+    ]
+  },
+  {
+    "video_id": "014",
+    "bucket": "A",
+    "format": "C",
+    "topic": "The Website That Knows If You've Been Hacked",
+    "publish_date": "06_08",
+    "phrases": [
+      {"text": "Someone may already have your password.", "keywords": ["your password"], "pause_after": 0.5},
+      {"text": "You just don't know it yet.", "keywords": ["don't know"], "pause_after": 0.4},
+      {"text": "Go to haveibeenpwned.com.", "keywords": ["haveibeenpwned.com"], "pause_after": 0.5},
+      {"text": "Type in your email address.", "keywords": ["email address"], "pause_after": 0.4},
+      {"text": "It searches billions of leaked records.", "keywords": ["billions", "leaked records"], "pause_after": 0.5},
+      {"text": "From real data breaches.", "keywords": ["data breaches"], "pause_after": 0.4},
+      {"text": "If you're in a breach —", "keywords": ["breach"], "pause_after": 0.3},
+      {"text": "it tells you exactly which one.", "keywords": ["which one"], "pause_after": 0.4},
+      {"text": "Then go change that password now.", "keywords": ["change", "password"], "pause_after": 0.5},
+      {"text": "Built by security researcher Troy Hunt.", "keywords": ["Troy Hunt"], "pause_after": 0.4},
+      {"text": "Free. No account needed.", "keywords": ["Free"], "pause_after": 0.5},
+      {"text": "Check your email right now.", "keywords": ["Check", "right now"], "pause_after": 0.4},
+      {"text": "Follow for more security tips.", "keywords": ["Follow", "security tips"], "pause_after": 0.4}
+    ]
+  },
+  {
+    "video_id": "015",
+    "bucket": "F",
+    "format": "C",
+    "topic": "This AI Translates You Into Any Language",
+    "publish_date": "06_09",
+    "phrases": [
+      {"text": "You can speak any language.", "keywords": ["any language"], "pause_after": 0.5},
+      {"text": "Without learning a single word.", "keywords": ["Without learning"], "pause_after": 0.5},
+      {"text": "HeyGen lets you record a video.", "keywords": ["HeyGen"], "pause_after": 0.4},
+      {"text": "Then translates your voice and lips.", "keywords": ["voice", "lips"], "pause_after": 0.5},
+      {"text": "Into Spanish, French, German, and more.", "keywords": ["Spanish", "French"], "pause_after": 0.4},
+      {"text": "Your mouth moves perfectly in sync.", "keywords": ["sync"], "pause_after": 0.5},
+      {"text": "Your voice matches your tone.", "keywords": ["voice", "tone"], "pause_after": 0.4},
+      {"text": "It even clones your accent.", "keywords": ["accent"], "pause_after": 0.4},
+      {"text": "Creators use this to reach millions.", "keywords": ["millions"], "pause_after": 0.5},
+      {"text": "One video, 30 languages instantly.", "keywords": ["30 languages"], "pause_after": 0.5},
+      {"text": "This is the power of AI.", "keywords": ["AI"], "pause_after": 0.4},
+      {"text": "Try HeyGen for free.", "keywords": ["Try", "HeyGen"], "pause_after": 0.4},
+      {"text": "Follow for more AI tools.", "keywords": ["Follow", "AI tools"], "pause_after": 0.4}
+    ]
+  }
+]
