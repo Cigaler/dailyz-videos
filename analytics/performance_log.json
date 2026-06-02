@@ -1,0 +1,135 @@
+[
+  {
+    "video_id": "001",
+    "title": "Veo 3: The AI Video Tool That Changes Everything",
+    "format": "B",
+    "publish_date": null,
+    "platform": [
+      "youtube",
+      "tiktok"
+    ],
+    "views": {
+      "youtube": {
+        "24h": null,
+        "7d": null,
+        "30d": null
+      },
+      "tiktok": {
+        "24h": null,
+        "7d": null,
+        "30d": null
+      }
+    },
+    "avg_view_duration_pct": null,
+    "hook_text": "[add first 3 seconds of script]",
+    "topic_tags": [
+      "AI video",
+      "Veo 3",
+      "Google"
+    ],
+    "title_style": "statement",
+    "post_time": null,
+    "result": "pending",
+    "lesson_learned": ""
+  },
+  {
+    "video_id": "002",
+    "title": "Claude vs Codex vs Jules: Which AI Codes Best?",
+    "format": "B",
+    "publish_date": null,
+    "platform": [
+      "youtube",
+      "tiktok"
+    ],
+    "views": {
+      "youtube": {
+        "24h": null,
+        "7d": null,
+        "30d": null
+      },
+      "tiktok": {
+        "24h": null,
+        "7d": null,
+        "30d": null
+      }
+    },
+    "avg_view_duration_pct": null,
+    "hook_text": "[add first 3 seconds of script]",
+    "topic_tags": [
+      "AI coding",
+      "Claude",
+      "Codex",
+      "Jules"
+    ],
+    "title_style": "comparison",
+    "post_time": null,
+    "result": "pending",
+    "lesson_learned": ""
+  },
+  {
+    "video_id": "003",
+    "title": "AI Agents Explained: The n8n Automation Guide",
+    "format": "C",
+    "publish_date": null,
+    "platform": [
+      "youtube",
+      "tiktok"
+    ],
+    "views": {
+      "youtube": {
+        "24h": null,
+        "7d": null,
+        "30d": null
+      },
+      "tiktok": {
+        "24h": null,
+        "7d": null,
+        "30d": null
+      }
+    },
+    "avg_view_duration_pct": null,
+    "hook_text": "[add first 3 seconds of script]",
+    "topic_tags": [
+      "AI agents",
+      "n8n",
+      "automation"
+    ],
+    "title_style": "explainer",
+    "post_time": null,
+    "result": "pending",
+    "lesson_learned": ""
+  },
+  {
+    "video_id": "004",
+    "title": "Google Flow: AI Filmmaking for Everyone",
+    "format": "A",
+    "publish_date": null,
+    "platform": [
+      "youtube",
+      "tiktok"
+    ],
+    "views": {
+      "youtube": {
+        "24h": null,
+        "7d": null,
+        "30d": null
+      },
+      "tiktok": {
+        "24h": null,
+        "7d": null,
+        "30d": null
+      }
+    },
+    "avg_view_duration_pct": null,
+    "hook_text": "[add first 3 seconds of script]",
+    "topic_tags": [
+      "Google Flow",
+      "AI filmmaking",
+      "creative AI"
+    ],
+    "title_style": "statement",
+    "post_time": null,
+    "result": "pending",
+    "lesson_learned": ""
+  }
+]

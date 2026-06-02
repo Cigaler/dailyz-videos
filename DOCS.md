@@ -258,6 +258,43 @@
 - Competitor finding recorded:
   - `Nick Automates` had the clearest breakout-style moves in current indexed Shorts results, especially around new tool drops and leaked-prompt style hooks
 
+## Analytics infrastructure findings for Cigaler/dailyz-videos (2026-06-02)
+
+- Task scope in this run:
+  - built the Phase 2 performance-tracking system inside `Cigaler/dailyz-videos`
+  - no website or deployment work was required because this repository is an asset and documentation repo, not the DailyZ Next.js app
+- Actual repo structure at the start of this task:
+  - top-level directories present: `research/`, `scripts/`, `videos/`, `voice-casting/`, `voice-samples/`
+  - `analytics/` did not exist
+  - root `README.md` was only a one-line repo description
+- Documentation caveat captured during inspection:
+  - older sections in this `DOCS.md` include copied notes from a different DailyZ repository
+  - those older notes mention `/home/worker/repo`, Next.js, and website deploys, which are not the current repo's architecture
+  - this task used the actual cloned repo contents instead of relying on those stale sections
+
+## Analytics infrastructure changes in Cigaler/dailyz-videos (2026-06-02)
+
+- Added `analytics/performance_log.json`
+  - initialized placeholder entries for videos `001` through `004`
+  - each entry includes format, platforms, per-platform `24h`/`7d`/`30d` view slots, hook placeholder, tags, title style, result status, and lesson field
+- Added `analytics/what_works.md`
+  - initialized the Phase 2 winning-patterns playbook template
+- Added `analytics/avoid.md`
+  - initialized the anti-patterns template
+- Added `analytics/experiments_log.md`
+  - initialized the one-experiment-per-week tracking table
+- Added `analytics/README.md`
+  - documented the operator workflow for adding new entries, batching view updates every 5 videos, classifying winners vs underperformers, and feeding lessons back into scripting decisions
+- Added `analytics/update_views.py`
+  - CLI usage: `python3 analytics/update_views.py <video_id> <platform> <timeframe> <view_count>`
+  - updates the JSON database in place
+  - prints the selected platform/timeframe average across populated entries
+  - compares the latest batch of 5 populated data points against the previous batch of 5
+  - trend rule used:
+    - `up` when latest batch average is more than `5%` higher
+    - `down` when latest batch average is more than `5%` lower
+    - `flat` when within `5%`, or when fewer than `10` data points exist
+
 - Core decisions carried through into the guide:
   - brand name: `DailyZ Trends`
   - primary cross-platform handle: `@dailyztrends`
