@@ -19,6 +19,38 @@
 - Research docs already present before this task:
   - `/home/worker/repo/research/short-form-video-niches-2025.md`
 
+## Batch 06 script authoring (2026-06-04)
+
+- Task scope in this run:
+  - write `7` evergreen short-form scripts for video IDs `016` through `022`
+  - save them as a JSON array in `scripts/batch_06_scripts.json`
+  - keep topics distinct from Batch 05 and avoid consecutive bucket repeats
+- Repo findings before writing:
+  - `scripts/batch_05_scripts.json` already covered these topics and were excluded from Batch 06:
+    - `FutureMe — Email Your Future Self`
+    - `The Jellyfish That Never Dies`
+    - `The Excel Trick That Fills 400 Cells at Once`
+    - `The Town Where It's Illegal to Die`
+    - `How Noise-Canceling Headphones Actually Work`
+    - `The Website That Knows If You've Been Hacked`
+    - `This AI Translates You Into Any Language`
+  - `scripts/` previously contained `batch_05_scripts.json` and `dailyz-scripts-batch04-evergreen.md`
+- Batch 06 topics selected in this run:
+  - `016` bucket `A`: `The Website That Shows The Internet's Past`
+  - `017` bucket `B`: `The Google Trick That Finds Hidden PDFs`
+  - `018` bucket `C`: `The Shrimp That Fires A Sonic Boom`
+  - `019` bucket `D`: `Why Running Out Of Gas Can Get You Fined`
+  - `020` bucket `E`: `How A Zipper Actually Works`
+  - `021` bucket `F`: `This AI Builds Your Slides`
+  - `022` bucket `C`: `The Animal That Regrows Its Own Limbs`
+- Validation notes for the new JSON batch:
+  - file path added: `scripts/batch_06_scripts.json`
+  - script count: `7`
+  - phrase count per script: `14`
+  - every phrase is within the required `3-7` word range
+  - bucket order has no consecutive duplicates
+  - AI-tool usage stays at `1` script total
+
 ## Next.js docs read
 
 - Read `node_modules/next/dist/docs/01-app/01-getting-started/03-layouts-and-pages.md`

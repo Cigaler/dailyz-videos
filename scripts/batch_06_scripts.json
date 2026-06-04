@@ -1,0 +1,163 @@
+[
+  {
+    "video_id": "016",
+    "bucket": "A",
+    "format": "C",
+    "topic": "The Website That Shows The Internet's Past",
+    "publish_date": "06_10",
+    "phrases": [
+      {"text": "Every website has a past.", "keywords": ["website", "past"], "pause_after": 0.5},
+      {"text": "Most pages never truly disappear.", "keywords": ["never", "disappear"], "pause_after": 0.4},
+      {"text": "The Wayback Machine saves them.", "keywords": ["Wayback Machine"], "pause_after": 0.5},
+      {"text": "Type any website address.", "keywords": ["website address"], "pause_after": 0.3},
+      {"text": "Pick almost any year.", "keywords": ["any year"], "pause_after": 0.4},
+      {"text": "See old homepages instantly.", "keywords": ["old homepages"], "pause_after": 0.4},
+      {"text": "Watch brands evolve over time.", "keywords": ["evolve"], "pause_after": 0.4},
+      {"text": "Old prices are still there.", "keywords": ["prices"], "pause_after": 0.4},
+      {"text": "Even deleted pages can survive.", "keywords": ["deleted pages"], "pause_after": 0.5},
+      {"text": "It is internet archaeology.", "keywords": ["internet archaeology"], "pause_after": 0.5},
+      {"text": "Journalists and researchers use this.", "keywords": ["researchers"], "pause_after": 0.4},
+      {"text": "It is free forever.", "keywords": ["free forever"], "pause_after": 0.4},
+      {"text": "Use it before links vanish.", "keywords": ["links vanish"], "pause_after": 0.5},
+      {"text": "Like if you didn't know this.", "keywords": ["Like"], "pause_after": 0.4}
+    ]
+  },
+  {
+    "video_id": "017",
+    "bucket": "B",
+    "format": "C",
+    "topic": "The Google Trick That Finds Hidden PDFs",
+    "publish_date": "06_11",
+    "phrases": [
+      {"text": "Google can search file types.", "keywords": ["file types"], "pause_after": 0.5},
+      {"text": "Most people never use this.", "keywords": ["never use"], "pause_after": 0.4},
+      {"text": "Type your topic first.", "keywords": ["topic"], "pause_after": 0.3},
+      {"text": "Then add filetype:pdf after it.", "keywords": ["filetype:pdf"], "pause_after": 0.5},
+      {"text": "Google shows mostly PDF results.", "keywords": ["PDF results"], "pause_after": 0.4},
+      {"text": "Great for guides and reports.", "keywords": ["guides", "reports"], "pause_after": 0.4},
+      {"text": "Great for resumes too.", "keywords": ["resumes"], "pause_after": 0.3},
+      {"text": "Swap PDF for PPT.", "keywords": ["PDF", "PPT"], "pause_after": 0.4},
+      {"text": "Or DOC for templates.", "keywords": ["DOC", "templates"], "pause_after": 0.4},
+      {"text": "Add site:edu for research.", "keywords": ["site:edu"], "pause_after": 0.4},
+      {"text": "Add site:gov for forms.", "keywords": ["site:gov"], "pause_after": 0.4},
+      {"text": "It cuts junk fast.", "keywords": ["junk"], "pause_after": 0.4},
+      {"text": "This saves hours online.", "keywords": ["saves hours"], "pause_after": 0.5},
+      {"text": "Follow for more tips.", "keywords": ["Follow"], "pause_after": 0.4}
+    ]
+  },
+  {
+    "video_id": "018",
+    "bucket": "C",
+    "format": "C",
+    "topic": "The Shrimp That Fires A Sonic Boom",
+    "publish_date": "06_12",
+    "phrases": [
+      {"text": "This shrimp creates tiny explosions.", "keywords": ["tiny explosions"], "pause_after": 0.5},
+      {"text": "And it fits your palm.", "keywords": ["fits", "palm"], "pause_after": 0.4},
+      {"text": "Meet the pistol shrimp.", "keywords": ["pistol shrimp"], "pause_after": 0.5},
+      {"text": "Its claw snaps insanely fast.", "keywords": ["claw", "fast"], "pause_after": 0.4},
+      {"text": "So fast, water boils.", "keywords": ["water boils"], "pause_after": 0.5},
+      {"text": "It forms a cavitation bubble.", "keywords": ["cavitation bubble"], "pause_after": 0.4},
+      {"text": "That bubble collapses violently.", "keywords": ["collapses"], "pause_after": 0.4},
+      {"text": "The pop becomes a shockwave.", "keywords": ["shockwave"], "pause_after": 0.5},
+      {"text": "It can stun nearby fish.", "keywords": ["stun", "fish"], "pause_after": 0.4},
+      {"text": "All without touching prey.", "keywords": ["touching prey"], "pause_after": 0.4},
+      {"text": "The snap is unbelievably loud.", "keywords": ["unbelievably loud"], "pause_after": 0.5},
+      {"text": "For something this small.", "keywords": ["this small"], "pause_after": 0.4},
+      {"text": "Nature built a sonic weapon.", "keywords": ["sonic weapon"], "pause_after": 0.5},
+      {"text": "Like if you didn't know this.", "keywords": ["Like"], "pause_after": 0.4}
+    ]
+  },
+  {
+    "video_id": "019",
+    "bucket": "D",
+    "format": "C",
+    "topic": "Why Running Out Of Gas Can Get You Fined",
+    "publish_date": "06_13",
+    "phrases": [
+      {"text": "Running dry there can cost you.", "keywords": ["cost you"], "pause_after": 0.5},
+      {"text": "On Germany's Autobahn, specifically.", "keywords": ["Germany's Autobahn"], "pause_after": 0.5},
+      {"text": "Stopping unnecessarily is restricted.", "keywords": ["Stopping unnecessarily"], "pause_after": 0.4},
+      {"text": "That includes an empty tank.", "keywords": ["empty tank"], "pause_after": 0.4},
+      {"text": "Because fuel loss is avoidable.", "keywords": ["fuel loss"], "pause_after": 0.4},
+      {"text": "Police can treat it as negligence.", "keywords": ["negligence"], "pause_after": 0.5},
+      {"text": "And issue a fine.", "keywords": ["fine"], "pause_after": 0.4},
+      {"text": "The road is built for speed.", "keywords": ["built for speed"], "pause_after": 0.4},
+      {"text": "Unexpected stops raise crash risk.", "keywords": ["crash risk"], "pause_after": 0.5},
+      {"text": "So drivers must plan ahead.", "keywords": ["plan ahead"], "pause_after": 0.4},
+      {"text": "Fill up before long stretches.", "keywords": ["Fill up"], "pause_after": 0.4},
+      {"text": "Tourists are shocked by this.", "keywords": ["shocked"], "pause_after": 0.4},
+      {"text": "Germany takes highways seriously.", "keywords": ["highways"], "pause_after": 0.5},
+      {"text": "Follow for more tips.", "keywords": ["Follow"], "pause_after": 0.4}
+    ]
+  },
+  {
+    "video_id": "020",
+    "bucket": "E",
+    "format": "C",
+    "topic": "How A Zipper Actually Works",
+    "publish_date": "06_14",
+    "phrases": [
+      {"text": "Zippers look simple until this.", "keywords": ["simple"], "pause_after": 0.5},
+      {"text": "They are tiny interlocking teeth.", "keywords": ["interlocking teeth"], "pause_after": 0.4},
+      {"text": "Each side matches perfectly.", "keywords": ["matches"], "pause_after": 0.3},
+      {"text": "The slider is the secret.", "keywords": ["slider"], "pause_after": 0.5},
+      {"text": "Inside, it is wedge-shaped.", "keywords": ["wedge-shaped"], "pause_after": 0.4},
+      {"text": "That wedge guides both rows.", "keywords": ["guides"], "pause_after": 0.4},
+      {"text": "One row tilts one way.", "keywords": ["One row"], "pause_after": 0.4},
+      {"text": "The other tilts opposite.", "keywords": ["tilts opposite"], "pause_after": 0.4},
+      {"text": "Then they lock together.", "keywords": ["lock together"], "pause_after": 0.5},
+      {"text": "Pull down and reverse it.", "keywords": ["reverse"], "pause_after": 0.4},
+      {"text": "No glue. No magnets.", "keywords": ["glue", "magnets"], "pause_after": 0.4},
+      {"text": "Just shape and pressure.", "keywords": ["shape", "pressure"], "pause_after": 0.4},
+      {"text": "Your jacket closes by geometry.", "keywords": ["geometry"], "pause_after": 0.5},
+      {"text": "Like if you didn't know this.", "keywords": ["Like"], "pause_after": 0.4}
+    ]
+  },
+  {
+    "video_id": "021",
+    "bucket": "F",
+    "format": "C",
+    "topic": "This AI Builds Your Slides",
+    "publish_date": "06_15",
+    "phrases": [
+      {"text": "Making slides just got weird.", "keywords": ["slides"], "pause_after": 0.5},
+      {"text": "This AI builds decks.", "keywords": ["AI"], "pause_after": 0.4},
+      {"text": "It is called Gamma.", "keywords": ["Gamma"], "pause_after": 0.5},
+      {"text": "Paste a prompt or outline.", "keywords": ["prompt", "outline"], "pause_after": 0.4},
+      {"text": "It writes each slide.", "keywords": ["writes"], "pause_after": 0.4},
+      {"text": "Then designs the layout.", "keywords": ["designs"], "pause_after": 0.4},
+      {"text": "Headlines, visuals, and flow.", "keywords": ["visuals"], "pause_after": 0.4},
+      {"text": "You start with rough ideas.", "keywords": ["rough ideas"], "pause_after": 0.4},
+      {"text": "It turns them presentable.", "keywords": ["presentable"], "pause_after": 0.4},
+      {"text": "Great for pitch decks.", "keywords": ["pitch decks"], "pause_after": 0.4},
+      {"text": "Great for class presentations.", "keywords": ["class presentations"], "pause_after": 0.4},
+      {"text": "You edit instead of formatting.", "keywords": ["edit", "formatting"], "pause_after": 0.5},
+      {"text": "Start rough, polish fast.", "keywords": ["polish fast"], "pause_after": 0.4},
+      {"text": "Follow for more tips.", "keywords": ["Follow"], "pause_after": 0.4}
+    ]
+  },
+  {
+    "video_id": "022",
+    "bucket": "C",
+    "format": "C",
+    "topic": "The Animal That Regrows Its Own Limbs",
+    "publish_date": "06_16",
+    "phrases": [
+      {"text": "This animal can regrow limbs.", "keywords": ["regrow limbs"], "pause_after": 0.5},
+      {"text": "And much more than that.", "keywords": ["much more"], "pause_after": 0.4},
+      {"text": "Meet the axolotl.", "keywords": ["axolotl"], "pause_after": 0.5},
+      {"text": "Lose a leg, it returns.", "keywords": ["leg", "returns"], "pause_after": 0.4},
+      {"text": "Its tail can regrow too.", "keywords": ["tail"], "pause_after": 0.4},
+      {"text": "So can parts of organs.", "keywords": ["parts", "organs"], "pause_after": 0.4},
+      {"text": "Even spinal cord tissue.", "keywords": ["spinal cord"], "pause_after": 0.5},
+      {"text": "With barely any scarring.", "keywords": ["barely", "scarring"], "pause_after": 0.4},
+      {"text": "Scientists study its cells closely.", "keywords": ["Scientists"], "pause_after": 0.4},
+      {"text": "For healing and regeneration clues.", "keywords": ["healing", "regeneration"], "pause_after": 0.5},
+      {"text": "It is regeneration on easy mode.", "keywords": ["easy mode"], "pause_after": 0.4},
+      {"text": "Few animals can match it.", "keywords": ["Few animals"], "pause_after": 0.4},
+      {"text": "Nature made a repair expert.", "keywords": ["repair expert"], "pause_after": 0.5},
+      {"text": "Like if you didn't know this.", "keywords": ["Like"], "pause_after": 0.4}
+    ]
+  }
+]
