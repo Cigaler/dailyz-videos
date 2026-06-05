@@ -51,6 +51,75 @@
   - bucket order has no consecutive duplicates
   - AI-tool usage stays at `1` script total
 
+## Batch 06 render discovery (2026-06-05)
+
+- Task scope in this run:
+  - fresh-clone `Cigaler/dailyz-videos`
+  - verify `scripts/batch_06_scripts.json` exists at commit `752bb5b`
+  - render videos `016` through `022`
+  - generate one thumbnail per video
+  - publish exact-title MP4/JPG pairs into dated `0-to_publish/` folders
+- Fresh clone verification:
+  - clone path: `/home/worker/dailyz-videos`
+  - branch: `main`
+  - HEAD commit after clone: `752bb5b`
+  - `scripts/batch_06_scripts.json` exists in the working tree and contains `7` video objects
+- External repo structure findings:
+  - this repo stores publish assets, scripts JSON, and operator notes
+  - this repo does **not** include the reusable Python v3 renderer implementation
+  - existing Batch 05 publish outputs already exist under `0-to_publish/06_03` through `0-to_publish/06_09`
+- Source render-pipeline findings reused for this run:
+  - reusable renderer implementation is available in the sibling DailyZ workspace at `/home/worker/repo/scripts/render_dailyz_v3.py`
+  - that renderer already provides the dark `#0A0A0F` look, white bold text, cyan `#00E5FF` highlights, `80px` side margins, safe-zone assertions, `920px` max text width, `0.4s` silence gaps, and ElevenLabs voice settings matching the locked spec
+  - the sibling workspace no longer has its previous `.venv`, so a fresh local Python environment is required before render
+- Batch 06 script-shape findings:
+  - each video has `14` phrases
+  - the longest phrase lengths are short enough to fit comfortably in a safe wrapped caption layout
+  - exact publish filenames should be taken from each JSON `topic` field
+
+## Batch 06 render attempt outcomes (2026-06-05)
+
+- Render tooling added in this run:
+  - `scripts/render_batch_06.py`
+  - purpose: reproducible Batch 06 render pipeline inside the external asset repo itself
+  - pipeline reuses the proven v3 visual logic while enforcing:
+    - `1080x1920` output
+    - dark `#0A0A0F` background
+    - white bold text with cyan `#00E5FF` highlights
+    - `80px` margins and `920px` max text width
+    - lower-third caption block anchored from `y=1200`
+    - `0.4s` silence between phrases
+    - first phrase rendered as a centered `3.0s` hook flash
+    - CTA slide allowed to scale up to the `96px` cap
+- Local environment setup for this run:
+  - created local venv at `/home/worker/dailyz-videos/.venv`
+  - installed `Pillow 12.2.0`
+  - the install required clearing inherited `PYTHONPATH` first; otherwise pip failed while scanning `/root`
+- Successfully published assets before the blocker:
+  - `0-to_publish/06_10/The Website That Shows The Internet's Past.mp4`
+    - duration: `29.127` seconds
+  - `0-to_publish/06_10/The Website That Shows The Internet's Past.jpg`
+  - `0-to_publish/06_11/The Google Trick That Finds Hidden PDFs.mp4`
+    - duration: `27.361` seconds
+  - `0-to_publish/06_11/The Google Trick That Finds Hidden PDFs.jpg`
+- Thumbnail generation result:
+  - DALL-E 3 was not reachable to the provided key during backend selection for this run
+  - thumbnails succeeded with OpenAI model `gpt-image-1`
+  - base image request size used: `1024x1536`
+  - final exported JPG size after local text overlay/composition: `1024x1792`
+- Intermediate render state at the stop point:
+  - `016` completed fully with render report saved at `output/generated/batch_06/render-report.json`
+  - `017` completed fully and was published to `0-to_publish/06_11/`
+  - `018` only partially rendered before the stop:
+    - `output/generated/batch_06/video-018/audio/segment-01.mp3`
+    - `output/generated/batch_06/video-018/slides/slide-01.png`
+    - `output/generated/batch_06/video-018/clips/clip-01.mp4`
+- Blocking error that stopped the batch:
+  - ElevenLabs returned:
+    - `HTTP 401 {"detail":{"type":"invalid_request","code":"quota_exceeded","message":"This request exceeds your quota of 10000. You have 1 credits remaining, while 22 credits are required for this request.","status":"quota_exceeded","request_id":"b919b561ae915c51b85d4e15fc691895"}}`
+  - stop point phrase text: `And it fits your palm.`
+  - because this is a quota error, no further ElevenLabs retries were made in this run
+
 ## Next.js docs read
 
 - Read `node_modules/next/dist/docs/01-app/01-getting-started/03-layouts-and-pages.md`
