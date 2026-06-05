@@ -81,6 +81,7 @@
 
 - Render tooling added in this run:
   - `scripts/render_batch_06.py`
+  - `.gitignore` updated to ignore local `.venv/` and `output/` render artifacts
   - purpose: reproducible Batch 06 render pipeline inside the external asset repo itself
   - pipeline reuses the proven v3 visual logic while enforcing:
     - `1080x1920` output
