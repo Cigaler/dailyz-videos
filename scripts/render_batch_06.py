@@ -2,6 +2,7 @@
 from __future__ import annotations
 
 import argparse
+import asyncio
 import base64
 import io
 import json
@@ -62,6 +63,16 @@ class CaptionLayout(NamedTuple):
     total_height: float
 
 
+class TTSConfig(NamedTuple):
+    backend: str
+    voice_id: str
+    voice_name: str
+    voice_note: str
+    api_key: str | None = None
+    rate: str | None = None
+    pitch: str | None = None
+
+
 def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(description="Render DailyZ Batch 06 videos and thumbnails.")
     parser.add_argument(
@@ -83,6 +94,27 @@ def parse_args() -> argparse.Namespace:
         "--only",
         nargs="*",
         help="Optional list of video IDs to render.",
+    )
+    parser.add_argument(
+        "--tts-backend",
+        choices=["elevenlabs", "edge-tts"],
+        default="elevenlabs",
+        help="Voice synthesis backend.",
+    )
+    parser.add_argument(
+        "--edge-voice",
+        default="en-US-GuyNeural",
+        help="Edge TTS voice to use when --tts-backend edge-tts is selected.",
+    )
+    parser.add_argument(
+        "--edge-rate",
+        default="-10%",
+        help="Edge TTS rate override.",
+    )
+    parser.add_argument(
+        "--edge-pitch",
+        default="-5Hz",
+        help="Edge TTS pitch override.",
     )
     return parser.parse_args()
 
@@ -178,7 +210,7 @@ def openai_request(
     )
 
 
-def resolve_voice(api_key: str) -> tuple[str, str, str]:
+def resolve_elevenlabs_voice(api_key: str) -> tuple[str, str, str]:
     preferred_id = "iP95p4xoKVk53GoZ742B"
     preferred_name = "Chris - Charming, Down-to-Earth"
     status, body = eleven_request("GET", f"https://api.elevenlabs.io/v1/voices/{preferred_id}", api_key)
@@ -203,13 +235,49 @@ def resolve_voice(api_key: str) -> tuple[str, str, str]:
     raise RuntimeError(f"Preferred voice {preferred_name!r} could not be resolved.")
 
 
-def synthesize_segment(
+def synthesize_edge_tts_segment(
     *,
-    api_key: str,
-    voice_id: str,
     text: str,
     out_path: Path,
+    voice_name: str,
+    rate: str,
+    pitch: str,
 ) -> None:
+    try:
+        import edge_tts
+    except ImportError as error:
+        raise RuntimeError(
+            "edge-tts backend selected but the Python package is not installed. Run `pip install edge-tts` first."
+        ) from error
+
+    async def _save() -> None:
+        communicate = edge_tts.Communicate(text, voice_name, rate=rate, pitch=pitch)
+        await communicate.save(str(out_path))
+
+    asyncio.run(_save())
+
+
+def synthesize_segment(
+    *,
+    text: str,
+    out_path: Path,
+    tts_config: TTSConfig,
+) -> None:
+    if tts_config.backend == "edge-tts":
+        synthesize_edge_tts_segment(
+            text=text,
+            out_path=out_path,
+            voice_name=tts_config.voice_id,
+            rate=tts_config.rate or "-10%",
+            pitch=tts_config.pitch or "-5Hz",
+        )
+        return
+
+    if tts_config.backend != "elevenlabs":
+        raise RuntimeError(f"Unsupported TTS backend: {tts_config.backend}")
+    if not tts_config.api_key:
+        raise RuntimeError("ELEVENLABS_API_KEY is required when using the elevenlabs backend.")
+
     payload = {
         "text": text,
         "model_id": "eleven_multilingual_v2",
@@ -223,10 +291,10 @@ def synthesize_segment(
     status, body = eleven_request(
         "POST",
         "https://api.elevenlabs.io/v1/text-to-speech/"
-        + voice_id
+        + tts_config.voice_id
         + "?output_format="
         + urllib.parse.quote("mp3_44100_128"),
-        api_key,
+        tts_config.api_key,
         payload,
     )
     if status != 200:
@@ -826,10 +894,7 @@ def render_video(
     video: dict[str, Any],
     output_root: Path,
     publish_root: Path,
-    voice_id: str,
-    voice_name: str,
-    voice_note: str,
-    api_key: str,
+    tts_config: TTSConfig,
     font_path: Path,
 ) -> dict[str, Any]:
     asset_dir = output_root / f"video-{video['video_id']}"
@@ -851,9 +916,10 @@ def render_video(
             "publish_date": video["publish_date"],
             "duration_seconds": round(probe_duration(final_path), 3),
             "segment_count": len(video["phrases"]),
-            "voice_name": voice_name,
-            "voice_id": voice_id,
-            "voice_resolution_note": voice_note,
+            "voice_name": tts_config.voice_name,
+            "voice_id": tts_config.voice_id,
+            "voice_resolution_note": tts_config.voice_note,
+            "tts_backend": tts_config.backend,
             "output_path": str(final_path),
             "reused_existing": True,
             "segments": [],
@@ -872,7 +938,7 @@ def render_video(
         spoken_text = phrase["text"]
         highlight = " ".join(phrase.get("keywords", []))
 
-        synthesize_segment(api_key=api_key, voice_id=voice_id, text=spoken_text, out_path=audio_path)
+        synthesize_segment(text=spoken_text, out_path=audio_path, tts_config=tts_config)
         slide_metrics = render_segment_slide(
             out_path=slide_path,
             caption=spoken_text,
@@ -913,9 +979,10 @@ def render_video(
         "publish_date": video["publish_date"],
         "duration_seconds": round(duration, 3),
         "segment_count": len(video["phrases"]),
-        "voice_name": voice_name,
-        "voice_id": voice_id,
-        "voice_resolution_note": voice_note,
+        "voice_name": tts_config.voice_name,
+        "voice_id": tts_config.voice_id,
+        "voice_resolution_note": tts_config.voice_note,
+        "tts_backend": tts_config.backend,
         "output_path": str(final_path),
         "segments": segment_reports,
     }
@@ -929,16 +996,33 @@ def main() -> int:
     output_root.mkdir(parents=True, exist_ok=True)
     publish_root.mkdir(parents=True, exist_ok=True)
 
-    elevenlabs_api_key = os.environ.get("ELEVENLABS_API_KEY")
-    if not elevenlabs_api_key:
-        raise RuntimeError("ELEVENLABS_API_KEY is required.")
-
     openai_api_key = os.environ.get("OPENAI_API_KEY")
     if not openai_api_key:
         raise RuntimeError("OPENAI_API_KEY is required.")
 
     font_path = select_font_path()
-    voice_id, voice_name, voice_note = resolve_voice(elevenlabs_api_key)
+    if args.tts_backend == "elevenlabs":
+        elevenlabs_api_key = os.environ.get("ELEVENLABS_API_KEY")
+        if not elevenlabs_api_key:
+            raise RuntimeError("ELEVENLABS_API_KEY is required.")
+        voice_id, voice_name, voice_note = resolve_elevenlabs_voice(elevenlabs_api_key)
+        tts_config = TTSConfig(
+            backend="elevenlabs",
+            voice_id=voice_id,
+            voice_name=voice_name,
+            voice_note=voice_note,
+            api_key=elevenlabs_api_key,
+        )
+    else:
+        tts_config = TTSConfig(
+            backend="edge-tts",
+            voice_id=args.edge_voice,
+            voice_name=args.edge_voice,
+            voice_note=f"edge-tts fallback voice={args.edge_voice} rate={args.edge_rate} pitch={args.edge_pitch}",
+            rate=args.edge_rate,
+            pitch=args.edge_pitch,
+        )
+
     image_model, image_size, image_model_note = resolve_thumbnail_backend(
         api_key=openai_api_key,
         topic="internet archive",
@@ -959,10 +1043,7 @@ def main() -> int:
                 video=video,
                 output_root=output_root,
                 publish_root=publish_root,
-                voice_id=voice_id,
-                voice_name=voice_name,
-                voice_note=voice_note,
-                api_key=elevenlabs_api_key,
+                tts_config=tts_config,
                 font_path=font_path,
             )
         )
@@ -979,17 +1060,11 @@ def main() -> int:
 
     report = {
         "voice": {
-            "preset": "voice-chris-A",
-            "voice_name": voice_name,
-            "voice_id": voice_id,
-            "voice_resolution_note": voice_note,
-            "model_id": "eleven_multilingual_v2",
-            "voice_settings": {
-                "stability": 0.65,
-                "similarity_boost": 0.75,
-                "style": 0.10,
-                "speaker_boost": True,
-            },
+            "backend": tts_config.backend,
+            "preset": "voice-chris-A" if tts_config.backend == "elevenlabs" else "edge-tts-fallback",
+            "voice_name": tts_config.voice_name,
+            "voice_id": tts_config.voice_id,
+            "voice_resolution_note": tts_config.voice_note,
         },
         "image_backend": {
             "model": image_model,
@@ -1000,6 +1075,17 @@ def main() -> int:
         "videos": video_reports,
         "thumbnails": thumbnail_reports,
     }
+    if tts_config.backend == "elevenlabs":
+        report["voice"]["model_id"] = "eleven_multilingual_v2"
+        report["voice"]["voice_settings"] = {
+            "stability": 0.65,
+            "similarity_boost": 0.75,
+            "style": 0.10,
+            "speaker_boost": True,
+        }
+    else:
+        report["voice"]["rate"] = tts_config.rate
+        report["voice"]["pitch"] = tts_config.pitch
     (output_root / "render-report.json").write_text(json.dumps(report, indent=2))
     print(json.dumps(report, indent=2))
     return 0

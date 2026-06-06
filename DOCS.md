@@ -764,3 +764,44 @@
   - `Perplexity vs ChatGPT for Research: Which One Should You Use?` — `20` words
   - `How to Automate Meeting Notes with Notion AI and Zapier` — `28` words
   - `How to Automate Email Replies with Claude and Zapier` — `29` words
+
+## Batch 06 edge-tts fallback completion (2026-06-06)
+
+- Task scope in this run:
+  - finish Batch 06 videos `018` through `022` after the previous ElevenLabs quota stop
+  - keep the existing Batch 06 visual layout and pacing rules unchanged
+  - publish exact-title MP4/JPG pairs into `0-to_publish/06_12` through `0-to_publish/06_16`
+- Renderer changes made:
+  - updated `scripts/render_batch_06.py`
+  - added a selectable `--tts-backend` flag with `elevenlabs` and `edge-tts`
+  - added `--edge-voice`, `--edge-rate`, and `--edge-pitch` options
+  - made `ELEVENLABS_API_KEY` optional when the run uses `edge-tts`
+  - preserved the existing safe-zone checks, `0.4s` audio gap handling, hook timing, thumbnail composition, and dated publish output structure
+- Local environment used:
+  - created repo-local virtualenv at `/tmp/dailyz-videos/.venv`
+  - installed `Pillow 12.2.0`
+  - installed `edge-tts 7.2.8`
+- Voice and thumbnail backend used for the completed publish set:
+  - voice backend: `edge-tts`
+  - voice: `en-US-GuyNeural`
+  - rate: `-10%`
+  - pitch: `-5Hz`
+  - thumbnail backend: `gpt-image-1`
+  - requested base image size: `1024x1536`
+  - final exported JPG size: `1024x1792`
+- Published outputs completed in this run:
+  - `0-to_publish/06_12/The Shrimp That Fires A Sonic Boom.mp4` — `46.781s`
+  - `0-to_publish/06_12/The Shrimp That Fires A Sonic Boom.jpg`
+  - `0-to_publish/06_13/Why Running Out Of Gas Can Get You Fined.mp4` — `48.368s`
+  - `0-to_publish/06_13/Why Running Out Of Gas Can Get You Fined.jpg`
+  - `0-to_publish/06_14/How A Zipper Actually Works.mp4` — `46.982s`
+  - `0-to_publish/06_14/How A Zipper Actually Works.jpg`
+  - `0-to_publish/06_15/This AI Builds Your Slides.mp4` — `45.021s`
+  - `0-to_publish/06_15/This AI Builds Your Slides.jpg`
+  - `0-to_publish/06_16/The Animal That Regrows Its Own Limbs.mp4` — `46.572s`
+  - `0-to_publish/06_16/The Animal That Regrows Its Own Limbs.jpg`
+- Verification notes:
+  - all `5` MP4s probe at `1080x1920`
+  - all `5` JPGs probe at `1024x1792`
+  - reuse-only verification pass completed successfully for `018-022`
+  - local combined report written to `output/generated/batch_06/render-report.json` with the final edge-tts metadata
