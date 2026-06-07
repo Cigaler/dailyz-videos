@@ -1,0 +1,345 @@
+[
+  {
+    "id": "023",
+    "bucket": "A",
+    "topic": "The Website That Turns Earth Into Radio",
+    "hook": "The website that turns Earth into radio.",
+    "script_segments": [
+      {
+        "text": "The website that turns Earth into radio.",
+        "pause_after": 0.6
+      },
+      {
+        "text": "It is called Radio Garden, and every glowing dot is a live station somewhere on the planet.",
+        "pause_after": 0.4
+      },
+      {
+        "text": "Spin the globe, tap a city, and you can jump from Tokyo jazz to Lagos talk radio.",
+        "pause_after": 0.4
+      },
+      {
+        "text": "You hear local news, accents, ads, and music that algorithms almost never show you.",
+        "pause_after": 0.4
+      },
+      {
+        "text": "It is free in your browser, so it feels more like teleporting than searching.",
+        "pause_after": 0.4
+      },
+      {
+        "text": "People use it to study languages, find underground scenes, or just wander when playlists feel stale.",
+        "pause_after": 0.4
+      },
+      {
+        "text": "Once you try it, the internet suddenly sounds much bigger than your own feed.",
+        "pause_after": 0.4
+      },
+      {
+        "text": "Save this.",
+        "pause_after": 0.3
+      }
+    ],
+    "keywords": [
+      "Radio Garden",
+      "live radio",
+      "world stations",
+      "music discovery",
+      "web gem"
+    ],
+    "publish_date": "06_17",
+    "thumbnail_prompt": "Vertical thumbnail, glowing 3D globe covered with radio dots and neon signal lines, cinematic, high contrast, no text"
+  },
+  {
+    "id": "024",
+    "bucket": "C",
+    "topic": "The Bird That Sleeps While Flying",
+    "hook": "This bird sleeps without landing.",
+    "script_segments": [
+      {
+        "text": "This bird sleeps without landing.",
+        "pause_after": 0.6
+      },
+      {
+        "text": "Great frigatebirds can stay in the air for days over the ocean without touching down once.",
+        "pause_after": 0.4
+      },
+      {
+        "text": "Scientists found they take tiny naps while gliding, sometimes letting one half of the brain rest.",
+        "pause_after": 0.4
+      },
+      {
+        "text": "That keeps the other half alert enough to steer, balance, and avoid crashing mid-flight.",
+        "pause_after": 0.4
+      },
+      {
+        "text": "They borrow rising air called thermals, which lets them travel huge distances with very little effort.",
+        "pause_after": 0.4
+      },
+      {
+        "text": "On land, they are clumsy, so staying airborne is not just smart, it is survival.",
+        "pause_after": 0.4
+      },
+      {
+        "text": "Nature built a bird that turns sleep into a flying skill.",
+        "pause_after": 0.4
+      },
+      {
+        "text": "Follow for more.",
+        "pause_after": 0.3
+      }
+    ],
+    "keywords": [
+      "frigatebird",
+      "sleep in flight",
+      "bird science",
+      "thermals",
+      "animal facts"
+    ],
+    "publish_date": "06_18",
+    "thumbnail_prompt": "Vertical wildlife thumbnail, frigatebird gliding over the ocean at sunset, dramatic sky, crisp detail, no text"
+  },
+  {
+    "id": "025",
+    "bucket": "B",
+    "topic": "The Two-Minute Rule That Starts Any Task",
+    "hook": "The rule that beats tiny procrastination.",
+    "script_segments": [
+      {
+        "text": "The rule that beats tiny procrastination.",
+        "pause_after": 0.6
+      },
+      {
+        "text": "If something takes less than two minutes, do it immediately instead of storing it for later.",
+        "pause_after": 0.4
+      },
+      {
+        "text": "That means sending the email, washing the mug, or putting the file where it belongs.",
+        "pause_after": 0.4
+      },
+      {
+        "text": "Small tasks feel harmless, but they stack up fast and keep whispering at your brain.",
+        "pause_after": 0.4
+      },
+      {
+        "text": "Doing them on sight clears friction, lowers stress, and makes bigger work easier to start.",
+        "pause_after": 0.4
+      },
+      {
+        "text": "It is not about being busy all day, it is about killing easy delays before they multiply.",
+        "pause_after": 0.4
+      },
+      {
+        "text": "Use it for the next week, and your to-do list will stop feeling so sticky.",
+        "pause_after": 0.4
+      },
+      {
+        "text": "Save this.",
+        "pause_after": 0.3
+      }
+    ],
+    "keywords": [
+      "two-minute rule",
+      "productivity",
+      "procrastination",
+      "life skill",
+      "task management"
+    ],
+    "publish_date": "06_19",
+    "thumbnail_prompt": "Vertical minimalist thumbnail, bold clock beside a short checklist, clean desk lighting, high contrast, no text"
+  },
+  {
+    "id": "026",
+    "bucket": "D",
+    "topic": "The Country That Bans Lonely Guinea Pigs",
+    "hook": "This law bans lonely guinea pigs.",
+    "script_segments": [
+      {
+        "text": "This law bans lonely guinea pigs.",
+        "pause_after": 0.6
+      },
+      {
+        "text": "In Switzerland, guinea pigs are treated as social animals, not decorations you leave alone in a cage.",
+        "pause_after": 0.4
+      },
+      {
+        "text": "Because they bond strongly, keeping just one can be considered harmful to its welfare.",
+        "pause_after": 0.4
+      },
+      {
+        "text": "That is why owners usually need a companion guinea pig, not a solo pet.",
+        "pause_after": 0.4
+      },
+      {
+        "text": "The rule sounds funny, but the logic is serious: social animals need social lives.",
+        "pause_after": 0.4
+      },
+      {
+        "text": "That even inspired temporary companion services for pets that suddenly lose a cage mate.",
+        "pause_after": 0.4
+      },
+      {
+        "text": "It might be the rare law that is both absurd and kind.",
+        "pause_after": 0.4
+      },
+      {
+        "text": "Follow for more.",
+        "pause_after": 0.3
+      }
+    ],
+    "keywords": [
+      "Switzerland",
+      "guinea pig law",
+      "animal welfare",
+      "absurd laws",
+      "pet facts"
+    ],
+    "publish_date": "06_20",
+    "thumbnail_prompt": "Vertical thumbnail, two guinea pigs side by side with subtle Swiss alpine backdrop, playful but realistic, no text"
+  },
+  {
+    "id": "027",
+    "bucket": "A",
+    "topic": "The Website That Shows Lightning Strikes Live",
+    "hook": "The website that shows lightning live.",
+    "script_segments": [
+      {
+        "text": "The website that shows lightning live.",
+        "pause_after": 0.6
+      },
+      {
+        "text": "Open LightningMaps and you can watch strikes appear almost in real time across the planet.",
+        "pause_after": 0.4
+      },
+      {
+        "text": "Each flash lands on the map like a pulse, which makes storm systems suddenly easy to read.",
+        "pause_after": 0.4
+      },
+      {
+        "text": "Weather fans use it for curiosity, but it is also useful when thunder starts getting closer.",
+        "pause_after": 0.4
+      },
+      {
+        "text": "You can zoom into regions, follow clusters, and see how fast a storm is building.",
+        "pause_after": 0.4
+      },
+      {
+        "text": "It feels like watching the sky talk in electrical bursts.",
+        "pause_after": 0.4
+      },
+      {
+        "text": "After one minute on it, weather maps stop looking flat and boring.",
+        "pause_after": 0.4
+      },
+      {
+        "text": "Save this.",
+        "pause_after": 0.3
+      }
+    ],
+    "keywords": [
+      "LightningMaps",
+      "live lightning",
+      "storm tracker",
+      "weather website",
+      "web gem"
+    ],
+    "publish_date": "06_21",
+    "thumbnail_prompt": "Vertical digital map with glowing lightning strikes and storm clouds, electric blue palette, cinematic contrast, no text"
+  },
+  {
+    "id": "028",
+    "bucket": "E",
+    "topic": "Why A Slinky Hovers Before It Falls",
+    "hook": "Why does a slinky hang in midair?",
+    "script_segments": [
+      {
+        "text": "Why does a slinky hang in midair?",
+        "pause_after": 0.6
+      },
+      {
+        "text": "Drop a stretched slinky, and the bottom seems to hover before the whole toy collapses.",
+        "pause_after": 0.4
+      },
+      {
+        "text": "That happens because information cannot travel through the spring instantly, even though gravity starts pulling right away.",
+        "pause_after": 0.4
+      },
+      {
+        "text": "The top moves first, but the bottom does not know it yet.",
+        "pause_after": 0.4
+      },
+      {
+        "text": "A wave has to race down the coils before the bottom gets the message to fall.",
+        "pause_after": 0.4
+      },
+      {
+        "text": "For a split second, the upward spring force balances gravity there, which is why the effect looks impossible.",
+        "pause_after": 0.4
+      },
+      {
+        "text": "It is one of the cleanest little physics demos you can do at home.",
+        "pause_after": 0.4
+      },
+      {
+        "text": "Follow for more.",
+        "pause_after": 0.3
+      }
+    ],
+    "keywords": [
+      "slinky",
+      "physics",
+      "gravity",
+      "spring force",
+      "mind blowing"
+    ],
+    "publish_date": "06_22",
+    "thumbnail_prompt": "Vertical science thumbnail, metal slinky frozen mid-drop against dark background, dramatic motion lighting, no text"
+  },
+  {
+    "id": "029",
+    "bucket": "C",
+    "topic": "The Fish That Changes Sex To Keep The Group Alive",
+    "hook": "This tiny fish can switch sex.",
+    "script_segments": [
+      {
+        "text": "This tiny fish can switch sex.",
+        "pause_after": 0.6
+      },
+      {
+        "text": "Clownfish live in strict groups led by one breeding female, with smaller males ranked underneath her.",
+        "pause_after": 0.4
+      },
+      {
+        "text": "If that female disappears, the top male changes sex and takes her place.",
+        "pause_after": 0.4
+      },
+      {
+        "text": "His body shifts, his behavior changes, and he becomes the new dominant female.",
+        "pause_after": 0.4
+      },
+      {
+        "text": "Then the next male in line steps up as the breeding male.",
+        "pause_after": 0.4
+      },
+      {
+        "text": "It sounds wild, but it is a stable system that keeps the group going.",
+        "pause_after": 0.4
+      },
+      {
+        "text": "Finding Nemo skipped that part, but real clownfish biology is even stranger than animation.",
+        "pause_after": 0.4
+      },
+      {
+        "text": "Save this.",
+        "pause_after": 0.3
+      }
+    ],
+    "keywords": [
+      "clownfish",
+      "sex change",
+      "marine biology",
+      "reef life",
+      "animal facts"
+    ],
+    "publish_date": "06_23",
+    "thumbnail_prompt": "Vertical reef thumbnail, bright clownfish among sea anemones, vivid orange and blue contrast, ultra crisp, no text"
+  }
+]

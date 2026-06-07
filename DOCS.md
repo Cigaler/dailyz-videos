@@ -121,6 +121,48 @@
   - stop point phrase text: `And it fits your palm.`
   - because this is a quota error, no further ElevenLabs retries were made in this run
 
+## Batch 07 script authoring (2026-06-07)
+
+- Task scope in this run:
+  - write `7` evergreen short-form scripts for video IDs `023` through `029`
+  - save them as `scripts/batch_07_scripts.json`
+  - use the new richer schema with `id`, `bucket`, `topic`, `hook`, `script_segments`, `keywords`, `publish_date`, and `thumbnail_prompt`
+- Prior-batch variation checks used before writing:
+  - Batch 05 topics excluded:
+    - `FutureMe — Email Your Future Self`
+    - `The Jellyfish That Never Dies`
+    - `The Excel Trick That Fills 400 Cells at Once`
+    - `The Town Where It's Illegal to Die`
+    - `How Noise-Canceling Headphones Actually Work`
+    - `The Website That Knows If You've Been Hacked`
+    - `This AI Translates You Into Any Language`
+  - Batch 06 topics excluded:
+    - `The Website That Shows The Internet's Past`
+    - `The Google Trick That Finds Hidden PDFs`
+    - `The Shrimp That Fires A Sonic Boom`
+    - `Why Running Out Of Gas Can Get You Fined`
+    - `How A Zipper Actually Works`
+    - `This AI Builds Your Slides`
+    - `The Animal That Regrows Its Own Limbs`
+- Batch 07 distribution locked in this run:
+  - `023` bucket `A`: `The Website That Turns Earth Into Radio`
+  - `024` bucket `C`: `The Bird That Sleeps While Flying`
+  - `025` bucket `B`: `The Two-Minute Rule That Starts Any Task`
+  - `026` bucket `D`: `The Country That Bans Lonely Guinea Pigs`
+  - `027` bucket `A`: `The Website That Shows Lightning Strikes Live`
+  - `028` bucket `E`: `Why A Slinky Hovers Before It Falls`
+  - `029` bucket `C`: `The Fish That Changes Sex To Keep The Group Alive`
+- Validation targets applied to the final JSON:
+  - publish dates run sequentially from `06_17` through `06_23`
+  - bucket order has no consecutive duplicates
+  - final bucket mix is `A x2`, `C x2`, `B x1`, `D x1`, `E x1`, `F x0`
+  - every script ends with exactly `Follow for more.` or `Save this.`
+  - every script keeps body segments at `<= 20` words
+  - every script lands in the `90-110` word target range across `script_segments`
+- Generation note:
+  - initial topic/draft pass was generated with `gpt-4o`
+  - final copy was manually tightened to satisfy the exact word-count and pacing constraints after the model returned drafts that were structurally correct but too short
+
 ## Next.js docs read
 
 - Read `node_modules/next/dist/docs/01-app/01-getting-started/03-layouts-and-pages.md`
