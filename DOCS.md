@@ -258,6 +258,53 @@
   - AI tools ranked first overall because it offered the best combined tradeoff across zero-budget production, search demand, virality, and monetization fit
   - The strongest low-competition sweet spots are specialized sub-niches rather than broad creator categories
 - Verification and delivery notes from this run:
+
+## Batch 08 script authoring (2026-06-08)
+
+- Task scope in this run:
+  - write `7` evergreen Gen-Z short-form scripts for video IDs `030` through `036`
+  - save them as `scripts/batch_08_scripts.json`
+  - use the requested top-level schema: `batch` plus `videos`
+- External repo findings before writing:
+  - target repo clone path for this run: `/tmp/dailyz-videos-batch08-20260608`
+  - `scripts/` already contained prior batches:
+    - `batch_05_scripts.json`
+    - `batch_06_scripts.json`
+    - `batch_07_scripts.json`
+  - Batch 05 and 06 use older array-based schemas; Batch 07 uses a richer object schema
+  - this run intentionally follows the new client-requested schema rather than copying prior batch structures
+- Batch 08 topics selected in this run:
+  - `030` `AI tools`: `You Are Using AI Backwards`
+  - `031` `Life hacks / productivity`: `The 80 20 Rule`
+  - `032` `Money / finance`: `Why Raises Never Feel Rich`
+  - `033` `Psychology / mindset`: `Repetition Feels Like Truth`
+  - `034` `Tech facts`: `Your Feed Rewards Emotion`
+  - `035` `AI tools`: `Typing Is The Slow Way`
+  - `036` `Tech facts`: `Free Apps Are Not Free`
+- Topic-selection rationale used:
+  - centered on evergreen short-form patterns that reliably earn retention:
+    - bold myth-breaking hooks
+    - identity-level reframes
+    - hidden-system explanations
+    - money psychology
+    - algorithm and AI workflow reveals
+  - avoided time-sensitive news, model-release references, and dated platform events
+  - prioritized topics that can survive reposting and later batch rendering without factual staleness
+- Validation targets for the new JSON:
+  - top-level `batch` value locked to `08`
+  - exactly `7` videos included
+  - IDs run sequentially from `030` through `036`
+  - publish dates run sequentially from `06_24` through `06_30`
+  - each video includes:
+    - `id`
+    - `title`
+    - `topic`
+    - `hook`
+    - `body`
+    - `cta`
+    - `thumbnail_prompt`
+    - `publish_date`
+  - every `body` array contains `10` short lines to maximize punchy pacing while staying concise
   - Restored local dependencies with `npm install`
   - Confirmed `npm run build` passes after dependency install
   - Committed and pushed the research deliverable to `main` at commit `62ca11a`

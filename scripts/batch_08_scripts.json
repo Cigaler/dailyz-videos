@@ -1,0 +1,152 @@
+{
+  "batch": "08",
+  "videos": [
+    {
+      "id": "030",
+      "title": "You Are Using AI Backwards",
+      "topic": "AI tools",
+      "hook": "Most people use AI completely backwards.",
+      "body": [
+        "They ask for final answers first.",
+        "That is the slowest workflow possible.",
+        "AI works better like a teammate.",
+        "Start with your messy raw thoughts.",
+        "Then ask it to organize.",
+        "Then ask it to critique.",
+        "Then ask it to simplify.",
+        "Then ask for the final version.",
+        "Now the output sounds like you.",
+        "And it takes way less time."
+      ],
+      "cta": "Save this before your next prompt.",
+      "thumbnail_prompt": "Vertical thumbnail, cinematic close-up of a glowing AI chat window split into chaos on one side and clean organized notes on the other, bright cyan interface light on a dark background, one human hand pointing at the transformation, high contrast, ultra crisp, no text",
+      "publish_date": "06_24"
+    },
+    {
+      "id": "031",
+      "title": "The 80 20 Rule",
+      "topic": "Life hacks / productivity",
+      "hook": "You are probably doing the useless 80%.",
+      "body": [
+        "Most tasks feel equally important.",
+        "They are absolutely not equal.",
+        "A tiny few move everything.",
+        "The rest just cosplay productivity.",
+        "Find the task that compounds.",
+        "Do that before checking messages.",
+        "Do that before perfect formatting.",
+        "Do that before low-stakes meetings.",
+        "Winning looks boring at first.",
+        "But boring work changes outcomes."
+      ],
+      "cta": "Save this for your next work spiral.",
+      "thumbnail_prompt": "Vertical thumbnail, minimalist desk scene with one massive glowing domino pushing many smaller ones, symbolic productivity concept, warm spotlight over a dark moody background, sharp shadows, premium editorial style, no text",
+      "publish_date": "06_25"
+    },
+    {
+      "id": "032",
+      "title": "Why Raises Never Feel Rich",
+      "topic": "Money / finance",
+      "hook": "Raises do not fix broke habits.",
+      "body": [
+        "More income creates more permission.",
+        "More permission creates more spending.",
+        "That pattern is lifestyle creep.",
+        "It hides inside tiny upgrades.",
+        "Better food, faster shipping, newer phones.",
+        "None feel expensive by themselves.",
+        "Together they erase your raise.",
+        "Wealth starts when upgrades wait.",
+        "Keep your old lifestyle longer.",
+        "Let income grow around it."
+      ],
+      "cta": "Save this before your next raise.",
+      "thumbnail_prompt": "Vertical thumbnail, stack of cash melting into shopping bags and app icons, dramatic contrast between wealth and impulse spending, rich green and gold accents on a dark background, polished social-media realism, no text",
+      "publish_date": "06_26"
+    },
+    {
+      "id": "033",
+      "title": "Repetition Feels Like Truth",
+      "topic": "Psychology / mindset",
+      "hook": "Repetition feels like proof to your brain.",
+      "body": [
+        "That is the illusory truth effect.",
+        "Hear something often, trust it faster.",
+        "Even when it sounds ridiculous.",
+        "Your brain swaps familiarity for evidence.",
+        "That is why slogans work.",
+        "That is why rumors spread.",
+        "That is why feeds shape beliefs.",
+        "The fix is painfully simple.",
+        "Pause and ask for sources.",
+        "If none exist, downgrade it."
+      ],
+      "cta": "Share this with your group chat.",
+      "thumbnail_prompt": "Vertical thumbnail, human profile silhouette filled with repeated glowing words spiraling inward, one bright checkmark forming from repetition, surreal psychology visual, deep shadows with electric blue highlights, ultra detailed, no text",
+      "publish_date": "06_27"
+    },
+    {
+      "id": "034",
+      "title": "Your Feed Rewards Emotion",
+      "topic": "Tech facts",
+      "hook": "Your feed is not showing best content.",
+      "body": [
+        "It is showing sticky content.",
+        "Sticky means fast emotion, fast reaction.",
+        "Anger wins because comments explode.",
+        "Confusion wins because rewatches spike.",
+        "Outrage wins because shares travel.",
+        "Calm truth usually loses speed.",
+        "The algorithm follows behavior patterns.",
+        "It does not check your wellbeing.",
+        "Your attention trains tomorrow's feed.",
+        "Every tap is a vote."
+      ],
+      "cta": "Send this to your most online friend.",
+      "thumbnail_prompt": "Vertical thumbnail, smartphone screen pulling colorful emotional icons like magnets into a feed, explosive red and cyan reaction bursts, dark cinematic background, sleek tech aesthetic, hyper-detailed, no text",
+      "publish_date": "06_28"
+    },
+    {
+      "id": "035",
+      "title": "Typing Is The Slow Way",
+      "topic": "AI tools",
+      "hook": "Typing is the slowest way to use AI.",
+      "body": [
+        "Talk first, prompt later with AI.",
+        "Dump the messy thought out loud.",
+        "AI finds structure inside chaos.",
+        "Then ask for clean notes.",
+        "Then ask for action steps.",
+        "Then ask it to rewrite.",
+        "Voice kills blank-page friction fast.",
+        "That is why it feels easier.",
+        "Thinking sounds smarter than typing.",
+        "Use your voice like draft mode."
+      ],
+      "cta": "Save this before your next brainstorm.",
+      "thumbnail_prompt": "Vertical thumbnail, person speaking into a phone as glowing waveform transforms into neat task lists and polished text, futuristic AI assistant vibe, moody dark background with bright cyan audio glow, crisp modern realism, no text",
+      "publish_date": "06_29"
+    },
+    {
+      "id": "036",
+      "title": "Free Apps Are Not Free",
+      "topic": "Tech facts",
+      "hook": "Free apps are rarely actually free.",
+      "body": [
+        "You usually pay with data.",
+        "Every click becomes a signal.",
+        "Signals become predictions about you.",
+        "Predictions become ad targeting fuel.",
+        "That fuel becomes serious money.",
+        "The product is not the app.",
+        "The product is your behavior.",
+        "That is why tracking feels endless.",
+        "Privacy settings matter more than branding.",
+        "Convenience always has a price."
+      ],
+      "cta": "Follow for more internet truths.",
+      "thumbnail_prompt": "Vertical thumbnail, glossy smartphone made of transparent glass with streams of personal data flowing out into ad dashboards and dollar symbols, dark premium tech mood, high contrast cyan and white lighting, cinematic realism, no text",
+      "publish_date": "06_30"
+    }
+  ]
+}
