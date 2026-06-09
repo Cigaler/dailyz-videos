@@ -894,3 +894,23 @@
   - all `5` JPGs probe at `1024x1792`
   - reuse-only verification pass completed successfully for `018-022`
   - local combined report written to `output/generated/batch_06/render-report.json` with the final edge-tts metadata
+
+## R2 publish checklist audit (2026-06-09)
+- Task scope in this run:
+  - audited R2 bucket `cigaler-assets` prefix `0 - To Publish/` using boto3 S3 client
+  - cross-referenced dated R2 folders against `scripts/*.json` metadata
+  - generated `PUBLISH_CHECKLIST.md` for owner upload order
+- R2 root prefixes observed: `0 - To Publish/`, `1 - Feedback/`, `2 - Library/`, `3 - Production/`
+- R2 objects under `0 - To Publish/`: `15` including `.keep`
+- Dated publish folders found: `7`
+- Ready videos found: `7` (`023` through `029`)
+- File naming note: R2 folders contain `video_<id>.mp4` and `video_<id>.jpg`; no literal `video.mp4` or `thumbnail.jpg` names were present.
+- Issues found: none; every dated folder has an MP4, a thumbnail image, and matching script metadata.
+- Publish dates and titles confirmed:
+  - `06_17` video `023`: The Website That Turns Earth Into Radio
+  - `06_18` video `024`: The Bird That Sleeps While Flying
+  - `06_19` video `025`: The Two-Minute Rule That Starts Any Task
+  - `06_20` video `026`: The Country That Bans Lonely Guinea Pigs
+  - `06_21` video `027`: The Website That Shows Lightning Strikes Live
+  - `06_22` video `028`: Why A Slinky Hovers Before It Falls
+  - `06_23` video `029`: The Fish That Changes Sex To Keep The Group Alive
