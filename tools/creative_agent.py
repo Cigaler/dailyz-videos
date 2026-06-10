@@ -328,6 +328,8 @@ class CreativeAdvisorAgent:
             Return the best {requested_count} assets from the metadata below.
 
             Match semantically against description, best_for, avoid_for, mood, energy, composition, and motion.
+            Prioritize explicit niche matches in best_for/description over broad category matches.
+            For specific finance topics like Bitcoin or crypto, prefer assets tagged for cryptocurrency, markets, charts, volatility, or trading over generic coins/wealth visuals.
             Avoid assets whose avoid_for conflicts with the topic.
             Return ONLY valid JSON in this exact shape:
             {{
