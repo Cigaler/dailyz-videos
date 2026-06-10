@@ -1,0 +1,144 @@
+{
+  "generated_at": "2026-06-10T18:56:35+00:00",
+  "total_assets": 6,
+  "assets": {
+    "bokeh_sample": {
+      "path": "2 - Library/loops/bokeh/bokeh_sample.mp4",
+      "category": "bokeh",
+      "style": "bokeh",
+      "variation": "unknown",
+      "filename": "bokeh_sample.mp4",
+      "description": "Soft circles of light pulsate gently, creating an ethereal and dreamy effect.",
+      "best_for": [
+        "weddings",
+        "meditation",
+        "calm storytelling",
+        "romantic scenes",
+        "background music visuals"
+      ],
+      "avoid_for": [
+        "action scenes",
+        "intense drama"
+      ],
+      "mood": "dreamy",
+      "energy_level": "low",
+      "motion_type": "pulsing",
+      "color_palette": "warm"
+    },
+    "gradients_sample": {
+      "path": "2 - Library/loops/gradients/gradients_sample.mp4",
+      "category": "gradients",
+      "style": "gradients",
+      "variation": "unknown",
+      "filename": "gradients_sample.mp4",
+      "description": "Smooth color transitions blending seamlessly across the screen",
+      "best_for": [
+        "technology",
+        "wellness",
+        "fashion",
+        "art",
+        "education"
+      ],
+      "avoid_for": [
+        "finance",
+        "legal"
+      ],
+      "mood": "soothing",
+      "energy_level": "medium",
+      "motion_type": "flowing",
+      "color_palette": "colorful"
+    },
+    "light_sample": {
+      "path": "2 - Library/loops/light/light_sample.mp4",
+      "category": "light",
+      "style": "light",
+      "variation": "unknown",
+      "filename": "light_sample.mp4",
+      "description": "Gentle soft light ripples creating a serene atmosphere.",
+      "best_for": [
+        "relaxation",
+        "meditation",
+        "wellness",
+        "calmness",
+        "nature"
+      ],
+      "avoid_for": [
+        "intense action",
+        "horror"
+      ],
+      "mood": "peaceful",
+      "energy_level": "low",
+      "motion_type": "subtle",
+      "color_palette": "neutral"
+    },
+    "nebulae_sample": {
+      "path": "2 - Library/loops/nebulae/nebulae_sample.mp4",
+      "category": "nebulae",
+      "style": "nebulae",
+      "variation": "unknown",
+      "filename": "nebulae_sample.mp4",
+      "description": "Swirling cosmic clouds with gentle, ethereal movement.",
+      "best_for": [
+        "space",
+        "meditation",
+        "relaxation",
+        "science fiction",
+        "fantasy"
+      ],
+      "avoid_for": [
+        "business",
+        "news"
+      ],
+      "mood": "dreamy",
+      "energy_level": "medium",
+      "motion_type": "flowing",
+      "color_palette": "colorful"
+    },
+    "particles_sample": {
+      "path": "2 - Library/loops/particles/particles_sample.mp4",
+      "category": "particles",
+      "style": "particles",
+      "variation": "unknown",
+      "filename": "particles_sample.mp4",
+      "description": "Gentle swirl of abstract particles creating a sense of depth.",
+      "best_for": [
+        "technology",
+        "science",
+        "futuristic",
+        "meditation",
+        "education"
+      ],
+      "avoid_for": [
+        "romance",
+        "horror"
+      ],
+      "mood": "calm",
+      "energy_level": "medium",
+      "motion_type": "flowing",
+      "color_palette": "cool"
+    },
+    "smoke_sample": {
+      "path": "2 - Library/loops/smoke/smoke_sample.mp4",
+      "category": "smoke",
+      "style": "smoke",
+      "variation": "unknown",
+      "filename": "smoke_sample.mp4",
+      "description": "Soft, swirling wisps create a mysterious and ethereal atmosphere.",
+      "best_for": [
+        "mystery",
+        "meditation",
+        "horror",
+        "fantasy",
+        "dream"
+      ],
+      "avoid_for": [
+        "comedy",
+        "sports"
+      ],
+      "mood": "mysterious",
+      "energy_level": "low",
+      "motion_type": "flowing",
+      "color_palette": "neutral"
+    }
+  }
+}

@@ -1,0 +1,942 @@
+{
+  "generated_at": "2026-06-10T18:56:34+00:00",
+  "total_assets": 39,
+  "assets": {
+    "finance_001": {
+      "path": "2 - Library/images/finance/finance_001.jpg",
+      "category": "finance",
+      "filename": "finance_001.jpg",
+      "description": "Stacks of golden coins are set against a backdrop of a financial stock chart glowing with golden light in a darkened room overlooking a cityscape at night.",
+      "best_for": [
+        "finance",
+        "economy",
+        "investment",
+        "wealth",
+        "cryptocurrency"
+      ],
+      "avoid_for": [
+        "nature",
+        "health"
+      ],
+      "mood": "luxurious",
+      "energy_level": "high",
+      "dominant_colors": [
+        "#FFD700",
+        "#1A1A2E"
+      ],
+      "composition": "close-up"
+    },
+    "finance_002": {
+      "path": "2 - Library/images/finance/finance_002.jpg",
+      "category": "finance",
+      "filename": "finance_002.jpg",
+      "description": "A luxurious office space with a view of a rainy cityscape, featuring stacks of coins and a framed rising stock chart.",
+      "best_for": [
+        "finance",
+        "luxury",
+        "investments",
+        "economics",
+        "success"
+      ],
+      "avoid_for": [
+        "nature",
+        "sports"
+      ],
+      "mood": "opulent",
+      "energy_level": "medium",
+      "dominant_colors": [
+        "#1A1A1D",
+        "#F1C40F"
+      ],
+      "composition": "close-up"
+    },
+    "finance_003": {
+      "path": "2 - Library/images/finance/finance_003.jpg",
+      "category": "finance",
+      "filename": "finance_003.jpg",
+      "description": "A stack of shiny gold coins on a reflective surface with a financial stock market graph in the background.",
+      "best_for": [
+        "finance",
+        "economy",
+        "investment",
+        "wealth",
+        "stock market"
+      ],
+      "avoid_for": [
+        "nature",
+        "food"
+      ],
+      "mood": "professional",
+      "energy_level": "medium",
+      "dominant_colors": [
+        "#FFD700",
+        "#000000"
+      ],
+      "composition": "close-up"
+    },
+    "finance_004": {
+      "path": "2 - Library/images/finance/finance_004.jpg",
+      "category": "finance",
+      "filename": "finance_004.jpg",
+      "description": "A stack of gold coins is set against a glowing upward-trending financial graph on a dark background.",
+      "best_for": [
+        "finance",
+        "investment",
+        "economy",
+        "wealth",
+        "business"
+      ],
+      "avoid_for": [
+        "nature",
+        "health"
+      ],
+      "mood": "futuristic",
+      "energy_level": "high",
+      "dominant_colors": [
+        "#FFD700",
+        "#000000"
+      ],
+      "composition": "close-up"
+    },
+    "finance_005": {
+      "path": "2 - Library/images/finance/finance_005.jpg",
+      "category": "finance",
+      "filename": "finance_005.jpg",
+      "description": "The image showcases towering skyscrapers under a moody sky with digital financial graphs projected on their glass surfaces.",
+      "best_for": [
+        "finance",
+        "technology",
+        "futurism",
+        "urban living",
+        "economics"
+      ],
+      "avoid_for": [
+        "nature",
+        "small business"
+      ],
+      "mood": "futuristic, dramatic",
+      "energy_level": "high",
+      "dominant_colors": [
+        "#1C3B6E",
+        "#F3B640"
+      ],
+      "composition": "wide"
+    },
+    "finance_006": {
+      "path": "2 - Library/images/finance/finance_006.jpg",
+      "category": "finance",
+      "filename": "finance_006.jpg",
+      "description": "A cityscape at dusk with high-rise buildings illuminated against a dramatic sky, featuring a digital financial chart overlay.",
+      "best_for": [
+        "urban life",
+        "finance",
+        "technology",
+        "business",
+        "nighttime scenes"
+      ],
+      "avoid_for": [
+        "nature",
+        "daytime scenes"
+      ],
+      "mood": "futuristic",
+      "energy_level": "high",
+      "dominant_colors": [
+        "#1E1E1E",
+        "#FFA500"
+      ],
+      "composition": "wide"
+    },
+    "finance_007": {
+      "path": "2 - Library/images/finance/finance_007.jpg",
+      "category": "finance",
+      "filename": "finance_007.jpg",
+      "description": "A modern cityscape with tall buildings reflecting a glowing sunset and a digital financial chart overlay.",
+      "best_for": [
+        "finance",
+        "business",
+        "technology",
+        "architecture",
+        "urban"
+      ],
+      "avoid_for": [
+        "nature",
+        "food"
+      ],
+      "mood": "futuristic",
+      "energy_level": "high",
+      "dominant_colors": [
+        "#2C3E50",
+        "#F39C12"
+      ],
+      "composition": "wide"
+    },
+    "finance_008": {
+      "path": "2 - Library/images/finance/finance_008.jpg",
+      "category": "finance",
+      "filename": "finance_008.jpg",
+      "description": "Tall skyscrapers reflecting golden sunlight against a dramatic cloudy sky.",
+      "best_for": [
+        "architecture",
+        "urban",
+        "cityscape",
+        "business",
+        "futuristic"
+      ],
+      "avoid_for": [
+        "nature",
+        "minimalism"
+      ],
+      "mood": "dramatic",
+      "energy_level": "high",
+      "dominant_colors": [
+        "#2F2F2F",
+        "#B8860B"
+      ],
+      "composition": "wide"
+    },
+    "finance_009": {
+      "path": "2 - Library/images/finance/finance_009.jpg",
+      "category": "finance",
+      "filename": "finance_009.jpg",
+      "description": "A luxurious office space with a high-tech digital display showing financial graphs and a city skyline visible through the windows.",
+      "best_for": [
+        "finance",
+        "technology",
+        "business",
+        "futurism",
+        "innovation"
+      ],
+      "avoid_for": [
+        "nature",
+        "casual"
+      ],
+      "mood": "futuristic",
+      "energy_level": "high",
+      "dominant_colors": [
+        "#001F3F",
+        "#FFD700"
+      ],
+      "composition": "wide"
+    },
+    "finance_010": {
+      "path": "2 - Library/images/finance/finance_010.jpg",
+      "category": "finance",
+      "filename": "finance_010.jpg",
+      "description": "A sleek, modern office with a glowing transparent screen displaying data against a city skyline at night.",
+      "best_for": [
+        "business",
+        "technology",
+        "finance",
+        "futurism",
+        "urban life"
+      ],
+      "avoid_for": [
+        "nature",
+        "relaxation"
+      ],
+      "mood": "futuristic",
+      "energy_level": "medium",
+      "dominant_colors": [
+        "#2C2C2C",
+        "#B58549"
+      ],
+      "composition": "wide"
+    },
+    "finance_011": {
+      "path": "2 - Library/images/finance/finance_011.jpg",
+      "category": "finance",
+      "filename": "finance_011.jpg",
+      "description": "A sophisticated office with a sleek desk featuring a golden bull statue, multiple computer screens displaying financial graphs, and a cityscape visible through large windows.",
+      "best_for": [
+        "finance",
+        "business",
+        "technology",
+        "investments",
+        "luxury"
+      ],
+      "avoid_for": [
+        "leisure",
+        "nature"
+      ],
+      "mood": "futuristic",
+      "energy_level": "high",
+      "dominant_colors": [
+        "#000000",
+        "#FFD700"
+      ],
+      "composition": "wide"
+    },
+    "finance_012": {
+      "path": "2 - Library/images/finance/finance_012.jpg",
+      "category": "finance",
+      "filename": "finance_012.jpg",
+      "description": "A luxurious office with dark elegant design, featuring a bull sculpture on a desk and glowing financial graphs displayed on a transparent screen.",
+      "best_for": [
+        "finance",
+        "luxury lifestyle",
+        "stock market",
+        "office design",
+        "business"
+      ],
+      "avoid_for": [
+        "nature",
+        "sports"
+      ],
+      "mood": "sophisticated",
+      "energy_level": "medium",
+      "dominant_colors": [
+        "#1A1A1A",
+        "#FFD700"
+      ],
+      "composition": "wide"
+    },
+    "finance_013": {
+      "path": "2 - Library/images/finance/finance_013.jpg",
+      "category": "finance",
+      "filename": "finance_013.jpg",
+      "description": "A luxurious boardroom with a large marble table and a stunning night cityscape view from floor-to-ceiling windows.",
+      "best_for": [
+        "business",
+        "luxury",
+        "corporate",
+        "architecture",
+        "nightlife"
+      ],
+      "avoid_for": [
+        "nature",
+        "casual"
+      ],
+      "mood": "sophisticated",
+      "energy_level": "medium",
+      "dominant_colors": [
+        "#000033",
+        "#1A1A1A"
+      ],
+      "composition": "wide"
+    },
+    "finance_014": {
+      "path": "2 - Library/images/finance/finance_014.jpg",
+      "category": "finance",
+      "filename": "finance_014.jpg",
+      "description": "A luxurious conference room with a large marble table and a stunning night cityscape view through a window.",
+      "best_for": [
+        "business",
+        "luxury",
+        "architecture",
+        "nightlife",
+        "corporate"
+      ],
+      "avoid_for": [
+        "nature",
+        "sports"
+      ],
+      "mood": "sophisticated",
+      "energy_level": "medium",
+      "dominant_colors": [
+        "#2E2E38",
+        "#D4AF37"
+      ],
+      "composition": "wide"
+    },
+    "finance_015": {
+      "path": "2 - Library/images/finance/finance_015.jpg",
+      "category": "finance",
+      "filename": "finance_015.jpg",
+      "description": "A luxurious boardroom with a marble conference table and leather chairs overlooks a city skyline at night through large windows.",
+      "best_for": [
+        "corporate",
+        "luxury",
+        "business",
+        "cityscape",
+        "modern"
+      ],
+      "avoid_for": [
+        "nature",
+        "casual"
+      ],
+      "mood": "sophisticated",
+      "energy_level": "medium",
+      "dominant_colors": [
+        "#1C1C1C",
+        "#1A0C07"
+      ],
+      "composition": "wide"
+    },
+    "finance_016": {
+      "path": "2 - Library/images/finance/finance_016.jpg",
+      "category": "finance",
+      "filename": "finance_016.jpg",
+      "description": "A luxurious conference room with a glossy, reflective table and a nighttime cityscape visible through large windows.",
+      "best_for": [
+        "business",
+        "luxury",
+        "corporate",
+        "nightlife",
+        "architecture"
+      ],
+      "avoid_for": [
+        "nature",
+        "sports"
+      ],
+      "mood": "sophisticated, elegant",
+      "energy_level": "medium",
+      "dominant_colors": [
+        "#101010",
+        "#FFD700"
+      ],
+      "composition": "wide"
+    },
+    "finance_017": {
+      "path": "2 - Library/images/finance/finance_017.jpg",
+      "category": "finance",
+      "filename": "finance_017.jpg",
+      "description": "A series of golden bars ascending like a financial graph, surrounded by dark abstract textures and glowing light effects.",
+      "best_for": [
+        "finance",
+        "growth",
+        "success",
+        "technology",
+        "luxury"
+      ],
+      "avoid_for": [
+        "nature",
+        "history"
+      ],
+      "mood": "futuristic",
+      "energy_level": "high",
+      "dominant_colors": [
+        "#000000",
+        "#FFD700"
+      ],
+      "composition": "abstract"
+    },
+    "finance_018": {
+      "path": "2 - Library/images/finance/finance_018.jpg",
+      "category": "finance",
+      "filename": "finance_018.jpg",
+      "description": "A metallic bar graph with a glowing city skyline blurred in the background through a rainy window.",
+      "best_for": [
+        "finance",
+        "growth",
+        "business",
+        "technology",
+        "investment"
+      ],
+      "avoid_for": [
+        "nature",
+        "food"
+      ],
+      "mood": "futuristic",
+      "energy_level": "medium",
+      "dominant_colors": [
+        "#2F2F2F",
+        "#DAA520"
+      ],
+      "composition": "close-up"
+    },
+    "finance_019": {
+      "path": "2 - Library/images/finance/finance_019.jpg",
+      "category": "finance",
+      "filename": "finance_019.jpg",
+      "description": "A series of golden metallic pillars arranged in ascending order, set against a dark, textured background with glowing highlights.",
+      "best_for": [
+        "finance",
+        "success",
+        "growth",
+        "luxury",
+        "futuristic"
+      ],
+      "avoid_for": [
+        "nature",
+        "casual"
+      ],
+      "mood": "futuristic, luxurious",
+      "energy_level": "medium",
+      "dominant_colors": [
+        "#1A1A1A",
+        "#D1A054"
+      ],
+      "composition": "abstract"
+    },
+    "tech_ai_001": {
+      "path": "2 - Library/images/tech_ai/tech_ai_001.jpg",
+      "category": "tech_ai",
+      "filename": "tech_ai_001.jpg",
+      "description": "A close-up view of a glowing microchip floating above a circuit board with blue neon accents.",
+      "best_for": [
+        "technology",
+        "innovation",
+        "futurism",
+        "electronics",
+        "engineering"
+      ],
+      "avoid_for": [
+        "nature",
+        "romance"
+      ],
+      "mood": "futuristic",
+      "energy_level": "medium",
+      "dominant_colors": [
+        "#0D1B2A",
+        "#1F4287"
+      ],
+      "composition": "close-up"
+    },
+    "tech_ai_002": {
+      "path": "2 - Library/images/tech_ai/tech_ai_002.jpg",
+      "category": "tech_ai",
+      "filename": "tech_ai_002.jpg",
+      "description": "A futuristic, glowing blue cube hovers over an advanced technological surface with intricate circuitry.",
+      "best_for": [
+        "technology",
+        "futuristic themes",
+        "cyberpunk",
+        "science fiction",
+        "innovation"
+      ],
+      "avoid_for": [
+        "nature",
+        "romance"
+      ],
+      "mood": "futuristic, high-tech",
+      "energy_level": "high",
+      "dominant_colors": [
+        "#00BFFF",
+        "#000000"
+      ],
+      "composition": "wide"
+    },
+    "tech_ai_003": {
+      "path": "2 - Library/images/tech_ai/tech_ai_003.jpg",
+      "category": "tech_ai",
+      "filename": "tech_ai_003.jpg",
+      "description": "A glowing futuristic cube surrounded by circuit-like structures and floating digital panels, emitting a blue light.",
+      "best_for": [
+        "technology",
+        "futurism",
+        "digital art",
+        "science fiction",
+        "innovation"
+      ],
+      "avoid_for": [
+        "nature",
+        "nostalgia"
+      ],
+      "mood": "futuristic",
+      "energy_level": "high",
+      "dominant_colors": [
+        "#0000FF",
+        "#00FFFF"
+      ],
+      "composition": "abstract"
+    },
+    "tech_ai_004": {
+      "path": "2 - Library/images/tech_ai/tech_ai_004.jpg",
+      "category": "tech_ai",
+      "filename": "tech_ai_004.jpg",
+      "description": "A glowing, futuristic cube levitates over a circuit board with electric energy surrounding it.",
+      "best_for": [
+        "technology",
+        "futurism",
+        "science fiction",
+        "innovation",
+        "AI"
+      ],
+      "avoid_for": [
+        "nature",
+        "romance"
+      ],
+      "mood": "futuristic",
+      "energy_level": "high",
+      "dominant_colors": [
+        "#0A0A23",
+        "#00FFFF"
+      ],
+      "composition": "abstract"
+    },
+    "tech_ai_005": {
+      "path": "2 - Library/images/tech_ai/tech_ai_005.jpg",
+      "category": "tech_ai",
+      "filename": "tech_ai_005.jpg",
+      "description": "A glowing blue digital brain made of electronic circuits on a dark circuit board background.",
+      "best_for": [
+        "technology",
+        "innovation",
+        "futurism",
+        "artificial intelligence",
+        "science"
+      ],
+      "avoid_for": [
+        "nature",
+        "history"
+      ],
+      "mood": "futuristic",
+      "energy_level": "medium",
+      "dominant_colors": [
+        "#0D2A65",
+        "#24A3E1"
+      ],
+      "composition": "close-up"
+    },
+    "tech_ai_006": {
+      "path": "2 - Library/images/tech_ai/tech_ai_006.jpg",
+      "category": "tech_ai",
+      "filename": "tech_ai_006.jpg",
+      "description": "A glowing, digital representation of a brain with intricate blue light connections against a dark technological background.",
+      "best_for": [
+        "technology",
+        "artificial intelligence",
+        "innovation",
+        "science fiction",
+        "futuristic concepts"
+      ],
+      "avoid_for": [
+        "nature",
+        "historic themes"
+      ],
+      "mood": "futuristic",
+      "energy_level": "high",
+      "dominant_colors": [
+        "#00BFFF",
+        "#000000"
+      ],
+      "composition": "abstract"
+    },
+    "tech_ai_007": {
+      "path": "2 - Library/images/tech_ai/tech_ai_007.jpg",
+      "category": "tech_ai",
+      "filename": "tech_ai_007.jpg",
+      "description": "A glowing digital brain made of intricate blue light patterns floating above a futuristic circuit platform.",
+      "best_for": [
+        "technology",
+        "artificial intelligence",
+        "innovation",
+        "futurism",
+        "digital art"
+      ],
+      "avoid_for": [
+        "nature",
+        "history"
+      ],
+      "mood": "futuristic",
+      "energy_level": "high",
+      "dominant_colors": [
+        "#1A73E8",
+        "#000000"
+      ],
+      "composition": "abstract"
+    },
+    "tech_ai_008": {
+      "path": "2 - Library/images/tech_ai/tech_ai_008.jpg",
+      "category": "tech_ai",
+      "filename": "tech_ai_008.jpg",
+      "description": "A vibrant digital brain composed of glowing blue circuits and neural pathways set against a cosmic background.",
+      "best_for": [
+        "technology",
+        "futurism",
+        "artificial intelligence",
+        "science",
+        "innovation"
+      ],
+      "avoid_for": [
+        "nature",
+        "romance"
+      ],
+      "mood": "futuristic",
+      "energy_level": "high",
+      "dominant_colors": [
+        "#001F4D",
+        "#00FFFF"
+      ],
+      "composition": "abstract"
+    },
+    "tech_ai_009": {
+      "path": "2 - Library/images/tech_ai/tech_ai_009.jpg",
+      "category": "tech_ai",
+      "filename": "tech_ai_009.jpg",
+      "description": "A futuristic server room with glowing blue lights and intricate technology details.",
+      "best_for": [
+        "technology",
+        "futurism",
+        "cybersecurity",
+        "innovation",
+        "high-tech environments"
+      ],
+      "avoid_for": [
+        "nature",
+        "romance"
+      ],
+      "mood": "futuristic",
+      "energy_level": "medium",
+      "dominant_colors": [
+        "#001F3F",
+        "#00AFFF"
+      ],
+      "composition": "close-up"
+    },
+    "tech_ai_010": {
+      "path": "2 - Library/images/tech_ai/tech_ai_010.jpg",
+      "category": "tech_ai",
+      "filename": "tech_ai_010.jpg",
+      "description": "A futuristic server room illuminated with blue LED lights and featuring advanced computer systems and circuitry.",
+      "best_for": [
+        "technology",
+        "futurism",
+        "data centers",
+        "AI",
+        "cybersecurity"
+      ],
+      "avoid_for": [
+        "nature",
+        "romance"
+      ],
+      "mood": "futuristic",
+      "energy_level": "high",
+      "dominant_colors": [
+        "#0A0F2E",
+        "#1E7EE8"
+      ],
+      "composition": "wide"
+    },
+    "tech_ai_011": {
+      "path": "2 - Library/images/tech_ai/tech_ai_011.jpg",
+      "category": "tech_ai",
+      "filename": "tech_ai_011.jpg",
+      "description": "A futuristic server room with glowing blue lights and floating digital data blocks.",
+      "best_for": [
+        "technology",
+        "futurism",
+        "data",
+        "innovation",
+        "sci-fi"
+      ],
+      "avoid_for": [
+        "nature",
+        "history"
+      ],
+      "mood": "futuristic",
+      "energy_level": "medium",
+      "dominant_colors": [
+        "#00ADEE",
+        "#1A1A1A"
+      ],
+      "composition": "wide"
+    },
+    "tech_ai_012": {
+      "path": "2 - Library/images/tech_ai/tech_ai_012.jpg",
+      "category": "tech_ai",
+      "filename": "tech_ai_012.jpg",
+      "description": "A futuristic scene featuring glowing blue server racks connected by digital streams in a cloud-like digital environment.",
+      "best_for": [
+        "technology",
+        "networking",
+        "futurism",
+        "cybersecurity",
+        "data storage"
+      ],
+      "avoid_for": [
+        "nature",
+        "history"
+      ],
+      "mood": "futuristic",
+      "energy_level": "high",
+      "dominant_colors": [
+        "#0000FF",
+        "#1C1C3A"
+      ],
+      "composition": "wide"
+    },
+    "tech_ai_013": {
+      "path": "2 - Library/images/tech_ai/tech_ai_013.jpg",
+      "category": "tech_ai",
+      "filename": "tech_ai_013.jpg",
+      "description": "A robotic hand interacting with glowing digital layers, suggesting advanced technology.",
+      "best_for": [
+        "technology",
+        "futurism",
+        "innovation",
+        "artificial intelligence",
+        "cybersecurity"
+      ],
+      "avoid_for": [
+        "nature",
+        "romance"
+      ],
+      "mood": "futuristic",
+      "energy_level": "high",
+      "dominant_colors": [
+        "#0055FF",
+        "#101820"
+      ],
+      "composition": "close-up"
+    },
+    "tech_ai_014": {
+      "path": "2 - Library/images/tech_ai/tech_ai_014.jpg",
+      "category": "tech_ai",
+      "filename": "tech_ai_014.jpg",
+      "description": "A robotic hand interacts with a holographic digital interface in a dark, futuristic environment.",
+      "best_for": [
+        "technology",
+        "AI",
+        "futurism",
+        "innovation",
+        "cybernetics"
+      ],
+      "avoid_for": [
+        "nature",
+        "emotion"
+      ],
+      "mood": "futuristic",
+      "energy_level": "medium",
+      "dominant_colors": [
+        "#0F2E4A",
+        "#1A73E8"
+      ],
+      "composition": "close-up"
+    },
+    "tech_ai_015": {
+      "path": "2 - Library/images/tech_ai/tech_ai_015.jpg",
+      "category": "tech_ai",
+      "filename": "tech_ai_015.jpg",
+      "description": "A robotic hand interacts with a glowing digital interface, surrounded by futuristic and intricate circuit patterns.",
+      "best_for": [
+        "technology",
+        "innovation",
+        "futurism",
+        "AI",
+        "cybersecurity"
+      ],
+      "avoid_for": [
+        "nature",
+        "romance"
+      ],
+      "mood": "futuristic",
+      "energy_level": "high",
+      "dominant_colors": [
+        "#00AEEF",
+        "#1A1A1A"
+      ],
+      "composition": "close-up"
+    },
+    "tech_ai_016": {
+      "path": "2 - Library/images/tech_ai/tech_ai_016.jpg",
+      "category": "tech_ai",
+      "filename": "tech_ai_016.jpg",
+      "description": "A robotic hand is interacting with a series of floating digital interfaces, illuminated by a futuristic blue glow.",
+      "best_for": [
+        "technology",
+        "futurism",
+        "AI",
+        "innovation",
+        "science fiction"
+      ],
+      "avoid_for": [
+        "nature",
+        "romance"
+      ],
+      "mood": "futuristic",
+      "energy_level": "medium",
+      "dominant_colors": [
+        "#0D0F2B",
+        "#1A5186"
+      ],
+      "composition": "close-up"
+    },
+    "tech_ai_017": {
+      "path": "2 - Library/images/tech_ai/tech_ai_017.jpg",
+      "category": "tech_ai",
+      "filename": "tech_ai_017.jpg",
+      "description": "A dramatic scene of a digital canyon with glowing blue circuitry coursing through a rocky landscape of interconnected computer chips.",
+      "best_for": [
+        "technology",
+        "futurism",
+        "networking",
+        "cybersecurity",
+        "electronics"
+      ],
+      "avoid_for": [
+        "nature",
+        "historical"
+      ],
+      "mood": "futuristic",
+      "energy_level": "high",
+      "dominant_colors": [
+        "#0B0F1C",
+        "#00FFFF"
+      ],
+      "composition": "wide"
+    },
+    "tech_ai_018": {
+      "path": "2 - Library/images/tech_ai/tech_ai_018.jpg",
+      "category": "tech_ai",
+      "filename": "tech_ai_018.jpg",
+      "description": "A futuristic cityscape with intricate circuitry lines glowing blue, extending into a vanishing point beneath an imposing circular structure, evoking an advanced technological environment.",
+      "best_for": [
+        "technology",
+        "science fiction",
+        "cyberpunk",
+        "futuristic",
+        "innovation"
+      ],
+      "avoid_for": [
+        "nature",
+        "vintage"
+      ],
+      "mood": "futuristic",
+      "energy_level": "high",
+      "dominant_colors": [
+        "#0A0F1D",
+        "#00AEEF"
+      ],
+      "composition": "wide"
+    },
+    "tech_ai_019": {
+      "path": "2 - Library/images/tech_ai/tech_ai_019.jpg",
+      "category": "tech_ai",
+      "filename": "tech_ai_019.jpg",
+      "description": "A glowing computer chip at the center of intricate, blue-hued circuitry in a futuristic cityscape environment.",
+      "best_for": [
+        "technology",
+        "futurism",
+        "innovation",
+        "electronics",
+        "digital"
+      ],
+      "avoid_for": [
+        "nature",
+        "romance"
+      ],
+      "mood": "futuristic",
+      "energy_level": "high",
+      "dominant_colors": [
+        "#0A0A5E",
+        "#00F5FF"
+      ],
+      "composition": "wide"
+    },
+    "tech_ai_020": {
+      "path": "2 - Library/images/tech_ai/tech_ai_020.jpg",
+      "category": "tech_ai",
+      "filename": "tech_ai_020.jpg",
+      "description": "A futuristic cityscape with glowing blue circuitry forming a towering urban canyon under a dynamic sky.",
+      "best_for": [
+        "technology",
+        "futurism",
+        "sci-fi",
+        "cybersecurity",
+        "innovation"
+      ],
+      "avoid_for": [
+        "nature",
+        "historical"
+      ],
+      "mood": "futuristic, dramatic",
+      "energy_level": "high",
+      "dominant_colors": [
+        "#000000",
+        "#0A91CF"
+      ],
+      "composition": "wide"
+    }
+  }
+}

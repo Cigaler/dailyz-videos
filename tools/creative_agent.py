@@ -18,6 +18,8 @@ from openai import OpenAI
 OPENAI_MODEL = os.getenv("OPENAI_MODEL", "gpt-4o")
 MEMORY_KEY = "3 - Production/creative_agent/memory.json"
 ARCHIVE_PREFIX = "3 - Production/creative_agent/memory_archive"
+IMAGE_INDEX_KEY = "3 - Production/asset_index/images_index.json"
+LOOP_INDEX_KEY = "3 - Production/asset_index/loops_index.json"
 ROLLING_CONTEXT_SESSIONS = 5
 ACTIVE_SESSION_LIMIT = 20
 
@@ -114,6 +116,24 @@ def summarize_text(value: str, limit: int = 160) -> str:
     if len(compact) <= limit:
         return compact
     return compact[: limit - 3].rstrip() + "..."
+
+
+def parse_json_object(value: str) -> dict[str, Any]:
+    cleaned = value.strip()
+    if cleaned.startswith("```"):
+        cleaned = cleaned.removeprefix("```json").removeprefix("```").strip()
+        cleaned = cleaned.removesuffix("```").strip()
+    try:
+        loaded = json.loads(cleaned)
+    except json.JSONDecodeError:
+        start = cleaned.find("{")
+        end = cleaned.rfind("}")
+        if start == -1 or end == -1 or end <= start:
+            raise
+        loaded = json.loads(cleaned[start : end + 1])
+    if not isinstance(loaded, dict):
+        raise ValueError("Expected a JSON object response")
+    return loaded
 
 
 class CreativeAdvisorAgent:
@@ -257,6 +277,99 @@ class CreativeAdvisorAgent:
     def upload_json(self, key: str, payload: dict[str, Any]) -> None:
         self._put_json(key, payload)
 
+    def find_best_asset(self, topic: str, asset_type: str = "image", count: int = 3) -> list[dict[str, Any]]:
+        """
+        Given a video topic, return the top N most suitable assets from the index.
+        Uses GPT-4o to match topic semantics against asset metadata.
+        """
+        normalized_type = asset_type.strip().lower()
+        if normalized_type in {"image", "images"}:
+            index_key = IMAGE_INDEX_KEY
+            normalized_type = "image"
+        elif normalized_type in {"loop", "loops", "video"}:
+            index_key = LOOP_INDEX_KEY
+            normalized_type = "loop"
+        else:
+            raise ValueError("asset_type must be 'image' or 'loop'")
+
+        requested_count = max(1, int(count))
+        index = self._load_json(index_key)
+        assets = index.get("assets", {})
+        if not isinstance(assets, dict) or not assets:
+            return []
+
+        compact_assets = []
+        for asset_id, metadata in sorted(assets.items()):
+            if not isinstance(metadata, dict):
+                continue
+            compact_assets.append(
+                {
+                    "asset_id": asset_id,
+                    "path": metadata.get("path"),
+                    "category": metadata.get("category"),
+                    "style": metadata.get("style"),
+                    "filename": metadata.get("filename"),
+                    "description": metadata.get("description"),
+                    "best_for": metadata.get("best_for"),
+                    "avoid_for": metadata.get("avoid_for"),
+                    "mood": metadata.get("mood"),
+                    "energy_level": metadata.get("energy_level"),
+                    "composition": metadata.get("composition"),
+                    "motion_type": metadata.get("motion_type"),
+                    "color_palette": metadata.get("color_palette"),
+                }
+            )
+
+        prompt = textwrap.dedent(
+            f"""
+            You are ZEUS selecting production assets for a DailyZ short-form video.
+            Topic: {topic}
+            Asset type: {normalized_type}
+            Return the best {requested_count} assets from the metadata below.
+
+            Match semantically against description, best_for, avoid_for, mood, energy, composition, and motion.
+            Avoid assets whose avoid_for conflicts with the topic.
+            Return ONLY valid JSON in this exact shape:
+            {{
+              "selections": [
+                {{"asset_id": "asset_id_here", "reasoning": "brief specific reason"}}
+              ]
+            }}
+
+            Assets:
+            {json.dumps(compact_assets, ensure_ascii=True)}
+            """
+        ).strip()
+        response = self.client.responses.create(
+            model=self.model,
+            input=[self._message("user", prompt)],
+        )
+        parsed = parse_json_object(response.output_text)
+        selections = parsed.get("selections", [])
+        if not isinstance(selections, list):
+            return []
+
+        results: list[dict[str, Any]] = []
+        seen: set[str] = set()
+        for selection in selections:
+            if not isinstance(selection, dict):
+                continue
+            asset_id = str(selection.get("asset_id", "")).strip()
+            if asset_id not in assets or asset_id in seen:
+                continue
+            metadata = assets[asset_id]
+            seen.add(asset_id)
+            results.append(
+                {
+                    "asset_id": asset_id,
+                    "path": metadata.get("path"),
+                    "reasoning": str(selection.get("reasoning", "Selected by semantic metadata match.")).strip(),
+                }
+            )
+            if len(results) >= requested_count:
+                break
+        return results
+
     def _load_memory(self) -> dict[str, Any]:
         try:
             body = self.s3.get_object(Bucket=self.bucket, Key=MEMORY_KEY)["Body"].read()
@@ -267,6 +380,17 @@ class CreativeAdvisorAgent:
                 raise
             loaded = self._empty_memory()
         return self._normalize_memory(loaded)
+
+    def _load_json(self, key: str) -> dict[str, Any]:
+        try:
+            body = self.s3.get_object(Bucket=self.bucket, Key=key)["Body"].read()
+            loaded = json.loads(body.decode("utf-8"))
+        except ClientError as exc:
+            error_code = exc.response.get("Error", {}).get("Code")
+            if error_code not in {"NoSuchKey", "404", "NotFound"}:
+                raise
+            loaded = {}
+        return loaded if isinstance(loaded, dict) else {}
 
     def _save_memory(self) -> None:
         self._archive_old_sessions()

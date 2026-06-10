@@ -914,3 +914,12 @@
   - `06_21` video `027`: The Website That Shows Lightning Strikes Live
   - `06_22` video `028`: Why A Slinky Hovers Before It Falls
   - `06_23` video `029`: The Fish That Changes Sex To Keep The Group Alive
+
+## Asset Index System (2026-06-10)
+
+- Mirrored semantic asset index deliverables from the DailyZ platform repo.
+- Added `data/asset_index/images_index.json` with 39 current R2 image entries.
+- Added `data/asset_index/loops_index.json` with 6 current R2 loop entries.
+- Added `tools/index_updater.py` for incremental or rebuild indexing of R2 assets.
+- Updated `tools/creative_agent.py` with `CreativeAdvisorAgent.find_best_asset(topic, asset_type="image", count=3)`.
+- R2 copies were uploaded to `3 - Production/asset_index/images_index.json` and `3 - Production/asset_index/loops_index.json`.
