@@ -923,3 +923,33 @@
 - Added `tools/index_updater.py` for incremental or rebuild indexing of R2 assets.
 - Updated `tools/creative_agent.py` with `CreativeAdvisorAgent.find_best_asset(topic, asset_type="image", count=3)`.
 - R2 copies were uploaded to `3 - Production/asset_index/images_index.json` and `3 - Production/asset_index/loops_index.json`.
+
+## Batch 09 trend scan (2026-06-11)
+
+- Task scope in this run:
+  - research Gen Z-facing Shorts/TikTok trend signals for the requested scan date `2026-06-16`
+  - create `scripts/batch_09_trend_scan.json` for Batch 09 ideas `037` through `043`
+  - target publish dates run from `2026-07-01` through `2026-07-07`
+- Date caveat:
+  - the worker environment date was `2026-06-11`, so the requested week of `2026-06-16` had not started yet
+  - the scan uses the latest available current and forward-looking 2026 signals as of `2026-06-11`, while preserving the requested JSON `scan_date` of `2026-06-16`
+- Research signals used:
+  - TikTok Next 2026 themes: `Irreplaceable Instinct`, `Reali-TEA`, `Curiosity Detours`, and `Emotional ROI`
+  - YouTube/Google AI video tooling momentum around Shorts-native generative video, Google Flow, and Veo upgrades
+  - OpenAI momentum around Codex/agents, ChatGPT personal finance, and study-mode-style learning workflows
+  - Gen Z platform behavior signals around TikTok fatigue, nostalgia, staged-content skepticism, and continued cultural relevance
+  - Future-of-work signals around digital coworkers and agentic productivity
+- Deliverable added:
+  - `scripts/batch_09_trend_scan.json`
+- Batch 09 idea slate added:
+  - `037` (`2026-07-01`): `AI Video Has A New Problem`
+  - `038` (`2026-07-02`): `Human Taste Is The New Skill`
+  - `039` (`2026-07-03`): `ChatGPT Wants Your Budget`
+  - `040` (`2026-07-04`): `Do Not Let AI Study For You`
+  - `041` (`2026-07-05`): `The Lock-In Trap`
+  - `042` (`2026-07-06`): `The Dead Internet Theory Got Scarier`
+  - `043` (`2026-07-07`): `The History Rabbit Hole Algorithm`
+- JSON validation:
+  - top trend count: `10`
+  - Batch 09 idea count: `7`
+  - `jq` parsing passed locally

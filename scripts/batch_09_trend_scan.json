@@ -1,0 +1,123 @@
+{
+  "scan_date": "2026-06-16",
+  "top_trends": [
+    {
+      "topic": "AI video made directly for Shorts",
+      "why_trending": "Google Flow, Veo upgrades, and YouTube's AI creation tools make phone-first vertical video feel newly accessible, so creators are debating whether polished Shorts will become effortless or generic.",
+      "hook_angle": "This entire Short could be generated before your coffee cools.",
+      "category": "tech_ai"
+    },
+    {
+      "topic": "Human taste vs AI slop",
+      "why_trending": "TikTok's 2026 trend framing around irreplaceable human instinct matches the current backlash to automated, soulless content. Gen Z creators are asking what still makes a person valuable when AI can produce almost anything.",
+      "hook_angle": "AI can make anything now. That is exactly the problem.",
+      "category": "tech_ai"
+    },
+    {
+      "topic": "ChatGPT as a personal finance co-pilot",
+      "why_trending": "OpenAI's personal finance preview turns budgeting, spending analysis, and money questions into an AI-native workflow, making FinTok hooks about privacy, overspending, and automated money advice feel timely.",
+      "hook_angle": "ChatGPT wants to look at your bank account.",
+      "category": "finance"
+    },
+    {
+      "topic": "Phone-controlled AI coding agents",
+      "why_trending": "Codex, mobile agent control, and longer-running AI agent workflows are pushing the fantasy that a solo builder can ship while away from the laptop.",
+      "hook_angle": "Your next app might get built while you are on the bus.",
+      "category": "tech_ai"
+    },
+    {
+      "topic": "AI tutor vs answer machine",
+      "why_trending": "Students are still using AI heavily, but study-mode style tools have made the debate sharper: does AI teach you, or does it quietly replace the struggle that creates learning?",
+      "hook_angle": "AI can make you smarter or make you fake smart.",
+      "category": "productivity"
+    },
+    {
+      "topic": "Emotional ROI spending",
+      "why_trending": "TikTok's 2026 trend signals emphasize emotional value, while Gen Z finance content keeps moving from pure frugality into 'is this purchase actually worth the feeling?' decision frameworks.",
+      "hook_angle": "Before you buy it, ask what feeling you are renting.",
+      "category": "finance"
+    },
+    {
+      "topic": "Algorithm fatigue and TikTok nostalgia",
+      "why_trending": "Gen Z still uses TikTok for culture, but surveys and creator discourse show fatigue with staged content, repetitive formats, and feeds that feel less spontaneous than the early app.",
+      "hook_angle": "Your feed did not get boring by accident.",
+      "category": "psychology"
+    },
+    {
+      "topic": "Curiosity detours and rabbit-hole explainers",
+      "why_trending": "TikTok's trend report calls out curiosity-driven discovery, which fits Shorts formats built around strange facts, unexpected history, and 'wait, how did I not know this?' reveals.",
+      "hook_angle": "This is the wrong-click trick that makes you interesting.",
+      "category": "history"
+    },
+    {
+      "topic": "Reali-TEA anti-perfect content",
+      "why_trending": "Perfect life content is losing punch against chaotic, self-aware, imperfect explanations. Gen Z audiences are rewarding directness, receipts, and honest 'here is what actually happened' framing.",
+      "hook_angle": "Nobody believes the perfect version anymore.",
+      "category": "psychology"
+    },
+    {
+      "topic": "Digital coworkers and agentic productivity",
+      "why_trending": "Microsoft, Google, and OpenAI are all framing 2026 work around AI agents that execute tasks, which makes 'what should humans still do?' a strong productivity debate for young workers.",
+      "hook_angle": "Your coworker might be a bot before your boss admits it.",
+      "category": "productivity"
+    }
+  ],
+  "batch_09_ideas": [
+    {
+      "video_id": "037",
+      "publish_date": "2026-07-01",
+      "title": "AI Video Has A New Problem",
+      "hook": "This clip could be AI, and that is the point.",
+      "category": "tech_ai",
+      "why_now": "AI video tools are becoming mobile-first and Shorts-native, so the surprising angle is not that AI can make video; it is that viewers may stop trusting every polished clip."
+    },
+    {
+      "video_id": "038",
+      "publish_date": "2026-07-02",
+      "title": "Human Taste Is The New Skill",
+      "hook": "AI can make anything. That makes taste priceless.",
+      "category": "tech_ai",
+      "why_now": "The AI slop backlash pairs perfectly with TikTok's human-instinct trend signal, making taste, curation, and judgment feel like the skill Gen Z creators can still own."
+    },
+    {
+      "video_id": "039",
+      "publish_date": "2026-07-03",
+      "title": "ChatGPT Wants Your Budget",
+      "hook": "ChatGPT wants to see your bank account.",
+      "category": "finance",
+      "why_now": "OpenAI's personal finance preview makes AI budgeting a hot FinTok debate, especially around convenience, privacy, and whether money advice should come from a chatbot."
+    },
+    {
+      "video_id": "040",
+      "publish_date": "2026-07-04",
+      "title": "Do Not Let AI Study For You",
+      "hook": "AI can make you smarter, or make you fake smart.",
+      "category": "productivity",
+      "why_now": "AI study tools are moving from answer generation to tutoring, creating a timely student-facing hook about using AI to learn instead of outsourcing the work."
+    },
+    {
+      "video_id": "041",
+      "publish_date": "2026-07-05",
+      "title": "The Lock-In Trap",
+      "hook": "Locking in can quietly backfire.",
+      "category": "psychology",
+      "why_now": "Gen Z productivity content is full of discipline and reset language, but a counterintuitive mindset video can win by explaining how all-or-nothing routines create burnout."
+    },
+    {
+      "video_id": "042",
+      "publish_date": "2026-07-06",
+      "title": "The Dead Internet Theory Got Scarier",
+      "hook": "What if your feed is mostly synthetic?",
+      "category": "mystery",
+      "why_now": "AI-generated comments, videos, bots, and polished synthetic creators make an old internet conspiracy feel newly believable and highly clickable for Shorts."
+    },
+    {
+      "video_id": "043",
+      "publish_date": "2026-07-07",
+      "title": "The History Rabbit Hole Algorithm",
+      "hook": "Your feed loves impossible forgotten stories.",
+      "category": "history",
+      "why_now": "Curiosity-detour trend signals favor strange-but-true explainers, and forgotten history gives DailyZ a repeatable format beyond pure AI and productivity clips."
+    }
+  ]
+}
