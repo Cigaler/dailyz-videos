@@ -1,0 +1,128 @@
+[
+  {
+    "video_id": "037",
+    "title": "AI Video Has A New Problem",
+    "category": "tech_ai",
+    "publish_date": "07_01",
+    "hook": "This clip could be AI, and that is the point.",
+    "body": [
+      "AI video is crossing the line where fake clips stop looking obviously fake at first glance.",
+      "That means the new skill is not spotting every pixel, because pixels keep getting better.",
+      "The better move is checking the source, context, and why the clip wants your reaction.",
+      "Polished does not mean real anymore, and realistic does not mean trustworthy by default online.",
+      "Your attention is valuable, so treat every shocking video like a claim, not automatic proof."
+    ],
+    "cta": "Follow for more AI literacy content.",
+    "keywords": ["AI video", "source", "context", "proof"],
+    "thumbnail_prompt": "Vertical DALL-E thumbnail, dark cinematic background, hyper-real phone screen showing a flawless AI-generated face splitting into pixels, cyan verification glow, bold visual, high contrast, no text",
+    "hashtags": ["#GenZ", "#AI", "#AIVideo", "#MediaLiteracy", "#TechTok"]
+  },
+  {
+    "video_id": "038",
+    "title": "Human Taste Is The New Skill",
+    "category": "tech_ai",
+    "publish_date": "07_02",
+    "hook": "AI can make anything. That makes taste priceless.",
+    "body": [
+      "When everyone can generate content, the rare part is knowing what should exist at all.",
+      "That is taste: choosing the angle, cutting the boring parts, and sensing what feels human.",
+      "AI can give you ten versions, but it cannot care which one actually matters most.",
+      "The winners will not just prompt faster; they will judge better and edit harder daily.",
+      "In a world full of infinite output, your point of view becomes the clearest signal."
+    ],
+    "cta": "Follow for more creator strategy content.",
+    "keywords": ["taste", "point of view", "signal", "AI"],
+    "thumbnail_prompt": "Vertical DALL-E thumbnail, dark gallery room filled with identical glowing AI images, one human hand selecting a single cyan-lit masterpiece, cinematic, bold visual, high contrast, no text",
+    "hashtags": ["#GenZ", "#AI", "#CreatorEconomy", "#DigitalCulture", "#Taste"]
+  },
+  {
+    "video_id": "039",
+    "title": "ChatGPT Wants Your Budget",
+    "category": "finance",
+    "publish_date": "07_03",
+    "hook": "Would you let AI look at your bank account?",
+    "body": [
+      "AI budgeting sounds magical because it can spot spending patterns you ignore every single week.",
+      "Subscriptions, delivery fees, impulse buys, and tiny upgrades become obvious when software groups them together.",
+      "But convenience has a tradeoff: money data is personal, emotional, and easy to over-share.",
+      "Use AI for categories, questions, and planning, not blind permission to spend more money later.",
+      "The goal is not a perfect spreadsheet; it is seeing your habits before they run you."
+    ],
+    "cta": "Follow for more smart money content.",
+    "keywords": ["AI budgeting", "subscriptions", "money data", "habits"],
+    "thumbnail_prompt": "Vertical DALL-E thumbnail, dark desk with glowing bank app, AI chat bubble analyzing spending categories in cyan, cash and receipts around phone, cinematic finance mood, bold visual, no text",
+    "hashtags": ["#GenZ", "#Finance", "#Budgeting", "#MoneyTok", "#AI"]
+  },
+  {
+    "video_id": "040",
+    "title": "Do Not Let AI Study For You",
+    "category": "productivity",
+    "publish_date": "07_04",
+    "hook": "AI can make you smarter, or make you fake smart.",
+    "body": [
+      "There is a difference between getting an answer and building the muscle to reach it.",
+      "If AI skips the struggle, you may finish faster while remembering almost nothing useful later.",
+      "Use it like a tutor: ask for hints, examples, quizzes, and corrections after trying first.",
+      "The best prompt is not do this for me; teach me where I am stuck.",
+      "Learning still needs useful friction, because friction is where your brain actually changes over time."
+    ],
+    "cta": "Follow for more study systems content.",
+    "keywords": ["tutor", "hints", "friction", "learning"],
+    "thumbnail_prompt": "Vertical DALL-E thumbnail, dark library scene, student facing glowing AI tutor hologram, split screen of answer shortcut versus brain growth path, cyan highlights, cinematic, bold visual, no text",
+    "hashtags": ["#GenZ", "#StudyTok", "#Productivity", "#AI", "#Learning"]
+  },
+  {
+    "video_id": "041",
+    "title": "The Lock-In Trap",
+    "category": "psychology",
+    "publish_date": "07_05",
+    "hook": "Locking in can quietly backfire.",
+    "body": [
+      "Discipline feels powerful until it becomes an identity you are genuinely terrified to ever break.",
+      "Then one missed workout, bad meal, or slow day starts feeling like total personal failure.",
+      "That is the trap: all-or-nothing standards turn normal life into proof you are losing.",
+      "A better system has minimums, rest days, and a plan for restarting without extra drama.",
+      "Consistency is not never slipping; it is making the next step small enough to return."
+    ],
+    "cta": "Follow for more mindset content.",
+    "keywords": ["discipline", "all-or-nothing", "minimums", "consistency"],
+    "thumbnail_prompt": "Vertical DALL-E thumbnail, dark gym hallway with a glowing locked door cracking open, tired figure choosing a smaller cyan path beside it, cinematic psychology metaphor, bold visual, no text",
+    "hashtags": ["#GenZ", "#Mindset", "#Psychology", "#SelfImprovement", "#Burnout"]
+  },
+  {
+    "video_id": "042",
+    "title": "The Dead Internet Theory Got Scarier",
+    "category": "mystery",
+    "publish_date": "07_06",
+    "hook": "What if your feed is mostly synthetic?",
+    "body": [
+      "Dead Internet Theory says online spaces are slowly filling with bots, automation, and fake engagement.",
+      "It used to sound like a weird conspiracy, because the internet still felt obviously human.",
+      "Now AI comments, AI images, and synthetic influencers make the idea feel much less ridiculous.",
+      "That does not mean every post is fake, but it does mean trust needs more effort.",
+      "Look for real history, real people, and communities that behave messier than polished marketing campaigns."
+    ],
+    "cta": "Follow for more internet mystery content.",
+    "keywords": ["Dead Internet Theory", "bots", "synthetic", "trust"],
+    "thumbnail_prompt": "Vertical DALL-E thumbnail, dark endless social feed tunnel filled with identical glowing bot faces and one real human silhouette, cyan static, cinematic mystery mood, bold visual, no text",
+    "hashtags": ["#GenZ", "#Mystery", "#InternetCulture", "#AI", "#ConspiracyTok"]
+  },
+  {
+    "video_id": "043",
+    "title": "The History Rabbit Hole Algorithm",
+    "category": "history",
+    "publish_date": "07_07",
+    "hook": "Your feed loves impossible forgotten stories.",
+    "body": [
+      "History content works because it gives your brain the best kind of surprise: useful disbelief.",
+      "A forgotten invention, strange ruler, or lost city feels fake, then becomes a doorway fast.",
+      "That tiny wait, what moment, is why rabbit holes beat normal search for curiosity online.",
+      "The danger is stopping at the headline instead of checking what actually happened after that.",
+      "Use the algorithm as a spark, then follow the source trail past the first clip."
+    ],
+    "cta": "Follow for more history rabbit holes.",
+    "keywords": ["history", "rabbit holes", "curiosity", "source trail"],
+    "thumbnail_prompt": "Vertical DALL-E thumbnail, dark ancient archive with a glowing smartphone opening a cyan portal to lost cities and strange artifacts, cinematic, bold visual, high contrast, no text",
+    "hashtags": ["#GenZ", "#History", "#RabbitHole", "#Curiosity", "#DidYouKnow"]
+  }
+]

@@ -953,3 +953,30 @@
   - top trend count: `10`
   - Batch 09 idea count: `7`
   - `jq` parsing passed locally
+
+## Batch 09 scripts delivery (2026-06-11)
+
+- Task scope in this run:
+  - write complete evergreen DailyZ scripts for videos `037` through `043`
+  - use the existing `scripts/batch_09_trend_scan.json` trend scan as the source slate
+  - save the deliverable at `scripts/batch_09_scripts.json`
+- Codebase/script findings used:
+  - external repo clone path used for this task: `/tmp/dailyz-videos-batch09`
+  - existing trend scan already covers Batch 09 ideas `037` through `043`
+  - earlier batches use evolving JSON schemas, so this file follows the task-requested schema directly: `video_id`, `title`, `category`, `publish_date`, `hook`, `body`, `cta`, `keywords`, `thumbnail_prompt`, and `hashtags`
+- Deliverable added:
+  - `scripts/batch_09_scripts.json`
+- Batch 09 titles and hooks:
+  - `037` (`07_01`): `AI Video Has A New Problem` — `This clip could be AI, and that is the point.`
+  - `038` (`07_02`): `Human Taste Is The New Skill` — `AI can make anything. That makes taste priceless.`
+  - `039` (`07_03`): `ChatGPT Wants Your Budget` — `Would you let AI look at your bank account?`
+  - `040` (`07_04`): `Do Not Let AI Study For You` — `AI can make you smarter, or make you fake smart.`
+  - `041` (`07_05`): `The Lock-In Trap` — `Locking in can quietly backfire.`
+  - `042` (`07_06`): `The Dead Internet Theory Got Scarier` — `What if your feed is mostly synthetic?`
+  - `043` (`07_07`): `The History Rabbit Hole Algorithm` — `Your feed loves impossible forgotten stories.`
+- Validation completed:
+  - `python -m json.tool scripts/batch_09_scripts.json` passed
+  - confirmed `7` scripts with video IDs `037` through `043`
+  - confirmed publish dates `07_01` through `07_07`
+  - confirmed body line counts are `5` per script and every body line is `15–25` words
+  - confirmed categories span `tech_ai`, `finance`, `productivity`, `psychology`, `mystery`, and `history`
