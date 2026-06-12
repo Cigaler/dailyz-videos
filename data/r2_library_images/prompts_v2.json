@@ -1,0 +1,1236 @@
+{
+  "generated_at": "2026-06-12T19:23:28Z",
+  "total": 300,
+  "categories": {
+    "tech_ai": [
+      {
+        "id": "tech_ai_001",
+        "prompt": "A sprawling neon-lit cityscape viewed from above, with snaking data streams glowing beneath the skyscrapers."
+      },
+      {
+        "id": "tech_ai_002",
+        "prompt": "A close-up of a robotic hand delicately holding a glowing neural chip surrounded by deep shadow."
+      },
+      {
+        "id": "tech_ai_003",
+        "prompt": "A futuristic data center with towering server racks casting long shadows under intense blue lighting."
+      },
+      {
+        "id": "tech_ai_004",
+        "prompt": "An abstract representation of neural networks, with luminous nodes connected by vibrant, pulsating strands."
+      },
+      {
+        "id": "tech_ai_005",
+        "prompt": "A dark, sleek humanoid robot against a backdrop of geometric shapes and pulsing electronic patterns."
+      },
+      {
+        "id": "tech_ai_006",
+        "prompt": "A cybernetic forest where mechanical trees with shimmering circuits glow under a digital twilight."
+      },
+      {
+        "id": "tech_ai_007",
+        "prompt": "A high-tech laboratory filled with holographic displays and intricate robotic machinery bathed in cold blue light."
+      },
+      {
+        "id": "tech_ai_008",
+        "prompt": "An automated factory floor with robotic arms moving in a choreographed dance under dramatic spotlighting."
+      },
+      {
+        "id": "tech_ai_009",
+        "prompt": "A stylized artistic depiction of AI evolving, with morphing shapes and lights shifting seamlessly."
+      },
+      {
+        "id": "tech_ai_010",
+        "prompt": "A photorealistic holographic neural lattice hovering above a dark glass console, casting intricate reflections."
+      },
+      {
+        "id": "tech_ai_011",
+        "prompt": "An ethereal scene of floating data clouds, with shimmering digital rain and layered reflections of light."
+      },
+      {
+        "id": "tech_ai_012",
+        "prompt": "A biomechanical dragon suspended in mist, its scales a blend of metal and glowing circuitry."
+      },
+      {
+        "id": "tech_ai_013",
+        "prompt": "A dimly lit cybernetic workshop, strewn with tools and half-assembled robot parts under harsh lighting."
+      },
+      {
+        "id": "tech_ai_014",
+        "prompt": "A surreal depiction of a digital brain, with luminous pathways sprawling out like a city grid in the dark."
+      },
+      {
+        "id": "tech_ai_015",
+        "prompt": "A vast, illuminated silicon chip landscape under a starlit sky, glowing with vibrant circuitry."
+      },
+      {
+        "id": "tech_ai_016",
+        "prompt": "A dystopian control room filled with complex machinery, casting shadowy patterns on the walls."
+      },
+      {
+        "id": "tech_ai_017",
+        "prompt": "A pair of diverging cybernetic pathways, each a vibrant river of light flowing through digital darkness."
+      },
+      {
+        "id": "tech_ai_018",
+        "prompt": "A stylized vortex of overlapping digital gears and circuits, spinning in a mesmerizing pattern."
+      },
+      {
+        "id": "tech_ai_019",
+        "prompt": "A close-up of an AI eye, encapsulated with intricate circuits and reflecting a holographic landscape."
+      },
+      {
+        "id": "tech_ai_020",
+        "prompt": "A dark alley illuminated by hovering robotic drones, casting eerie shadows among the mist."
+      }
+    ],
+    "finance": [
+      {
+        "id": "finance_001",
+        "prompt": "A dramatic skyline with towering glass skyscrapers reflecting the vibrant lights of a bustling financial district at dusk."
+      },
+      {
+        "id": "finance_002",
+        "prompt": "A stylized digital pathway leading into a grid of glowing blockchain nodes with an ethereal shimmer."
+      },
+      {
+        "id": "finance_003",
+        "prompt": "A close-up of a gleaming gold bar partially buried in rough, textured earth under a beam of light."
+      },
+      {
+        "id": "finance_004",
+        "prompt": "A cinematic view of a silent stock market floor, illuminated by scattered soft hues of green and red."
+      },
+      {
+        "id": "finance_005",
+        "prompt": "A lone cybernetic vault door in the darkness, its complex locking mechanisms glinting under spotlight."
+      },
+      {
+        "id": "finance_006",
+        "prompt": "A sprawling cityscape with towering ribbons of market-like light casting colorful reflections onto nearby buildings."
+      },
+      {
+        "id": "finance_007",
+        "prompt": "A swirling vortex of abstract currency symbols, shining in an otherworldly glow against a dark background."
+      },
+      {
+        "id": "finance_008",
+        "prompt": "A photorealistic scene of a meticulously organized stack of antique coins on an aged wooden table."
+      },
+      {
+        "id": "finance_009",
+        "prompt": "A shadowy vault interior with rows of safety deposit boxes under softly diffused golden lighting."
+      },
+      {
+        "id": "finance_010",
+        "prompt": "A stylized rendering of interconnected gears representing the global economy, each glowing faintly."
+      },
+      {
+        "id": "finance_011",
+        "prompt": "The silhouette of a futuristic trading floor under dim, focused lighting, monitors illuminating the space."
+      },
+      {
+        "id": "finance_012",
+        "prompt": "A glistening silver coin balanced precariously on the edge of a stack of fluctuating charts."
+      },
+      {
+        "id": "finance_013",
+        "prompt": "A close-up of a dark gridded surface where luminous 3D lines form expansive peaks and valleys."
+      },
+      {
+        "id": "finance_014",
+        "prompt": "An expansive landscape of sleek, reflective metal buildings symbolizing technological wealth and innovation."
+      },
+      {
+        "id": "finance_015",
+        "prompt": "An ancient lockbox slightly ajar, emitting a soft mystical glow of gold light into the darkness."
+      },
+      {
+        "id": "finance_016",
+        "prompt": "A panorama of undulating electronic digits, pulsing and weaving through dark, velveteen emptiness."
+      },
+      {
+        "id": "finance_017",
+        "prompt": "A dramatic spotlight highlighting a crystal shard with encapsulated miniature markets inside."
+      },
+      {
+        "id": "finance_018",
+        "prompt": "A cascade of breaking waves composed entirely of overlapping, ghostly credit card images."
+      },
+      {
+        "id": "finance_019",
+        "prompt": "A dark cave setting with barely discernible ancient currency carved into the stone walls."
+      },
+      {
+        "id": "finance_020",
+        "prompt": "A stylized light show where beams create abstract shapes symbolizing complex financial algorithms."
+      }
+    ],
+    "motivation": [
+      {
+        "id": "motivation_001",
+        "prompt": "A lone climber silhouetted against a towering, jagged peak, a crimson sunset illuminating the snow-draped mountain in a fiery glow."
+      },
+      {
+        "id": "motivation_002",
+        "prompt": "An overgrown stone staircase dissolving into butterflies, each one fluttering toward a golden sunrise."
+      },
+      {
+        "id": "motivation_003",
+        "prompt": "An ancient oak tree standing resilient amidst a storm, lightning flashing across a brooding sky, its roots deep in rocky soil."
+      },
+      {
+        "id": "motivation_004",
+        "prompt": "A solitary runner on a rain-slicked urban street at dawn, neon reflections shimmering in the wet pavement, epitomizing endurance."
+      },
+      {
+        "id": "motivation_005",
+        "prompt": "A labyrinth of mirrors reflecting infinite paths, lit by an ethereal blue light, capturing the essence of navigating through ambition."
+      },
+      {
+        "id": "motivation_006",
+        "prompt": "A shadowy figure atop a skyscraper under a star-studded sky, overlooking a cityscape of endless lights, embodying solitude and reflection."
+      },
+      {
+        "id": "motivation_007",
+        "prompt": "A caterpillar on the cusp of becoming a butterfly, caught in a moment of metamorphosis amid a lush, misty forest."
+      },
+      {
+        "id": "motivation_008",
+        "prompt": "A labyrinthine canyon, its winding path barely visible under the harsh sunlight, symbolizing the journey of resilience."
+      },
+      {
+        "id": "motivation_009",
+        "prompt": "A lone boat navigating stormy seas under a tempestuous sky, waves crashing with formidable power, illustrating discipline against adversity."
+      },
+      {
+        "id": "motivation_010",
+        "prompt": "A diver poised to leap from the edge of a sunlit cliff into an azure sea, capturing the essence of breakthrough moments."
+      },
+      {
+        "id": "motivation_011",
+        "prompt": "An ancient bridge arcing over a misty gorge at dawn, barely visible yet steadfast, signifying the journey toward discipline."
+      },
+      {
+        "id": "motivation_012",
+        "prompt": "A battered leather-bound journal on a dusty table, surrounded by flickering candlelight, pages filled with untold stories of ambition."
+      },
+      {
+        "id": "motivation_013",
+        "prompt": "A sunset-bathed desert landscape, a solitary cactus standing tall against the sweeping golden dunes, embodying resilience."
+      },
+      {
+        "id": "motivation_014",
+        "prompt": "A forgotten railway track vanishing into a dense, emerald forest, shrouded in mystery and the promise of solitary effort."
+      },
+      {
+        "id": "motivation_015",
+        "prompt": "A cracked, parched earth giving way to the first drops of rain under a tumultuous sky, capturing renewal and transformation."
+      },
+      {
+        "id": "motivation_016",
+        "prompt": "A weathered chessboard on a dimly lit table, a single pawn moved forward, representing the patient determination of progress."
+      },
+      {
+        "id": "motivation_017",
+        "prompt": "A narrow path cutting through a dense, shadowy bamboo forest, light piercing through the canopy, a testament to perseverance."
+      },
+      {
+        "id": "motivation_018",
+        "prompt": "A lone sail cutting through the fog on a moonlit night, its soft glow guiding the way through silent, endless waters."
+      },
+      {
+        "id": "motivation_019",
+        "prompt": "A single beam of sunlight breaking through storm clouds to illuminate a remote mountain pass, symbolizing a moment of clarity."
+      },
+      {
+        "id": "motivation_020",
+        "prompt": "An iron-wrought gate, slightly ajar in a hedge maze under twilight, suggesting the exploration of ambition's intricate pathways."
+      }
+    ],
+    "history": [
+      {
+        "id": "history_001",
+        "prompt": "A misty dawn breaks over the ancient stone arches of a forgotten aqueduct, with golden sunlight streaming through the pillars."
+      },
+      {
+        "id": "history_002",
+        "prompt": "Deep in a labyrinthine cave, the shadows dance across prehistoric cave paintings of long-extinct creatures."
+      },
+      {
+        "id": "history_003",
+        "prompt": "Ruins of a majestic Mesoamerican pyramid rise out of the jungle, bathed in the ethereal glow of moonlight."
+      },
+      {
+        "id": "history_004",
+        "prompt": "A stark desert landscape, where the remnants of an ancient city stand silent and stoic as the sand gently shifts around them."
+      },
+      {
+        "id": "history_005",
+        "prompt": "An ornate, gothic cathedral window casts vibrant, kaleidoscopic patterns across the cold stone floor of a medieval ruin."
+      },
+      {
+        "id": "history_006",
+        "prompt": "A vast hall filled with towering shelves of ancient scrolls, their paper whispering secrets as a light breeze flows through."
+      },
+      {
+        "id": "history_007",
+        "prompt": "A once-grand, partially submerged temple, its carvings etched by time, mirrored perfectly in the still water at sunset."
+      },
+      {
+        "id": "history_008",
+        "prompt": "A panoramic view of a battleground, now a peaceful meadow, where aged swords and helmets lie forgotten in the grass."
+      },
+      {
+        "id": "history_009",
+        "prompt": "Sprawling, sunlit ruins of a Roman amphitheater, where echoing whispers of past performances linger in the air."
+      },
+      {
+        "id": "history_010",
+        "prompt": "Dilapidated city walls of an ancient metropolis, now covered in luscious green vines and vibrant wildflowers."
+      },
+      {
+        "id": "history_011",
+        "prompt": "Underwater remnants of a lost city, with colorful marine life weaving through the stone pillars and broken statues."
+      },
+      {
+        "id": "history_012",
+        "prompt": "A vast, shadowy archive room, where a single ray of light reveals dust floating around the leather-bound books."
+      },
+      {
+        "id": "history_013",
+        "prompt": "A cluster of standing stones at night, encircled by a swirling celestial dance of stars and wisps of clouds."
+      },
+      {
+        "id": "history_014",
+        "prompt": "An unearthed archaeological dig site revealing a perfectly preserved mosaic of an ancient civilization's daily life."
+      },
+      {
+        "id": "history_015",
+        "prompt": "A grand monument towering amidst a thunderstorm, its silhouette highlighted by flashes of lightning in the night sky."
+      },
+      {
+        "id": "history_016",
+        "prompt": "Golden sands slowly encroaching on an abandoned caravanserai, where the whispers of an old trade route still linger."
+      },
+      {
+        "id": "history_017",
+        "prompt": "A dim, candlelit chamber filled with aged artifacts and delicate pottery painted with intricate, faded designs."
+      },
+      {
+        "id": "history_018",
+        "prompt": "A colossal, weathered stone head of a deity gazing stoically toward the horizon as fog rolls in beneath it."
+      },
+      {
+        "id": "history_019",
+        "prompt": "The intricate carvings of an ancient shrine, partially reclaimed by nature, illuminated by the warm glow of sunset."
+      },
+      {
+        "id": "history_020",
+        "prompt": "The eerie tranquility of an overgrown, forgotten battlefield shrouded in morning mist, with rusted relics peeking through."
+      }
+    ],
+    "science": [
+      {
+        "id": "science_001",
+        "prompt": "A dark, moody chemistry lab filled with glowing beakers and swirling vapors, casting neon reflections on sleek surfaces."
+      },
+      {
+        "id": "science_002",
+        "prompt": "A cinematic close-up of a microscope lens, the background softly blurred with vibrant colored lights."
+      },
+      {
+        "id": "science_003",
+        "prompt": "A stylized illustration of cells dividing under a microscope, illuminated with a luminescent green glow."
+      },
+      {
+        "id": "science_004",
+        "prompt": "A futuristic physics lab with ethereal blue light beams cutting through a haze, illuminating complex instruments."
+      },
+      {
+        "id": "science_005",
+        "prompt": "An artistic rendering of DNA strands twisting in a cosmic dance, surrounded by shimmering particles and dark shadows."
+      },
+      {
+        "id": "science_006",
+        "prompt": "A photorealistic shot of a vintage telescope aimed at the starry night sky, bathed in subtle moonlit glow."
+      },
+      {
+        "id": "science_007",
+        "prompt": "A mesmerizing view of a particle collider, sparkling with energetic trails and glowing arcs of electricity."
+      },
+      {
+        "id": "science_008",
+        "prompt": "An elegantly arranged scene of a biology experiment, featuring petri dishes with fluorescent cultures in a soft focus."
+      },
+      {
+        "id": "science_009",
+        "prompt": "A dark, moody energy research room with plasma spheres that pulse with electrifying purple light."
+      },
+      {
+        "id": "science_010",
+        "prompt": "An abstract close-up of a chemical reaction, capturing the moment liquids burst into vibrant fractals under dim light."
+      },
+      {
+        "id": "science_011",
+        "prompt": "A meticulously detailed artistic rendering of a solar panel field at dusk, reflecting a celestial sunset in the glass."
+      },
+      {
+        "id": "science_012",
+        "prompt": "A cinematic view of an empty operating theatre, with surgical tools glinting under dramatic spotlights."
+      },
+      {
+        "id": "science_013",
+        "prompt": "A stylized solar eclipse, where the corona beams create a mesmerizing halo against a dark sky."
+      },
+      {
+        "id": "science_014",
+        "prompt": "A close-up of intricate circuitry on a microchip, highlighted by ethereal blue and purple glow."
+      },
+      {
+        "id": "science_015",
+        "prompt": "A dark, atmospheric laboratory filled with bubbling vats of liquid, casting pulsating amber light across the room."
+      },
+      {
+        "id": "science_016",
+        "prompt": "A minimalist, artistic rendition of atoms in orbit, radiating soft light against a velvet-black gradient."
+      },
+      {
+        "id": "science_017",
+        "prompt": "A surreal representation of a quantum realm, with particles suspended in cosmic voids and shimmering strands."
+      },
+      {
+        "id": "science_018",
+        "prompt": "A photorealistic yet moody laboratory corner with old scientific journals and dimly lit Edison bulbs."
+      },
+      {
+        "id": "science_019",
+        "prompt": "A visually striking fractal pattern representing chaotic systems, set against a deep shade of cerulean."
+      },
+      {
+        "id": "science_020",
+        "prompt": "A dreamlike portrayal of a rainforest canopy viewed from above, where sunlight pierces through mist in vibrant shafts."
+      }
+    ],
+    "space": [
+      {
+        "id": "space_001",
+        "prompt": "A massive ringed gas giant in the foreground, backlit by a distant sun, casting long shadows on its swirling atmosphere."
+      },
+      {
+        "id": "space_002",
+        "prompt": "A stylized nebula painted with vibrant pinks and blues, resembling a cosmic ballet in the depths of space."
+      },
+      {
+        "id": "space_003",
+        "prompt": "A colossal alien mothership silhouetted against a bright, swirling galaxy, its edges glowing vividly."
+      },
+      {
+        "id": "space_004",
+        "prompt": "A dimly-lit view of an abandoned space station floating across a field of shimmering stars."
+      },
+      {
+        "id": "space_005",
+        "prompt": "Twin moons illuminated by the glow of a close red dwarf star, casting ethereal reflections on the icy surface below."
+      },
+      {
+        "id": "space_006",
+        "prompt": "A photorealistic asteroid field, caught in the glow of a nearby, menacing cosmic storm."
+      },
+      {
+        "id": "space_007",
+        "prompt": "A stylized depiction of a crystalline planet, with prismatic surfaces catching the light of multiple suns in the distance."
+      },
+      {
+        "id": "space_008",
+        "prompt": "An orbiting spacecraft casting a long shadow as it passes across the surface of an ominous, cratered moon."
+      },
+      {
+        "id": "space_009",
+        "prompt": "A magnificent aurora dancing over the horizon of a strange, alien world, vivid with colors unseen on Earth."
+      },
+      {
+        "id": "space_010",
+        "prompt": "A photo of a dying star exploding into a supernova, its fiery tendrils illuminating the cold void around it."
+      },
+      {
+        "id": "space_011",
+        "prompt": "Titanic pillars of cosmic dust and gas, glowing softly in the inky blackness, like towering cathedrals in space."
+      },
+      {
+        "id": "space_012",
+        "prompt": "A stylized meteor shower against a background of a dark purple sky, creating a cosmic curtain of lights."
+      },
+      {
+        "id": "space_013",
+        "prompt": "An enigmatic alien landscape, with bioluminescent plants casting a faint blue glow in a dark twilight."
+      },
+      {
+        "id": "space_014",
+        "prompt": "A close-up view of a massive space telescope, its golden hexagonal mirrors catching the rays of a distant sun."
+      },
+      {
+        "id": "space_015",
+        "prompt": "A sleek futuristic spacecraft gliding serenely over the surface of a lava-covered exoplanet, heatwaves distorting its outline."
+      },
+      {
+        "id": "space_016",
+        "prompt": "Dark and somber caverns on the surface of a moon, with shadowy depths contrasting against faint ambient light."
+      },
+      {
+        "id": "space_017",
+        "prompt": "A swirling, multi-colored vortex opening in space, with stars bending and twisting around its edge."
+      },
+      {
+        "id": "space_018",
+        "prompt": "Ancient celestial contours formed from nebulous patterns, glowing as if inked by starlight and cosmic winds."
+      },
+      {
+        "id": "space_019",
+        "prompt": "Floating icebergs of a frozen planet glowing in soft blues and purples under the light of a small, dim star."
+      },
+      {
+        "id": "space_020",
+        "prompt": "A haunting silhouette of an interstellar cruiser poised against a backdrop of a vividly colored gas nebula."
+      }
+    ],
+    "nature": [
+      {
+        "id": "nature_001",
+        "prompt": "A misty forest path with towering ancient trees, their roots twisting like serpents across the forest floor."
+      },
+      {
+        "id": "nature_002",
+        "prompt": "A dramatic thunderstorm over a vast ocean, lightning illuminating the swirling dark clouds and churning waves."
+      },
+      {
+        "id": "nature_003",
+        "prompt": "Close-up of a dew-covered spider web in a meadow, each droplet reflecting the vibrant colors of dawn."
+      },
+      {
+        "id": "nature_004",
+        "prompt": "A surreal, painterly depiction of a red desert landscape with towering, eroded rock formations under a night sky full of stars."
+      },
+      {
+        "id": "nature_005",
+        "prompt": "An underwater scene teeming with glowing jellyfish, their translucent bodies pulsing in a bioluminescent blue sea."
+      },
+      {
+        "id": "nature_006",
+        "prompt": "A cinematic capture of a snow-capped mountain peak piercing through low-hanging clouds during a golden sunrise."
+      },
+      {
+        "id": "nature_007",
+        "prompt": "A dense, fog-enshrouded jungle with shafts of sunlight breaking through the canopy, highlighting the lush greenery."
+      },
+      {
+        "id": "nature_008",
+        "prompt": "A stylized illustration of a volcanic eruption, molten lava cascading down in fiery contrast to the darkened sky."
+      },
+      {
+        "id": "nature_009",
+        "prompt": "A serene lake reflecting an autumn forest, where golden and crimson leaves shimmer across the rippling water's surface."
+      },
+      {
+        "id": "nature_010",
+        "prompt": "A photorealistic depiction of a prairie during a solar eclipse, the sky darkening as light rings the moon."
+      },
+      {
+        "id": "nature_011",
+        "prompt": "A macro shot of intricate frost patterns on a window, the crystals resembling delicate feathers under soft dawn light."
+      },
+      {
+        "id": "nature_012",
+        "prompt": "A windswept coastal cliff with cascading waterfall plummeting into the turbulent sea below, under ominous clouds."
+      },
+      {
+        "id": "nature_013",
+        "prompt": "A twilight scene in a desert with towering cacti silhouetted against a vividly pink and orange sunset sky."
+      },
+      {
+        "id": "nature_014",
+        "prompt": "An arctic scene of calving iceberg under an ethereal aurora borealis, with icy blues and greens mingling in the sky."
+      },
+      {
+        "id": "nature_015",
+        "prompt": "A dark, enchanted forest scene lit by glowing fungi and fireflies, creating an otherworldly bioluminescent glow."
+      },
+      {
+        "id": "nature_016",
+        "prompt": "A panoramic view of a savannah at dusk with silhouettes of acacia trees against a fiery horizon and distant mountains."
+      },
+      {
+        "id": "nature_017",
+        "prompt": "A hyper-realistic underwater cave with shafts of light penetrating from above, illuminating the colorful marine life."
+      },
+      {
+        "id": "nature_018",
+        "prompt": "An abstract representation of a rain-soaked city park, with reflections and blurred colors in a cinematic style."
+      },
+      {
+        "id": "nature_019",
+        "prompt": "A dramatic capture of a tornado in the distance over an open field, with ominous skies swirling menacingly above."
+      },
+      {
+        "id": "nature_020",
+        "prompt": "A tranquil beach at twilight, bioluminescent plankton illuminating the waves under a crescent moon's soft glow."
+      }
+    ],
+    "psychology": [
+      {
+        "id": "psychology_001",
+        "prompt": "A surreal desert landscape with oversized floating clocks casting long shadows under a moonlit sky."
+      },
+      {
+        "id": "psychology_002",
+        "prompt": "A dark room filled with cascading waves of rainbow-colored smoke, swirling and shifting mysteriously."
+      },
+      {
+        "id": "psychology_003",
+        "prompt": "A dense, ancient forest with trees forming a spiral vortex into a glowing, otherworldly portal."
+      },
+      {
+        "id": "psychology_004",
+        "prompt": "A cracked mirror in an eerie, dimly lit room reflecting an infinite tunnel of twisting paths."
+      },
+      {
+        "id": "psychology_005",
+        "prompt": "A towering library where giant books open to reveal vivid, dream-like landscapes inside their pages."
+      },
+      {
+        "id": "psychology_006",
+        "prompt": "A misty mountain range with massive translucent stone monoliths rising over the valley below."
+      },
+      {
+        "id": "psychology_007",
+        "prompt": "A mysterious labyrinth of floating glass panes reflecting a kaleidoscope of shifting colors."
+      },
+      {
+        "id": "psychology_008",
+        "prompt": "A deep ocean scene with luminous jellyfish illuminating an ancient sunken shipwreck below."
+      },
+      {
+        "id": "psychology_009",
+        "prompt": "An isolated cabin in the woods with glowing windows amidst a sweeping aurora borealis above."
+      },
+      {
+        "id": "psychology_010",
+        "prompt": "A futuristic cityscape with floating, holographic symbols swirling around towering skyscrapers."
+      },
+      {
+        "id": "psychology_011",
+        "prompt": "An ancient castle nestled within a swirling storm of stars and cosmic dust."
+      },
+      {
+        "id": "psychology_012",
+        "prompt": "A vast, empty field with a single, colossal tree made entirely of shimmering crystal."
+      },
+      {
+        "id": "psychology_013",
+        "prompt": "A serene lake under a starlit sky with transparent orbs hovering just above the surface."
+      },
+      {
+        "id": "psychology_014",
+        "prompt": "An endless corridor of arched stone bridges leading into a white, light-filled void."
+      },
+      {
+        "id": "psychology_015",
+        "prompt": "A vast desert of smooth, undulating dunes with a single, glowing orb hovering above."
+      },
+      {
+        "id": "psychology_016",
+        "prompt": "A floating island with cascading waterfalls pouring into clouds below under a blood-red sky."
+      },
+      {
+        "id": "psychology_017",
+        "prompt": "A dark alleyway filled with ghostly, glowing silhouettes seemingly emerging from walls."
+      },
+      {
+        "id": "psychology_018",
+        "prompt": "A tranquil, moonlit garden where shadowy figures dance among towering flowers."
+      },
+      {
+        "id": "psychology_019",
+        "prompt": "A deep cave with a radiant pool casting vivid reflections onto ancient carvings on the walls."
+      },
+      {
+        "id": "psychology_020",
+        "prompt": "A swirling vortex of storm clouds with lightning revealing faint, fleeting images of forgotten memories."
+      }
+    ],
+    "mysteries": [
+      {
+        "id": "mysteries_001",
+        "prompt": "A misty forest path shrouded in deep fog, with an eerie glow emanating from a distant, unseen source."
+      },
+      {
+        "id": "mysteries_002",
+        "prompt": "An ancient stone archway in the heart of a dense jungle, partially overgrown and exuding a sense of hidden history."
+      },
+      {
+        "id": "mysteries_003",
+        "prompt": "A moonlit desert landscape with a single, unnaturally tall shadow stretching across the sand as if cast by an invisibly thin object."
+      },
+      {
+        "id": "mysteries_004",
+        "prompt": "A dilapidated lighthouse looming over stormy seas, its light flickering sporadically against a backdrop of dark clouds."
+      },
+      {
+        "id": "mysteries_005",
+        "prompt": "A forgotten underground cavern softly illuminated by bioluminescent fungi, casting ethereal reflections on a still, subterranean lake."
+      },
+      {
+        "id": "mysteries_006",
+        "prompt": "A barren, rocky island with peculiar, geometric rock formations rising like a mysterious monument against a dusky sky."
+      },
+      {
+        "id": "mysteries_007",
+        "prompt": "A heavily rusted, abandoned train car half-buried in the woods, surrounded by overgrown vines and obscure graffiti-like marks."
+      },
+      {
+        "id": "mysteries_008",
+        "prompt": "A hidden chamber behind a roaring waterfall, with sunlight refracting through the cascading water creating a prismatic effect."
+      },
+      {
+        "id": "mysteries_009",
+        "prompt": "A strange formation of concentric stone circles partially visible through early morning mist in a wide, grassy field."
+      },
+      {
+        "id": "mysteries_010",
+        "prompt": "A series of interconnected, twisted tree roots forming a natural labyrinth over a forest floor covered in thick moss."
+      },
+      {
+        "id": "mysteries_011",
+        "prompt": "A vast, silent, snow-covered plateau, punctuated only by an inexplicable, solitary, black obelisk standing tall."
+      },
+      {
+        "id": "mysteries_012",
+        "prompt": "A cryptic underwater scene with half-buried artifacts and a mysterious structure enveloped by vibrant coral and aquatic life."
+      },
+      {
+        "id": "mysteries_013",
+        "prompt": "A spectral, desolate mountain pass with sudden gusts of wind swirling snow into ephemeral shapes against towering peaks."
+      },
+      {
+        "id": "mysteries_014",
+        "prompt": "A dimly lit, ancient library filled with shadowy shelves, where strange outlines can be seen just beyond the threshold of light."
+      },
+      {
+        "id": "mysteries_015",
+        "prompt": "A mysterious stone altar at the center of a lush, hidden grove, surrounded by faintly glowing fireflies dancing in the night."
+      },
+      {
+        "id": "mysteries_016",
+        "prompt": "A stark, empty beach under a star-filled sky, with peculiar lights slowly drifting just above the calm waves."
+      },
+      {
+        "id": "mysteries_017",
+        "prompt": "A swirling vortex of colorful mist spiraling around a cluster of timeworn standing stones on a windswept hillside."
+      },
+      {
+        "id": "mysteries_018",
+        "prompt": "A twilight scene of a dense, fog-covered moor, with distant, ethereal willow-the-wisps flickering intermittently over the bog."
+      },
+      {
+        "id": "mysteries_019",
+        "prompt": "An abandoned observatory perched precariously on a cliff edge, its weathered telescope aiming at a sky filled with auroras."
+      },
+      {
+        "id": "mysteries_020",
+        "prompt": "A desolate, sunken cityscape silhouetted against the horizon, its submerged towers and spires enshrouded in dark shadows."
+      }
+    ],
+    "geography": [
+      {
+        "id": "geography_001",
+        "prompt": "Dramatic aerial view of snow-capped mountain range casting long shadows under the moonlight."
+      },
+      {
+        "id": "geography_002",
+        "prompt": "Surreal floating continental reliefs with glowing border-like ridges against a starry sky."
+      },
+      {
+        "id": "geography_003",
+        "prompt": "Abstract representation of desert dunes with vibrant, swirling shades of orange and purple."
+      },
+      {
+        "id": "geography_004",
+        "prompt": "Ethereal view of an icy polar region under the aurora borealis with icy reflections in the foreground."
+      },
+      {
+        "id": "geography_005",
+        "prompt": "Dynamic stylized city terrain from above, vibrant neon roads and waterways weaving through the darkness."
+      },
+      {
+        "id": "geography_006",
+        "prompt": "Cinematic night view of an illuminated city skyline, lights twinkling through a thin layer of mist."
+      },
+      {
+        "id": "geography_007",
+        "prompt": "Close-up of rugged terrains with bold textures and deep shadows highlighting geological formations."
+      },
+      {
+        "id": "geography_008",
+        "prompt": "Sweeping shot of a mighty river cutting through lush forests, illuminated by rays of the setting sun."
+      },
+      {
+        "id": "geography_009",
+        "prompt": "Mystical and foggy canyon landscape with jagged edges and ethereal lighting breaking through."
+      },
+      {
+        "id": "geography_010",
+        "prompt": "Artistic globe-like relief of textured continents rising from a midnight blue ocean background."
+      },
+      {
+        "id": "geography_011",
+        "prompt": "Sunlit desert landscape showing intricate patterns in the sand, under a vast, cloudless sky."
+      },
+      {
+        "id": "geography_012",
+        "prompt": "Majestic overview of a sprawling ice field with deep crevasses and distant snow-capped peaks."
+      },
+      {
+        "id": "geography_013",
+        "prompt": "Stylized, top-down view of a dense rainforest with thick canopy and beams of sunlight piercing through."
+      },
+      {
+        "id": "geography_014",
+        "prompt": "Golden hour shot of a coastal city with sharp contrasts between urban blocks and gentle ocean waves."
+      },
+      {
+        "id": "geography_015",
+        "prompt": "Dreamlike depiction of a large waterfall cascading into a mist-filled valley under dramatic skies."
+      },
+      {
+        "id": "geography_016",
+        "prompt": "Minimalistic silhouette of a mountain range against a vivid and colorful sunset."
+      },
+      {
+        "id": "geography_017",
+        "prompt": "Aerial perspective of winding river deltas spilling into an azure sea, creating intricate patterns."
+      },
+      {
+        "id": "geography_018",
+        "prompt": "Grand depiction of a valley with layered rock formations bathed in soft twilight glow."
+      },
+      {
+        "id": "geography_019",
+        "prompt": "Fantasy-style aerial terrain with glowing paths crossing uncharted mountains, rivers, and mysterious valleys."
+      },
+      {
+        "id": "geography_020",
+        "prompt": "Dark and atmospheric view of rolling hills covered in fog, with hints of dawn peeking on the horizon."
+      }
+    ],
+    "luxury": [
+      {
+        "id": "luxury_001",
+        "prompt": "Sleek, gleaming marble hallway with intricate gold inlays, softly lit by ambient lighting, creating dramatic shadows."
+      },
+      {
+        "id": "luxury_002",
+        "prompt": "Extreme close-up of a mechanical luxury watch, focus on the intricate gears and polished surfaces."
+      },
+      {
+        "id": "luxury_003",
+        "prompt": "Nighttime view of a modern skyscraper with illuminated windows, showcasing futuristic architecture under a starry sky."
+      },
+      {
+        "id": "luxury_004",
+        "prompt": "Opulent chandelier casting a warm, glowing light over a room filled with elegant, dark wooden furniture."
+      },
+      {
+        "id": "luxury_005",
+        "prompt": "Close-up of a high-end leather armchair, with supple texture highlighted by a single, soft spotlight."
+      },
+      {
+        "id": "luxury_006",
+        "prompt": "Stylized visualization of a floating diamond, capturing every facet and reflection with ethereal light beams."
+      },
+      {
+        "id": "luxury_007",
+        "prompt": "Minimalist living room with a huge window, overlooking a city skyline at dusk, filled with warm and dim hues."
+      },
+      {
+        "id": "luxury_008",
+        "prompt": "Cozy, luxurious reading nook featuring plush, velvet upholstery and subtle, ambient lamp lighting."
+      },
+      {
+        "id": "luxury_009",
+        "prompt": "Stylized still-life of a vintage gramophone, partially illuminated to showcase its polished brass and wood."
+      },
+      {
+        "id": "luxury_010",
+        "prompt": "Dark, moody scene of an ornate, antique gold mirror reflecting a dimly lit, lavish room."
+      },
+      {
+        "id": "luxury_011",
+        "prompt": "Shimmering silk drapes in a rich, deep color, softly lit to enhance the texture and folds."
+      },
+      {
+        "id": "luxury_012",
+        "prompt": "Aerial view of a vast, manicured garden maze, perfectly symmetrical and lit softly by moonlight."
+      },
+      {
+        "id": "luxury_013",
+        "prompt": "Close-up of a designer perfume bottle, focusing on its elegant, abstract shape and glass textures."
+      },
+      {
+        "id": "luxury_014",
+        "prompt": "Gilded, baroque-style picture frame casting dramatic shadows on a richly textured wall."
+      },
+      {
+        "id": "luxury_015",
+        "prompt": "Dark, atmospheric library scene with towering shelves of leather-bound books and warm, glowing wall sconces."
+      },
+      {
+        "id": "luxury_016",
+        "prompt": "Extravagant staircase with a flowing, red velvet carpet and polished brass railings, softly illuminated."
+      },
+      {
+        "id": "luxury_017",
+        "prompt": "Dimly lit, lavish dining room with an ornately set table and crystal glassware reflecting candlelight."
+      },
+      {
+        "id": "luxury_018",
+        "prompt": "Abstract, artistic interpretation of a diamond necklace sparkling against a deep midnight-blue background."
+      },
+      {
+        "id": "luxury_019",
+        "prompt": "Cinematic shot of a luxurious rooftop pool, the city lights twinkling below, in contrast to the serene water."
+      },
+      {
+        "id": "luxury_020",
+        "prompt": "Elegantly designed vintage fountain pen resting on plush velvet, spotlighting its intricate engravings."
+      }
+    ],
+    "futurism": [
+      {
+        "id": "futurism_001",
+        "prompt": "A sprawling cityscape with towering bioluminescent skyscrapers under an aurora-filled night sky, bathed in neon glows."
+      },
+      {
+        "id": "futurism_002",
+        "prompt": "A hyperloop station in a futuristic desert, where sleek, tubular trains hover surrounded by sand dunes and a setting sun."
+      },
+      {
+        "id": "futurism_003",
+        "prompt": "A floating solar farm atop a serene ocean, capturing golden rays under a hazy, overcast sky with reflections shimmering on the waves."
+      },
+      {
+        "id": "futurism_004",
+        "prompt": "An advanced urban habitat with green walls and robotic gardeners amidst lush vertical forests inside a glass dome."
+      },
+      {
+        "id": "futurism_005",
+        "prompt": "A network of transparent sky tunnels crisscrossing a vibrant metropolis, where futuristic vehicles glide silently above the urban expanse."
+      },
+      {
+        "id": "futurism_006",
+        "prompt": "An alien-like landscape with colossal, bioengineered wind turbines harmoniously blending with a lush, verdant valley."
+      },
+      {
+        "id": "futurism_007",
+        "prompt": "A futuristic underground city illuminated by luminescent plants, casting an ethereal glow across the stalactite-filled cavern."
+      },
+      {
+        "id": "futurism_008",
+        "prompt": "A stylized interpretation of a floating space colony with intricate latticework and artificial gravity wells under a distant nebula."
+      },
+      {
+        "id": "futurism_009",
+        "prompt": "An intelligent oceanic habitat, with submerged domes housing advanced ecosystems and energy-efficient hydro-turbines."
+      },
+      {
+        "id": "futurism_010",
+        "prompt": "A photorealistic depiction of a city embedded within a towering, ancient tree, where branches and roots form natural skyscrapers."
+      },
+      {
+        "id": "futurism_011",
+        "prompt": "A high-tech recycling center with levitating drones sorting materials amidst an array of vibrant holographic data displays."
+      },
+      {
+        "id": "futurism_012",
+        "prompt": "An advanced public transport terminal, where magnetic levitation shuttles swarm like bees in a hive under a digital sky."
+      },
+      {
+        "id": "futurism_013",
+        "prompt": "An elevated urban garden in a futuristic city, with automated drones tending to multicolored flowers and fruits basking in morning light."
+      },
+      {
+        "id": "futurism_014",
+        "prompt": "A stylized view of a moon mining colony, where large machines harvest lunar resources, illuminated by a distant earthshine."
+      },
+      {
+        "id": "futurism_015",
+        "prompt": "A serene, post-human environment where cities are overtaken by nature, with vines and waterfalls cascading over ancient technology."
+      },
+      {
+        "id": "futurism_016",
+        "prompt": "A vast, subterranean reservoir powering a futuristic city, where luminescent algae create a bioluminescent glow along cavern walls."
+      },
+      {
+        "id": "futurism_017",
+        "prompt": "An artificial beach within a massive biodome, with mechanical waves lapping against sparkling sand under a simulated sun."
+      },
+      {
+        "id": "futurism_018",
+        "prompt": "A colossal suspended bridge connecting two futuristic floating cities, shrouded in mist and reflecting golden beams of light."
+      },
+      {
+        "id": "futurism_019",
+        "prompt": "A stylized cosmic harbor with celestial ships docking amidst swirling galaxies, illuminated by ethereal, cosmic rays."
+      },
+      {
+        "id": "futurism_020",
+        "prompt": "A futuristic metro station deep underwater with glass tunnels revealing a vivid panorama of marine life swimming harmoniously."
+      }
+    ],
+    "health": [
+      {
+        "id": "health_001",
+        "prompt": "A serene forest clearing bathed in moonlight, highlighting lush green plants and a gentle stream, embodying natural wellness."
+      },
+      {
+        "id": "health_002",
+        "prompt": "A close-up of vivid, colorful fruits and vegetables scattered artistically across a rustic wooden table, evoking vitality and nutrition."
+      },
+      {
+        "id": "health_003",
+        "prompt": "A shadowy figure performing yoga against a backdrop of a glowing, starry night sky, emphasizing the harmony of movement and meditation."
+      },
+      {
+        "id": "health_004",
+        "prompt": "A futuristic health lab with glowing, levitating medical instruments casting soft ambient light on sleek surfaces."
+      },
+      {
+        "id": "health_005",
+        "prompt": "An elegant silhouette of a dancer captured mid-leap, illuminated by dramatic studio lighting highlighting muscle definition."
+      },
+      {
+        "id": "health_006",
+        "prompt": "A calming, minimalist bedroom with soft, diffused lighting, featuring a plush bed under an open window revealing a peaceful night sky."
+      },
+      {
+        "id": "health_007",
+        "prompt": "A glowing, transparent anatomical heart floating in a dark void, pulsating with soft neon light to symbolize vibrant life energy."
+      },
+      {
+        "id": "health_008",
+        "prompt": "An abstract representation of the human brain with neurons lighting up in different colors against a jet-black background."
+      },
+      {
+        "id": "health_009",
+        "prompt": "Sunlight streaming through the canopy of a leafy forest, creating a path of light perfect for a quiet, meditative walk."
+      },
+      {
+        "id": "health_010",
+        "prompt": "A high-contrast scene of an empty, modern gym with sleek equipment under vivid spotlights, creating a sense of potential energy and focus."
+      },
+      {
+        "id": "health_011",
+        "prompt": "A detailed, cross-section view of the human skin layers, stylized with bright, contrasting colors and subtle textures."
+      },
+      {
+        "id": "health_012",
+        "prompt": "A soothing spa environment with steaming water, gentle candlelight, and smooth river stones, invoking relaxation and recovery."
+      },
+      {
+        "id": "health_013",
+        "prompt": "A translucent human skeleton standing upright, bathed in a soft, ethereal glow against a pitch-black background."
+      },
+      {
+        "id": "health_014",
+        "prompt": "A dynamic scene of water droplets frozen in mid-air, illuminated by bright, vibrant lights to cover the spectrum of wellness."
+      },
+      {
+        "id": "health_015",
+        "prompt": "An empty medical room with spotless surfaces, clean lines, and an ethereal glow from hidden light sources, suggesting precision and care."
+      },
+      {
+        "id": "health_016",
+        "prompt": "A close-up of a hand delicately cupping fresh herbs, with soft sunlight enhancing the vivid green tones against a muted background."
+      },
+      {
+        "id": "health_017",
+        "prompt": "A nighttime cityscape with a silhouette of someone in motion under streetlights, highlighting the concept of nocturnal fitness."
+      },
+      {
+        "id": "health_018",
+        "prompt": "A stylized, colorful wheel of various whole grains and seeds arranged in a perfect circle on a dark slate surface, symbolizing balanced nutrition."
+      },
+      {
+        "id": "health_019",
+        "prompt": "A peaceful, aquatic landscape with smooth stones underwater, diffused sunlight beams penetrating through, symbolizing clarity and calm."
+      },
+      {
+        "id": "health_020",
+        "prompt": "A dynamic, stylized rendering of blood flow through arteries with shimmering particles, highlighting the essence of life and circulation."
+      }
+    ],
+    "productivity": [
+      {
+        "id": "productivity_001",
+        "prompt": "A dimly lit office desk with a glowing vintage hourglass, a blank planning pad, paper tabs, and pens arranged in cinematic shadows."
+      },
+      {
+        "id": "productivity_002",
+        "prompt": "A minimalist workspace with a sleek laptop, cozy ambient lighting from industrial lamps, and lush green plants casting shadows."
+      },
+      {
+        "id": "productivity_003",
+        "prompt": "A bird's-eye view of a spotless home office with a large, polished wooden desk, a high-backed chair, and an intricate brass desk lamp."
+      },
+      {
+        "id": "productivity_004",
+        "prompt": "A futuristic time-block grid of glowing rectangles emerging from a dark surface, casting cool blue reflections and shadows."
+      },
+      {
+        "id": "productivity_005",
+        "prompt": "A cinematic close-up of a classic mechanical wristwatch, with the gears slightly visible, in a studio-lit environment."
+      },
+      {
+        "id": "productivity_006",
+        "prompt": "A meticulously organized set of elegant wooden and leather-bound planners, with shadows cast by a warm overhead light."
+      },
+      {
+        "id": "productivity_007",
+        "prompt": "An abstract digital art piece representing time management with floating clocks and gears in a starry night sky."
+      },
+      {
+        "id": "productivity_008",
+        "prompt": "A dark, moody room with a single lamp illuminating a structured vision board organized with color-coded schemes and textures."
+      },
+      {
+        "id": "productivity_009",
+        "prompt": "A dark wooden bookshelf filled with neatly stacked folders and books, with the focus on an ornate clock on the top shelf."
+      },
+      {
+        "id": "productivity_010",
+        "prompt": "A styled art piece of a deep blue ocean, with floating islands featuring minimalistic office setups atop each island."
+      },
+      {
+        "id": "productivity_011",
+        "prompt": "An elegantly arranged flat lay of creative tools like paintbrushes, sketchpads, and inkwells resting on a rustic wooden table."
+      },
+      {
+        "id": "productivity_012",
+        "prompt": "A high-contrast, artistic representation of a large mechanical gear system slowly turning, with light rays streaming through gaps."
+      },
+      {
+        "id": "productivity_013",
+        "prompt": "A serene deep work space immersed in candlelight, featuring a classic typewriter and a steaming mug of coffee."
+      },
+      {
+        "id": "productivity_014",
+        "prompt": "A cinematic shot of a desk featuring perfectly aligned white marble spheres, glowing softly against a matte black surface."
+      },
+      {
+        "id": "productivity_015",
+        "prompt": "A stylized art scene of an elaborate clock tower at dusk, with intricate patterns and golden hour reflections."
+      },
+      {
+        "id": "productivity_016",
+        "prompt": "A shadowy and atmospheric shot of a modern, glass-walled office overlooking a city skyline at night, with glowing lights below."
+      },
+      {
+        "id": "productivity_017",
+        "prompt": "A close-up of an hourglass with golden sand trickling down, gently lit against a textured, deep blue backdrop."
+      },
+      {
+        "id": "productivity_018",
+        "prompt": "A creative workspace under a canopy of Edison bulbs, filled with art supplies and an easel with an unfinished painting."
+      },
+      {
+        "id": "productivity_019",
+        "prompt": "A photorealistic desk displaying a futuristic digital assistant hologram, surrounded by old-school writing tools and notebooks."
+      },
+      {
+        "id": "productivity_020",
+        "prompt": "A tranquil garden with an artistically carved stone sundial, casting long shadows over a perfectly kept, green lawn."
+      }
+    ],
+    "abstract": [
+      {
+        "id": "abstract_001",
+        "prompt": "A pulsating nebula in deep space morphs into fluid waves of light and shadow."
+      },
+      {
+        "id": "abstract_002",
+        "prompt": "A glowing orb of luminescent jelly, floating in a sea of liquid glass, ripple reflections."
+      },
+      {
+        "id": "abstract_003",
+        "prompt": "Misty swirling smoke transforms into intricate patterns under dramatic spotlights."
+      },
+      {
+        "id": "abstract_004",
+        "prompt": "A geometric landscape of crystalline structures, casting sharp shadows against a twilight horizon."
+      },
+      {
+        "id": "abstract_005",
+        "prompt": "Molten metal flows like a river through an expansive digital cosmos."
+      },
+      {
+        "id": "abstract_006",
+        "prompt": "A cascade of luminous particles drifts in slow motion, forming kaleidoscopic patterns."
+      },
+      {
+        "id": "abstract_007",
+        "prompt": "An abstract storm of swirling cloud tendrils, intertwining with lightning made of multicolored lines."
+      },
+      {
+        "id": "abstract_008",
+        "prompt": "A dark, reflective pool distorts mirror-image fragments of a vibrant aurora above."
+      },
+      {
+        "id": "abstract_009",
+        "prompt": "Frozen waves of fractal ice shimmer with iridescent hues under a midnight sun."
+      },
+      {
+        "id": "abstract_010",
+        "prompt": "A colossal marble sphere suspended in a black void, fractured with glowing veins of gold."
+      },
+      {
+        "id": "abstract_011",
+        "prompt": "Tangled strings of translucent energy, pulsating in a synchronized dance against a starry backdrop."
+      },
+      {
+        "id": "abstract_012",
+        "prompt": "A labyrinth of liquid glass mirrors stretching infinitely into a horizon of endless reflections."
+      },
+      {
+        "id": "abstract_013",
+        "prompt": "Swirling liquid gold forms intricate spiral patterns as it cascades over a textured surface."
+      },
+      {
+        "id": "abstract_014",
+        "prompt": "A tunnel of light and shadow, with shifting, geometric panels reflecting vibrant colors."
+      },
+      {
+        "id": "abstract_015",
+        "prompt": "An ethereal mist of cascading rainbow droplets, each a window into a different universe."
+      },
+      {
+        "id": "abstract_016",
+        "prompt": "Exploding clusters of neon particles burst like fireworks, suspended in a dark void."
+      },
+      {
+        "id": "abstract_017",
+        "prompt": "A seamless gradient of deep blues and glowing purples flowing like a river through the night."
+      },
+      {
+        "id": "abstract_018",
+        "prompt": "Mirror-like shards float in space, reflecting hints of an impossible, colorful cityscape."
+      },
+      {
+        "id": "abstract_019",
+        "prompt": "A swirling vortex of dark fog interspersed with sporadic flashes of electric blues."
+      },
+      {
+        "id": "abstract_020",
+        "prompt": "Bioluminescent tendrils extend from an unseen source, weaving through an inky abyss of stars."
+      }
+    ]
+  }
+}

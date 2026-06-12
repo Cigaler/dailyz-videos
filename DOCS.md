@@ -1009,3 +1009,28 @@
   - confirmed publish dates `07_01` through `07_07`
   - confirmed body line counts are `5` per script and every body line is `15–25` words
   - confirmed categories span `tech_ai`, `finance`, `productivity`, `psychology`, `mystery`, and `history`
+
+## R2 library image prompts v2 (2026-06-12)
+
+- Task scope in this run:
+  - generated `300` DailyZ visual-library image prompts for R2 library expansion
+  - used GPT-4o one category at a time for the requested `15` categories
+  - saved compiled output to `data/r2_library_images/prompts_v2.json`
+- Output structure:
+  - top-level `generated_at` ISO-8601 UTC timestamp
+  - top-level `total: 300`
+  - `categories` object with `20` prompt objects per category
+  - prompt IDs use `{category}_001` through `{category}_020`
+- Categories completed:
+  - `tech_ai`, `finance`, `motivation`, `history`, `science`, `space`, `nature`, `psychology`, `mysteries`, `geography`, `luxury`, `futurism`, `health`, `productivity`, `abstract`
+- Validation performed:
+  - confirmed all `15` categories are present in the requested order
+  - confirmed each category contains exactly `20` prompts
+  - confirmed total prompt count is `300`
+  - confirmed IDs match the required category numbering pattern
+  - confirmed no exact duplicate prompts within categories
+  - confirmed prompts are 1-2 sentences each
+  - scanned for obvious forbidden terms including faces, logos, brands, watermarks, readable text, UI labels, and common brand names
+- QA cleanup after GPT-4o generation:
+  - replaced prompts that could imply readable UI, ticker text, book text, calendar labels, or brand-name sticky notes with safer visual-only wording
+  - replaced one stone-face metaphor with stone monoliths to avoid face imagery ambiguity
