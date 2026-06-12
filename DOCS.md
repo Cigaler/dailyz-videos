@@ -19,6 +19,35 @@
 - Research docs already present before this task:
   - `/home/worker/repo/research/short-form-video-niches-2025.md`
 
+## R2 publishing checklist audit (2026-06-12)
+
+- Task scope in this run:
+  - audit Cloudflare R2 bucket `cigaler-assets` under prefix `0 - To Publish/`
+  - cross-reference R2 publish folders with GitHub batch metadata in `scripts/batch_01_scripts.json` through `scripts/batch_09_scripts.json` where present
+  - generate owner-ready root checklist `PUBLISHING_CHECKLIST.md`
+  - upload the same checklist to R2 at `3 - Production/PUBLISHING_CHECKLIST.md`
+- R2 prefix findings:
+  - `0 - To Publish/` contains `43` objects total: `.keep`, `21` MP4 files, and `21` thumbnail images
+  - confirmed dated publish folders: `21`, spanning `06_17` through `07_07`
+  - confirmed ready video IDs: `023` through `043`
+  - every confirmed dated folder has one MP4 and one thumbnail image
+  - folders `06_17` through `06_23` use filename variants `video_###.mp4` and `video_###.jpg`
+  - folders `06_24` through `07_07` use generic names `video.mp4` and `thumbnail.jpg`
+- GitHub batch metadata findings:
+  - current checkout contains `scripts/batch_05_scripts.json` through `scripts/batch_09_scripts.json`
+  - current checkout does not contain `scripts/batch_01_scripts.json` through `scripts/batch_04_scripts.json`
+  - R2 video IDs `023` through `029` map to `scripts/batch_07_scripts.json`
+  - R2 video IDs `030` through `036` map to `scripts/batch_08_scripts.json`
+  - R2 video IDs `037` through `043` map to `scripts/batch_09_scripts.json`
+- Checklist generation notes:
+  - recommended upload cadence starts on `2026-06-12` and runs one video per day through `2026-07-02`
+  - all confirmed R2 rows are marked `READY`
+  - each row includes title, first-line hook, R2 MP4 path, recommended upload date, YouTube title/description/hashtags, and TikTok caption/hashtags
+  - all generated TikTok captions were validated at `<= 150` characters
+- Audit discrepancy to carry forward:
+  - the task title says `43` videos, but the requested R2 prefix currently contains `21` videos, not `43`
+  - video IDs `001` through `022` are not present under R2 prefix `0 - To Publish/` as of this audit
+
 ## Batch 06 script authoring (2026-06-04)
 
 - Task scope in this run:
