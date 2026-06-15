@@ -1034,3 +1034,32 @@
 - QA cleanup after GPT-4o generation:
   - replaced prompts that could imply readable UI, ticker text, book text, calendar labels, or brand-name sticky notes with safer visual-only wording
   - replaced one stone-face metaphor with stone monoliths to avoid face imagery ambiguity
+
+
+## R2 library image generation resume (2026-06-15)
+
+- Task scope in this run:
+  - cloned `Cigaler/dailyz-videos` into a temporary worker directory
+  - used `data/r2_library_images/prompts_v2.json` and generated only the 13 remaining categories requested by the task
+  - added `scripts/generate_r2_library_images_v2.py` to the asset repo so future workers can resume from the manifest
+- Generator implementation findings and changes:
+  - the cloned asset repo had `prompts_v2.json` but no existing `manifest.jsonl`, `failures.jsonl`, or generator script
+  - copied the existing DailyZ R2 generator into the asset repo and added `--submit-interval-seconds`, defaulting to `15` seconds between OpenAI image generation submissions
+  - fixed selected-category summary reporting so runs scoped to the 13 remaining categories do not mark `tech_ai` and `finance` as missing
+  - fixed deadline handling so future `--max-runtime-seconds` runs wait for in-flight jobs without busy-printing
+  - runtime dependency note: unset `PYTHONPATH` when running the venv because the sandbox had `/root` in `PYTHONPATH`, causing pip permission errors
+- Generation outcome:
+  - successfully generated and uploaded `52` new images to R2 in this worker run
+  - used OpenAI model `gpt-image-2`, API size `1024x1792`, and saved/uploaded JPEGs at `1080x1920`
+  - used 15-second submission spacing, equal to 4 image-generation submissions per minute
+  - no HTTP 429 rate-limit errors occurred in this run
+  - one OpenAI/Cloudflare transient failure occurred for `motivation_018.jpg`: `InternalServerError` / HTTP 502 Bad gateway; it remains the next resume target
+- R2 state verified after the run:
+  - total images in `cigaler-assets` under `2 - Library/images/`: `92` / 300
+  - complete categories: `tech_ai, finance, history`
+  - partial categories: `motivation=19/20, science=13/20`
+  - empty remaining categories: `space, nature, psychology, mysteries, geography, luxury, futurism, health, productivity, abstract`
+- Progress files written:
+  - `data/r2_library_images/manifest.jsonl` records every successfully uploaded image from this run
+  - `data/r2_library_images/failures.jsonl` records the `motivation_018.jpg` HTTP 502 failure
+  - `data/r2_library_images/summary.json` and `data/r2_library_images/run_report_2026-06-15.json` capture the verified R2 counts and next resume target
