@@ -63,6 +63,7 @@ TERMINAL_ERROR_MARKERS = (
     "invalid api key",
     "incorrect api key",
 )
+RETRYABLE_GENERATION_STATUS_CODES = {429, 502}
 
 
 @dataclass(frozen=True)
@@ -251,17 +252,39 @@ def get_image_bytes(image_data: Any) -> bytes:
     raise RuntimeError("Image generation response did not include b64_json or url.")
 
 
+def retryable_generation_error(exc: BaseException) -> bool:
+    status_code = getattr(exc, "status_code", None)
+    if status_code in RETRYABLE_GENERATION_STATUS_CODES:
+        return True
+    text = str(exc).lower()
+    return "error code: 502" in text or "error code: 429" in text
+
+
 def generate_image(job: ImageJob, model: str, size: str, quality: str) -> GeneratedImage:
     started_at = time.monotonic()
     client = OpenAI(api_key=ensure_env("OPENAI_API_KEY"), timeout=180, max_retries=0)
-    response = client.images.generate(
-        model=model,
-        prompt=job.generation_prompt,
-        size=size,
-        quality=quality,
-        output_format="jpeg",
-        n=1,
-    )
+    for attempt in range(2):
+        try:
+            response = client.images.generate(
+                model=model,
+                prompt=job.generation_prompt,
+                size=size,
+                quality=quality,
+                output_format="jpeg",
+                n=1,
+            )
+            break
+        except (RateLimitError, APIStatusError) as exc:
+            if attempt == 0 and retryable_generation_error(exc):
+                print(
+                    f"RETRY in 60s after {getattr(exc, 'status_code', 'unknown')} for "
+                    f"{job.category_slug}/{job.filename}",
+                    file=sys.stderr,
+                    flush=True,
+                )
+                time.sleep(60)
+                continue
+            raise
     image_data = response.data[0]
     return GeneratedImage(
         job=job,
@@ -286,12 +309,19 @@ def upload_image(s3_client: Any, bucket: str, local_path: Path, r2_key: str) -> 
 
 
 def terminal_error(exc: BaseException) -> bool:
-    if isinstance(exc, RateLimitError):
-        return True
     status_code = getattr(exc, "status_code", None)
-    if status_code in {401, 403, 429}:
+    if status_code in {401, 403}:
         return True
     text = str(exc).lower()
+    if status_code == 429:
+        terminal_429_markers = (
+            "insufficient credits",
+            "quota exceeded",
+            "upgrade your plan",
+            "payment required",
+            "billing required",
+        )
+        return any(marker in text for marker in terminal_429_markers)
     return any(marker in text for marker in TERMINAL_ERROR_MARKERS)
 
 

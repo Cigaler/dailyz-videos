@@ -1063,3 +1063,40 @@
   - `data/r2_library_images/manifest.jsonl` records every successfully uploaded image from this run
   - `data/r2_library_images/failures.jsonl` records the `motivation_018.jpg` HTTP 502 failure
   - `data/r2_library_images/summary.json` and `data/r2_library_images/run_report_2026-06-15.json` capture the verified R2 counts and next resume target
+
+## R2 library image generation resume (2026-06-15 second run)
+
+- Task scope: resumed `data/r2_library_images/prompts_v2.json` generation from the manifest/R2 state where 92 of 300 library images already existed.
+- Repo used for generation: `/home/worker/dailyz-videos` on branch `main`; no `AGENTS.md` exists in this repo.
+- Dry-run before generation verified:
+  - `planned_total`: `300`
+  - `manifest_uploaded`: `52`
+  - `r2_existing_matching_jobs`: `92`
+  - `missing_total`: `208`
+  - `next_missing`: `motivation_018.jpg`
+- Environment setup:
+  - created/used ignored local venv `.venv/`
+  - installed `openai`, `boto3`, `pillow`, and `requests`
+  - local generated JPG cache remains under ignored `output/generated/r2_library_images/`
+- Script update made before generation:
+  - `scripts/generate_r2_library_images_v2.py` now retries OpenAI image generation once for HTTP `502` or `429`
+  - retry behavior waits `60s` before the second attempt, then logs the failure if the retry also fails
+  - `py_compile` passed after the change
+- Generation run command shape:
+  - `scripts/generate_r2_library_images_v2.py --workers 4 --submit-interval-seconds 15 --max-runtime-seconds 1200`
+  - model: `gpt-image-2`
+  - API size: `1024x1792`
+  - exported/uploaded JPG size: `1080x1920`
+  - R2 path pattern: `2 - Library/images/{category}/{category}_{###}.jpg`
+- Results from this run:
+  - `33` new images generated and uploaded
+  - `40` preexisting R2 images (`tech_ai` and `finance`) backfilled into `data/r2_library_images/manifest.jsonl`
+  - R2 verification dry-run after generation found `125` matching uploaded images and `175` missing
+- Current category counts after this run:
+  - complete: `tech_ai=20`, `finance=20`, `motivation=20`, `history=20`, `science=20`
+  - partial: `space=19`, `nature=6`
+  - empty: `psychology=0`, `mysteries=0`, `geography=0`, `luxury=0`, `futurism=0`, `health=0`, `productivity=0`, `abstract=0`
+- Resume state:
+  - next missing file is `space_019.jpg`
+  - `space_019.jpg` was logged in `data/r2_library_images/failures.jsonl` with `APITimeoutError: Request timed out.`
+  - `data/r2_library_images/summary.json` and `data/r2_library_images/run_report_2026-06-15.json` now reflect the current `125/300` state
