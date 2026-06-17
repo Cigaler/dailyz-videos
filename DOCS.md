@@ -1100,3 +1100,45 @@
   - next missing file is `space_019.jpg`
   - `space_019.jpg` was logged in `data/r2_library_images/failures.jsonl` with `APITimeoutError: Request timed out.`
   - `data/r2_library_images/summary.json` and `data/r2_library_images/run_report_2026-06-15.json` now reflect the current `125/300` state
+
+## R2 library image generation resume (2026-06-17)
+
+- Task scope: resumed `data/r2_library_images/prompts_v2.json` generation from the manifest/R2 state where 125 of 300 library images already existed.
+- Repo used for generation: `/home/worker/dailyz-videos` on branch `main`; no `AGENTS.md` exists in this repo.
+- Dry-run before generation verified:
+  - `planned_total`: `300`
+  - `manifest_uploaded`: `125`
+  - `r2_existing_matching_jobs`: `125`
+  - `missing_total`: `175`
+  - `next_missing`: `space_019.jpg`
+- Environment setup:
+  - created/used ignored local venv `.venv/`
+  - installed `openai`, `boto3`, `pillow`, and `requests`
+  - unset `PYTHONPATH` for venv and generator commands to avoid the sandbox `/root` permission issue
+  - local generated JPG cache remains under ignored `output/generated/r2_library_images/`
+- Generation run command shape:
+  - `scripts/generate_r2_library_images_v2.py --workers 4 --submit-interval-seconds 15 --max-runtime-seconds 1100`
+  - model: `gpt-image-2`
+  - API size: `1024x1792`
+  - exported/uploaded JPG size: `1080x1920`
+  - R2 path pattern: `2 - Library/images/{category}/{category}_{###}.jpg`
+- Results from this run:
+  - `31` new images generated and uploaded
+  - `32` image generations attempted
+  - `space_019.jpg` completed, making `space` complete at `20/20`
+  - `nature_007.jpg` through `nature_020.jpg` completed, making `nature` complete at `20/20`
+  - `psychology` advanced to `16/20` with a gap at `psychology_013.jpg`
+- R2 verification dry-run after generation found:
+  - `manifest_uploaded`: `156`
+  - `r2_existing_matching_jobs`: `156`
+  - `missing_total`: `144`
+  - `next_missing`: `psychology_013.jpg`
+- Current category counts after this run:
+  - complete: `tech_ai=20`, `finance=20`, `motivation=20`, `history=20`, `science=20`, `space=20`, `nature=20`
+  - partial: `psychology=16/20`
+  - empty: `mysteries=0`, `geography=0`, `luxury=0`, `futurism=0`, `health=0`, `productivity=0`, `abstract=0`
+- Resume state:
+  - next missing file is `psychology_013.jpg`
+  - `psychology_013.jpg` was logged in `data/r2_library_images/failures.jsonl` with `APITimeoutError: Request timed out.`
+  - `data/r2_library_images/summary.json` and `data/r2_library_images/run_report_2026-06-17.json` reflect the current `156/300` state
+
