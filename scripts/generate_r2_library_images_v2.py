@@ -17,7 +17,7 @@ from typing import Any
 import boto3
 import requests
 from botocore.exceptions import ClientError
-from openai import APIConnectionError, APIStatusError, BadRequestError, OpenAI, RateLimitError
+from openai import APIConnectionError, APIStatusError, APITimeoutError, BadRequestError, OpenAI, RateLimitError
 from PIL import Image, ImageOps
 
 R2_PREFIX = "2 - Library/images"
@@ -253,11 +253,13 @@ def get_image_bytes(image_data: Any) -> bytes:
 
 
 def retryable_generation_error(exc: BaseException) -> bool:
+    if isinstance(exc, APITimeoutError):
+        return True
     status_code = getattr(exc, "status_code", None)
     if status_code in RETRYABLE_GENERATION_STATUS_CODES:
         return True
     text = str(exc).lower()
-    return "error code: 502" in text or "error code: 429" in text
+    return "error code: 502" in text or "error code: 429" in text or "timed out" in text
 
 
 def generate_image(job: ImageJob, model: str, size: str, quality: str) -> GeneratedImage:
@@ -274,7 +276,7 @@ def generate_image(job: ImageJob, model: str, size: str, quality: str) -> Genera
                 n=1,
             )
             break
-        except (RateLimitError, APIStatusError) as exc:
+        except (RateLimitError, APIStatusError, APITimeoutError) as exc:
             if attempt == 0 and retryable_generation_error(exc):
                 print(
                     f"RETRY in 60s after {getattr(exc, 'status_code', 'unknown')} for "

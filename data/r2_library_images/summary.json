@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-17T20:40:19.096126+00:00",
+  "updated_at": "2026-06-19T21:27:33.725636+00:00",
   "prompt_version": "v2",
   "model": "gpt-image-2",
   "size": "1024x1792",
@@ -7,12 +7,12 @@
   "submit_interval_seconds": 15.0,
   "output_size": "1080x1920",
   "planned_total": 300,
-  "attempted_this_run": 32,
-  "uploaded_this_run": 31,
-  "skipped_manifest": 125,
+  "attempted_this_run": 9,
+  "uploaded_this_run": 9,
+  "skipped_manifest": 187,
   "skipped_existing_r2": 0,
-  "estimated_spend_usd_this_run": 1.24,
-  "uploaded_total": 156,
+  "estimated_spend_usd_this_run": 0.36,
+  "uploaded_total": 196,
   "uploaded_by_category": {
     "tech_ai": 20,
     "finance": 20,
@@ -21,9 +21,9 @@
     "science": 20,
     "space": 20,
     "nature": 20,
-    "psychology": 16,
-    "mysteries": 0,
-    "geography": 0,
+    "psychology": 20,
+    "mysteries": 20,
+    "geography": 16,
     "luxury": 0,
     "futurism": 0,
     "health": 0,
@@ -37,22 +37,22 @@
     "history",
     "science",
     "space",
-    "nature"
+    "nature",
+    "psychology",
+    "mysteries"
   ],
   "partial_categories": {
-    "psychology": 16
+    "geography": 16
   },
   "missing_by_category": {
-    "psychology": 4,
-    "mysteries": 20,
-    "geography": 20,
+    "geography": 4,
     "luxury": 20,
     "futurism": 20,
     "health": 20,
     "productivity": 20,
     "abstract": 20
   },
-  "failure_total": 3,
-  "estimated_spend_usd_using_task_assumption": 6.24,
-  "next_filename": "psychology_013.jpg"
+  "failure_total": 4,
+  "estimated_spend_usd_using_task_assumption": 7.84,
+  "next_filename": "geography_017.jpg"
 }

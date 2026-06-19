@@ -1142,3 +1142,16 @@
   - `psychology_013.jpg` was logged in `data/r2_library_images/failures.jsonl` with `APITimeoutError: Request timed out.`
   - `data/r2_library_images/summary.json` and `data/r2_library_images/run_report_2026-06-17.json` reflect the current `156/300` state
 
+
+## 2026-06-19 — R2 library resume from psychology_013
+- Worker task cloned `Cigaler/dailyz-videos` at `80ad5b2` and found `data/r2_library_images/manifest.jsonl` with 156 uploaded rows.
+- Starting counts before this run: `tech_ai=20`, `finance=20`, `motivation=20`, `history=20`, `science=20`, `space=20`, `nature=20`, `psychology=16`, all remaining categories `0`.
+- Dry run against R2 confirmed 156 existing matching objects, 144 missing prompts, and `psychology_013.jpg` as the next missing image.
+- The local generator `scripts/generate_r2_library_images_v2.py` already supports `gpt-image-2`, 1024x1792 generation, JPEG upload to `2 - Library/images/{category}/{filename}`, 15-second submit spacing via `--submit-interval-seconds`, and one 60-second retry for HTTP 429/502 generation errors.
+- Python dependencies were installed into an ignored `.venv` in the clone and the run was started with `--workers 4 --submit-interval-seconds 15 --max-runtime-seconds 1100` to leave commit/push time.
+- Final wrap state for this run: 40 new images were uploaded, bringing the manifest/R2 total from 156 to 196.
+- Completed categories after this run: `tech_ai`, `finance`, `motivation`, `history`, `science`, `space`, `nature`, `psychology`, and `mysteries`.
+- Partial category after this run: `geography=16/20`; next missing image is `geography_017.jpg`.
+- Remaining empty categories after this run: `luxury`, `futurism`, `health`, `productivity`, and `abstract`.
+- The run encountered one `APITimeoutError: Request timed out.` for `mysteries_020.jpg`; a follow-up short resume completed and uploaded that image.
+- `scripts/generate_r2_library_images_v2.py` was patched to treat `APITimeoutError`/`timed out` as retryable with the existing one-time 60-second retry path.
