@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-19T21:27:33.725636+00:00",
+  "updated_at": "2026-06-20T14:47:24.344532+00:00",
   "prompt_version": "v2",
   "model": "gpt-image-2",
   "size": "1024x1792",
@@ -7,12 +7,12 @@
   "submit_interval_seconds": 15.0,
   "output_size": "1080x1920",
   "planned_total": 300,
-  "attempted_this_run": 9,
-  "uploaded_this_run": 9,
-  "skipped_manifest": 187,
+  "attempted_this_run": 78,
+  "uploaded_this_run": 78,
+  "skipped_manifest": 205,
   "skipped_existing_r2": 0,
-  "estimated_spend_usd_this_run": 0.36,
-  "uploaded_total": 196,
+  "estimated_spend_usd_this_run": 3.12,
+  "uploaded_total": 283,
   "uploaded_by_category": {
     "tech_ai": 20,
     "finance": 20,
@@ -23,12 +23,12 @@
     "nature": 20,
     "psychology": 20,
     "mysteries": 20,
-    "geography": 16,
-    "luxury": 0,
-    "futurism": 0,
-    "health": 0,
-    "productivity": 0,
-    "abstract": 0
+    "geography": 20,
+    "luxury": 20,
+    "futurism": 20,
+    "health": 20,
+    "productivity": 20,
+    "abstract": 3
   },
   "complete_categories": [
     "tech_ai",
@@ -39,20 +39,20 @@
     "space",
     "nature",
     "psychology",
-    "mysteries"
+    "mysteries",
+    "geography",
+    "luxury",
+    "futurism",
+    "health",
+    "productivity"
   ],
   "partial_categories": {
-    "geography": 16
+    "abstract": 3
   },
   "missing_by_category": {
-    "geography": 4,
-    "luxury": 20,
-    "futurism": 20,
-    "health": 20,
-    "productivity": 20,
-    "abstract": 20
+    "abstract": 17
   },
   "failure_total": 4,
-  "estimated_spend_usd_using_task_assumption": 7.84,
-  "next_filename": "geography_017.jpg"
+  "estimated_spend_usd_using_task_assumption": 11.32,
+  "next_filename": "abstract_002.jpg"
 }

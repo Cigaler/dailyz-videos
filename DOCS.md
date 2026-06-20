@@ -1155,3 +1155,29 @@
 - Remaining empty categories after this run: `luxury`, `futurism`, `health`, `productivity`, and `abstract`.
 - The run encountered one `APITimeoutError: Request timed out.` for `mysteries_020.jpg`; a follow-up short resume completed and uploaded that image.
 - `scripts/generate_r2_library_images_v2.py` was patched to treat `APITimeoutError`/`timed out` as retryable with the existing one-time 60-second retry path.
+
+## R2 image library resume partial run (2026-06-20)
+
+- Task scope in this run:
+  - resume Project Boost image-library generation from `geography_017.jpg`
+  - use `scripts/generate_r2_library_images_v2.py` with `gpt-image-2`, `1024x1792`, `quality=high`, and `--submit-interval-seconds 15`
+  - upload completed JPGs to Cloudflare R2 under `2 - Library/images/{category}/{category}_{###}.jpg`
+- Source-of-truth repo used:
+  - cloned `Cigaler/dailyz-videos` at starting commit `c857c48`
+  - local working path: `/home/worker/dailyz-videos`
+- Initial state verified before generation:
+  - `data/r2_library_images/manifest.jsonl` contained `196` uploaded records
+  - R2 dry run also found `196` matching uploaded keys
+  - next missing file was `geography_017.jpg`
+- Generation/upload results before stop request:
+  - `87` new images were generated and uploaded to R2 in this worker run
+  - manifest total increased from `196` to `283` uploaded records
+  - completed categories after this run: `geography`, `luxury`, `futurism`, `health`, and `productivity`
+  - `abstract` is partial with `3/20` completed: `abstract_001.jpg`, `abstract_003.jpg`, `abstract_004.jpg`
+- Remaining image-library work:
+  - `17` images remain: `abstract_002.jpg`, `abstract_005.jpg` through `abstract_020.jpg`
+  - next resume point is `abstract_002.jpg`
+- Stop/wrap-up notes:
+  - user requested wrap-up with 5 minutes remaining; generation was not restarted
+  - no active `generate_r2_library_images_v2.py` process remained at wrap-up check
+  - `data/r2_library_images/summary.json` reflects the latest committed manifest total of `283/300`
