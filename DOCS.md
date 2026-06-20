@@ -1181,3 +1181,25 @@
   - user requested wrap-up with 5 minutes remaining; generation was not restarted
   - no active `generate_r2_library_images_v2.py` process remained at wrap-up check
   - `data/r2_library_images/summary.json` reflects the latest committed manifest total of `283/300`
+
+## R2 abstract image completion attempt (2026-06-20)
+
+- Task scope in this run:
+  - Complete the final abstract images for `data/r2_library_images`: `abstract_002.jpg` and `abstract_005.jpg` through `abstract_020.jpg`.
+  - Use `scripts/generate_r2_library_images_v2.py` with `gpt-image-2`, `1024x1792`, `quality=high`, and 15-second submit spacing.
+  - Upload successful images to R2 under `2 - Library/images/abstract/` and append `data/r2_library_images/manifest.jsonl`.
+- Repo/image-state findings before generation:
+  - Checkout started at commit `6b4e29f`.
+  - `data/r2_library_images/manifest.jsonl` contained `283` uploaded records.
+  - Existing abstract manifest/R2 images were only `abstract_001.jpg`, `abstract_003.jpg`, and `abstract_004.jpg`.
+  - Dry-run with `--category abstract` reported `missing_total: 17` and `next_missing: abstract_002.jpg`.
+- Run outcome:
+  - The OpenAI image API returned `BadRequestError: Error code: 400` with `Billing hard limit has been reached` for `abstract_002.jpg`, `abstract_005.jpg`, and `abstract_006.jpg`.
+  - Generation was stopped after the repeated billing hard-limit error; no new images were generated or uploaded in this run.
+  - `data/r2_library_images/failures.jsonl` now includes the three abstract billing failures from this run.
+  - `data/r2_library_images/summary.json` was restored to full-library scope: `planned_total: 300`, `uploaded_total: 283`, `abstract: 3`, `missing_by_category.abstract: 17`, and `terminal_error` records the billing hard-limit blocker.
+- Verification:
+  - Direct R2 listing under `2 - Library/images/` confirmed `283` `.jpg` objects total.
+  - Direct R2 listing under `2 - Library/images/abstract/` confirmed `3` files: `abstract_001.jpg`, `abstract_003.jpg`, and `abstract_004.jpg`.
+- Script maintenance:
+  - Added `billing hard limit` to `TERMINAL_ERROR_MARKERS` in `scripts/generate_r2_library_images_v2.py` so future runs stop immediately on this OpenAI billing-limit condition.

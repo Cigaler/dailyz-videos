@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-20T14:47:24.344532+00:00",
+  "updated_at": "2026-06-20T21:05:45.355791+00:00",
   "prompt_version": "v2",
   "model": "gpt-image-2",
   "size": "1024x1792",
@@ -7,11 +7,11 @@
   "submit_interval_seconds": 15.0,
   "output_size": "1080x1920",
   "planned_total": 300,
-  "attempted_this_run": 78,
-  "uploaded_this_run": 78,
-  "skipped_manifest": 205,
+  "attempted_this_run": 3,
+  "uploaded_this_run": 0,
+  "skipped_manifest": 283,
   "skipped_existing_r2": 0,
-  "estimated_spend_usd_this_run": 3.12,
+  "estimated_spend_usd_this_run": 0.0,
   "uploaded_total": 283,
   "uploaded_by_category": {
     "tech_ai": 20,
@@ -52,7 +52,8 @@
   "missing_by_category": {
     "abstract": 17
   },
-  "failure_total": 4,
+  "failure_total": 7,
   "estimated_spend_usd_using_task_assumption": 11.32,
-  "next_filename": "abstract_002.jpg"
+  "next_filename": "abstract_002.jpg",
+  "terminal_error": "BadRequestError: Error code: 400 - Billing hard limit has been reached (code: billing_hard_limit_reached)"
 }

@@ -56,6 +56,7 @@ TERMINAL_ERROR_MARKERS = (
     "rate limit",
     "payment required",
     "billing required",
+    "billing hard limit",
     "unauthorized",
     "forbidden",
     "permission denied",
