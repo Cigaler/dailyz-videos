@@ -1203,3 +1203,12 @@
   - Direct R2 listing under `2 - Library/images/abstract/` confirmed `3` files: `abstract_001.jpg`, `abstract_003.jpg`, and `abstract_004.jpg`.
 - Script maintenance:
   - Added `billing hard limit` to `TERMINAL_ERROR_MARKERS` in `scripts/generate_r2_library_images_v2.py` so future runs stop immediately on this OpenAI billing-limit condition.
+
+## Publishing queue audit (2026-06-22)
+
+- Audited R2 bucket `cigaler-assets`, prefix `0 - To Publish/`.
+- Live R2 inventory returned 43 objects total: `.keep`, 21 MP4 files, and 21 thumbnail images.
+- Confirmed publish-ready video IDs are `023` through `043`; each has a matching thumbnail image.
+- Script metadata was matched from `Cigaler/dailyz-videos` files `scripts/batch_07_scripts.json`, `scripts/batch_08_scripts.json`, and `scripts/batch_09_scripts.json`.
+- Generated checklist at `publishing/ready_to_publish_checklist.md` with R2 paths, thumbnails, hooks, captions, hashtags, upload checkboxes, and first-10 priority order.
+- Audit discrepancy: the task requested 43 videos, but R2 currently contains 21 MP4 videos under the requested prefix; the 43 count is object count, not video count.
