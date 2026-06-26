@@ -1212,3 +1212,11 @@
 - Script metadata was matched from `Cigaler/dailyz-videos` files `scripts/batch_07_scripts.json`, `scripts/batch_08_scripts.json`, and `scripts/batch_09_scripts.json`.
 - Generated checklist at `publishing/ready_to_publish_checklist.md` with R2 paths, thumbnails, hooks, captions, hashtags, upload checkboxes, and first-10 priority order.
 - Audit discrepancy: the task requested 43 videos, but R2 currently contains 21 MP4 videos under the requested prefix; the 43 count is object count, not video count.
+
+## Upload plan generation (2026-06-26)
+
+- Task scope: generate owner-ready `UPLOAD_PLAN.md` for manual YouTube Shorts/TikTok uploads from R2.
+- Live R2 audit of `0 - To Publish/` found `43` objects: `21` MP4 files, `21` thumbnail images, and `.keep`.
+- Confirmed ready upload pairs: `21` videos, IDs `023` through `043`.
+- Missing from requested R2 prefix: videos `001, 002, 003, 004, 005, 006, 007, 008, 009, 010, 011, 012, 013, 014, 015, 016, 017, 018, 019, 020, 021, 022`.
+- `UPLOAD_PLAN.md` includes AWS CLI/R2 dashboard download instructions, a ready queue starting `2026-06-26`, exact R2 paths/direct endpoint URLs, copy-paste YouTube/TikTok metadata, and a full 001-043 script index.
