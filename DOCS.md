@@ -1,3 +1,29 @@
+## ZEUS Review — Ken Burns POC v5 blocked (2026-06-28)
+
+- Task scope in this run:
+  - Ask ZEUS via `tools/creative_agent.py` for an editorial production-readiness assessment of Ken Burns POC v5.
+  - Promote v5 to production only if ZEUS explicitly approved the system.
+- External repo findings before edits:
+  - Fresh clone path used: `/tmp/dailyz-videos-zeus-review.JpPxJC`.
+  - Branch: `main` tracking `origin/main` for `Cigaler/dailyz-videos`.
+  - The external repo includes `tools/ken_burns.py`, `tools/parallax.py`, `tools/creative_agent.py`, and existing publishing/video assets.
+  - This external repo did not yet contain the latest local v5 render notes from the DailyZ workspace at `/home/worker/repo/DOCS.md`.
+- Evidence packaged for ZEUS:
+  - Full v5 parameters from the local DailyZ workspace: `1080x1920`, `30fps`, H.264 CRF18 `yuv420p`, shared smoothstep easing, float subpixel offsets, Lanczos4, `120%` buffer crop, reflected borders, and motion blur kernel `3`.
+  - `v5_nature_parallax_kb.mp4`: Gaussian normalized soft-alpha parallax, `speed_multiplier=1.12`, `zoom=1.00->1.09`, `pan_y=0.556->0.444`, `bg_offset=-17px`, `fg_offset=17px`, `sigma=50`, `gamma=1.15`, `214` frames, about `7.134s`.
+  - `v5_finance_push.mp4`: Ken Burns only / parallax disabled, `speed_multiplier=1.10`, `zoom=1.00->1.115`, `pan_x=0.465->0.535`, `218` frames, about `7.267s`.
+  - `v5_space_float.mp4`: Gaussian normalized soft-alpha parallax with dark starfield guard and bright-edge halo guard, `speed_multiplier=1.15`, `zoom=1.00->1.06`, `pan_y=0.558->0.442`, `bg_offset=-14px`, `fg_offset=14px`, `sigma=80`, `gamma=1.05`, `209` frames, about `6.967s`.
+  - QA data supplied to ZEUS: ffprobe passed for all three clips as `1080x1920`, `30fps`, H.264, `yuv420p`; temporal-diff scan found no large frame-to-frame discontinuity/twitch spikes; max/p95 ratios were finance `1.014`, nature `1.556`, and space `1.672`.
+  - v3→v5 delta supplied to ZEUS: v3 smoothness constants were preserved; v4 overcorrected speed/parallax and hard masks caused high-contrast cracks; v5 reduces motion, caps effective separation around `10-12px`, uses normalized Gaussian weights, disables parallax for finance without a clear foreground, and adds the space guard.
+- ZEUS execution outcome:
+  - First direct run of `python tools/creative_agent.py --ask ...` failed because the fresh clone/base Python did not have `boto3`: `ModuleNotFoundError: No module named 'boto3'`.
+  - A temporary venv was created at `/tmp/zeus-review-venv`; normal pip install first hit the known sandbox path issue: `PermissionError: [Errno 13] Permission denied: '/root'`.
+  - Retried once with isolated Python mode (`python -I -m pip install -q boto3 openai`), which installed dependencies and reached the real creative-agent initialization blocker: `RuntimeError: Missing required environment variable: OPENAI_API_KEY`.
+- Production decision:
+  - ZEUS did not produce an editorial verdict because `OPENAI_API_KEY` is absent in this worker environment.
+  - No `Ken Burns v5 — PRODUCTION APPROVED` section was added because there is no ZEUS approval to cite.
+  - `tools/ken_burns.py`, `tools/parallax.py`, and motion profile files were intentionally left unchanged to honor the instruction to promote only if ZEUS approves.
+
 ## Repo findings
 
 - Project root: `/home/worker/repo`
