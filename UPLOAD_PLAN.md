@@ -1,15 +1,46 @@
 # DailyZ Owner Upload Action Plan
 
 Generated: `2026-06-26`
+Last updated: `2026-06-28`
 
 ## Audit Summary
 
 - R2 bucket audited: `cigaler-assets`
 - R2 prefix audited: `0 - To Publish/`
-- Objects found in requested prefix: `43` (`21` MP4, `21` thumbnails, `1` `.keep`)
-- Confirmed ready upload pairs: `21` videos (`023`–`043`)
-- Missing from requested R2 prefix: `22` video IDs (`001, 002, 003, 004, 005, 006, 007, 008, 009, 010, 011, 012, 013, 014, 015, 016, 017, 018, 019, 020, 021, 022`)
-- Important correction: the requested prefix contains `43` objects, not `43` videos. Do not wait to publish; start with the confirmed ready videos below.
+- Objects found in requested prefix after the `2026-06-28` staging update: `87` (`43` MP4, `43` thumbnails, `1` `.keep`)
+- Confirmed ready upload pairs: `43` videos (`001`–`043`)
+- Missing from requested R2 prefix: `0` video IDs from `001`–`043`
+- Important correction from the prior audit: the prefix originally contained `43` objects, not `43` videos. After this update, videos `001`–`022` were added and the full `001`–`043` queue is staged.
+
+
+## Staging Update — 2026-06-28
+
+Videos `001`–`022` have now been staged into R2 `0 - To Publish/` as numeric MP4/JPG pairs. This adds `22` MP4 files and `22` thumbnail images. Videos `001`–`008` had MP4s in GitHub but no checked-in thumbnails, so their thumbnails were generated from the staged MP4s with `ffmpeg` at `00:00:01`. Videos `009`–`022` used the existing GitHub publish thumbnails from `0-to_publish/`.
+
+| Video ID | R2 folder | Title | R2 MP4 path | R2 thumbnail path | Source |
+|---|---|---|---|---|---|
+| 001 | 06_01 | Google Just Turned Search Into an AI Assistant | `0 - To Publish/06_01/video_001.mp4` | `0 - To Publish/06_01/video_001.jpg` | GitHub `videos/video-001.mp4`; generated frame thumbnail |
+| 002 | 06_02 | Google's AI Video Stack in Plain English | `0 - To Publish/06_02/video_002.mp4` | `0 - To Publish/06_02/video_002.jpg` | GitHub `videos/video-002.mp4`; generated frame thumbnail |
+| 003 | 06_03 | The Coding Stack Everyone Is Arguing About | `0 - To Publish/06_03/video_003.mp4` | `0 - To Publish/06_03/video_003.jpg` | GitHub `videos/video-003.mp4`; generated frame thumbnail |
+| 004 | 06_04 | The AI Agent Test That Feels Real | `0 - To Publish/06_04/video_004.mp4` | `0 - To Publish/06_04/video_004.jpg` | GitHub `videos/video-004.mp4`; generated frame thumbnail |
+| 005 | 06_02 | 5 Best AI Tools for Content Creators | `0 - To Publish/06_02/video_005.mp4` | `0 - To Publish/06_02/video_005.jpg` | GitHub `videos/v3/video-005.mp4`; generated frame thumbnail |
+| 006 | 06_03 | 5 Best AI Tools for Productivity at Work | `0 - To Publish/06_03/video_006.mp4` | `0 - To Publish/06_03/video_006.jpg` | GitHub `videos/v3/video-006.mp4`; generated frame thumbnail |
+| 007 | 06_04 | Cursor vs GitHub Copilot: Which AI Coding Tool Is Better? | `0 - To Publish/06_04/video_007.mp4` | `0 - To Publish/06_04/video_007.jpg` | GitHub `videos/v3/video-007.mp4`; generated frame thumbnail |
+| 008 | 06_05 | Perplexity vs ChatGPT for Research: Which One Should You Use? | `0 - To Publish/06_05/video_008.mp4` | `0 - To Publish/06_05/video_008.jpg` | GitHub `videos/v3/video-008.mp4`; generated frame thumbnail |
+| 009 | 06_03 | FutureMe — Email Your Future Self | `0 - To Publish/06_03/video_009.mp4` | `0 - To Publish/06_03/video_009.jpg` | GitHub `0-to_publish/06_03/FutureMe — Email Your Future Self.mp4`; GitHub `0-to_publish/06_03/FutureMe — Email Your Future Self.jpg` |
+| 010 | 06_04 | The Jellyfish That Never Dies | `0 - To Publish/06_04/video_010.mp4` | `0 - To Publish/06_04/video_010.jpg` | GitHub `0-to_publish/06_04/The Jellyfish That Never Dies.mp4`; GitHub `0-to_publish/06_04/The Jellyfish That Never Dies.jpg` |
+| 011 | 06_05 | The Excel Trick That Fills 400 Cells at Once | `0 - To Publish/06_05/video_011.mp4` | `0 - To Publish/06_05/video_011.jpg` | GitHub `0-to_publish/06_05/The Excel Trick That Fills 400 Cells at Once.mp4`; GitHub `0-to_publish/06_05/The Excel Trick That Fills 400 Cells at Once.jpg` |
+| 012 | 06_06 | The Town Where It's Illegal to Die | `0 - To Publish/06_06/video_012.mp4` | `0 - To Publish/06_06/video_012.jpg` | GitHub `0-to_publish/06_06/The Town Where It's Illegal to Die.mp4`; GitHub `0-to_publish/06_06/The Town Where It's Illegal to Die.jpg` |
+| 013 | 06_07 | How Noise-Canceling Headphones Actually Work | `0 - To Publish/06_07/video_013.mp4` | `0 - To Publish/06_07/video_013.jpg` | GitHub `0-to_publish/06_07/How Noise-Canceling Headphones Actually Work.mp4`; GitHub `0-to_publish/06_07/How Noise-Canceling Headphones Actually Work.jpg` |
+| 014 | 06_08 | The Website That Knows If You've Been Hacked | `0 - To Publish/06_08/video_014.mp4` | `0 - To Publish/06_08/video_014.jpg` | GitHub `0-to_publish/06_08/The Website That Knows If You've Been Hacked.mp4`; GitHub `0-to_publish/06_08/The Website That Knows If You've Been Hacked.jpg` |
+| 015 | 06_09 | This AI Translates You Into Any Language | `0 - To Publish/06_09/video_015.mp4` | `0 - To Publish/06_09/video_015.jpg` | GitHub `0-to_publish/06_09/This AI Translates You Into Any Language.mp4`; GitHub `0-to_publish/06_09/This AI Translates You Into Any Language.jpg` |
+| 016 | 06_10 | The Website That Shows The Internet's Past | `0 - To Publish/06_10/video_016.mp4` | `0 - To Publish/06_10/video_016.jpg` | GitHub `0-to_publish/06_10/The Website That Shows The Internet's Past.mp4`; GitHub `0-to_publish/06_10/The Website That Shows The Internet's Past.jpg` |
+| 017 | 06_11 | The Google Trick That Finds Hidden PDFs | `0 - To Publish/06_11/video_017.mp4` | `0 - To Publish/06_11/video_017.jpg` | GitHub `0-to_publish/06_11/The Google Trick That Finds Hidden PDFs.mp4`; GitHub `0-to_publish/06_11/The Google Trick That Finds Hidden PDFs.jpg` |
+| 018 | 06_12 | The Shrimp That Fires A Sonic Boom | `0 - To Publish/06_12/video_018.mp4` | `0 - To Publish/06_12/video_018.jpg` | GitHub `0-to_publish/06_12/The Shrimp That Fires A Sonic Boom.mp4`; GitHub `0-to_publish/06_12/The Shrimp That Fires A Sonic Boom.jpg` |
+| 019 | 06_13 | Why Running Out Of Gas Can Get You Fined | `0 - To Publish/06_13/video_019.mp4` | `0 - To Publish/06_13/video_019.jpg` | GitHub `0-to_publish/06_13/Why Running Out Of Gas Can Get You Fined.mp4`; GitHub `0-to_publish/06_13/Why Running Out Of Gas Can Get You Fined.jpg` |
+| 020 | 06_14 | How A Zipper Actually Works | `0 - To Publish/06_14/video_020.mp4` | `0 - To Publish/06_14/video_020.jpg` | GitHub `0-to_publish/06_14/How A Zipper Actually Works.mp4`; GitHub `0-to_publish/06_14/How A Zipper Actually Works.jpg` |
+| 021 | 06_15 | This AI Builds Your Slides | `0 - To Publish/06_15/video_021.mp4` | `0 - To Publish/06_15/video_021.jpg` | GitHub `0-to_publish/06_15/This AI Builds Your Slides.mp4`; GitHub `0-to_publish/06_15/This AI Builds Your Slides.jpg` |
+| 022 | 06_16 | The Animal That Regrows Its Own Limbs | `0 - To Publish/06_16/video_022.mp4` | `0 - To Publish/06_16/video_022.jpg` | GitHub `0-to_publish/06_16/The Animal That Regrows Its Own Limbs.mp4`; GitHub `0-to_publish/06_16/The Animal That Regrows Its Own Limbs.jpg` |
 
 ## How To Download From R2
 
@@ -1638,7 +1669,8 @@ This index keeps every script ID visible. Items marked `NOT STAGED IN R2` have s
 
 ## Missing / Attention Items
 
-- Confirmed ready now: `21` videos with both MP4 and thumbnail present in R2.
-- Not present under `0 - To Publish/`: `001, 002, 003, 004, 005, 006, 007, 008, 009, 010, 011, 012, 013, 014, 015, 016, 017, 018, 019, 020, 021, 022`.
-- The owner can begin publishing immediately with Video `023`; videos `001`–`022` need staging to R2 before they can be uploaded from R2.
-- `06_17`–`06_23` use `video_###.mp4` / `video_###.jpg`; `06_24`–`07_07` use `video.mp4` / `thumbnail.jpg`.
+- Confirmed ready now: `43` videos with both MP4 and thumbnail present in R2.
+- Not present under `0 - To Publish/`: none for video IDs `001`–`043`.
+- Videos `001`–`029` use numeric filenames `video_###.mp4` / `video_###.jpg`.
+- Videos `030`–`043` still use the existing generic filenames `video.mp4` / `thumbnail.jpg` in their dated folders.
+- Videos `001`–`008` use generated frame thumbnails because no checked-in thumbnail files were found for those MP4s in GitHub or R2.

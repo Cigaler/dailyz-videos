@@ -1220,3 +1220,31 @@
 - Confirmed ready upload pairs: `21` videos, IDs `023` through `043`.
 - Missing from requested R2 prefix: videos `001, 002, 003, 004, 005, 006, 007, 008, 009, 010, 011, 012, 013, 014, 015, 016, 017, 018, 019, 020, 021, 022`.
 - `UPLOAD_PLAN.md` includes AWS CLI/R2 dashboard download instructions, a ready queue starting `2026-06-26`, exact R2 paths/direct endpoint URLs, copy-paste YouTube/TikTok metadata, and a full 001-043 script index.
+
+## R2 backfill for videos 001-022 (2026-06-28)
+
+- Task scope in this run:
+  - audit Cloudflare R2 bucket `cigaler-assets` for missing publish assets `001` through `022`
+  - audit GitHub repo `Cigaler/dailyz-videos` for source MP4s and thumbnails
+  - stage all found/derivable MP4 + thumbnail pairs into R2 prefix `0 - To Publish/`
+  - update `UPLOAD_PLAN.md` with current readiness status
+- R2 audit findings before staging:
+  - bucket inventory returned `400` objects total
+  - existing `0 - To Publish/` inventory returned `43` objects: `.keep`, `21` MP4s, and `21` thumbnails
+  - existing publish-ready R2 IDs were still `023` through `043`
+  - no final rendered MP4s for `001` through `022` were found elsewhere in R2; the only matching low-number MP4s outside the publish prefix were library/POC loops under `2 - Library/loops/` and `3 - Production/`, not DailyZ final publish videos
+- GitHub audit findings:
+  - source MP4s for `001` through `004` are present at `videos/video-001.mp4` through `videos/video-004.mp4`
+  - source MP4s for `005` through `008` are present at `videos/v3/video-005.mp4` through `videos/v3/video-008.mp4`
+  - publish-ready MP4/JPG pairs for `009` through `022` are present under `0-to_publish/06_03` through `0-to_publish/06_16`
+  - no checked-in thumbnail files were found for `001` through `008`; thumbnails for those IDs were generated from the MP4s with `ffmpeg` at timestamp `00:00:01`
+- R2 staging completed:
+  - uploaded `44` new objects: `22` MP4 files and `22` JPG thumbnails
+  - staged keys use numeric filenames: `0 - To Publish/{mm_dd}/video_###.mp4` and `0 - To Publish/{mm_dd}/video_###.jpg`
+  - staged date folders for the backfill are `06_01` through `06_16`, using the date metadata from the upload playbook, batch04 queue history, and Batch 05/06 JSON scripts
+  - post-upload verification confirmed IDs `001` through `022` each have both `jpg` and `mp4` objects in R2
+  - publish-prefix inventory after staging is `87` objects: `43` MP4s, `43` thumbnails, and `.keep`
+- Documentation updated:
+  - `UPLOAD_PLAN.md` now has `Last updated: 2026-06-28`
+  - `UPLOAD_PLAN.md` audit summary now marks `43` ready upload pairs (`001` through `043`) and no missing IDs from `001` through `043`
+  - `UPLOAD_PLAN.md` includes a `Staging Update — 2026-06-28` table for all newly staged videos `001` through `022`
